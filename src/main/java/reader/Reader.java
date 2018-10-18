@@ -35,6 +35,7 @@ public class Reader {
         return linesWithValues;
     }
 
+
     public void write() {
         for (Object str : readingLines("")) {
             String[] s = str.toString().split("\\s");
