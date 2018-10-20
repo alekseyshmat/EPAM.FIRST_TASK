@@ -12,6 +12,8 @@ public class Calculator {
 
     private static final Logger logger = LogManager.getLogger(Calculator.class);
 
+    public Calculator() {
+    }
 
     public double calculateArea(Tetrahedron tetrahedron) {
         double edge = tetrahedron.getEdge();

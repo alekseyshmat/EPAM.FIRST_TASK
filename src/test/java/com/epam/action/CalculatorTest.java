@@ -8,7 +8,7 @@ import org.junit.Test;
 public class CalculatorTest {
 
     private final Tetrahedron TETRAHEDRON = new Tetrahedron(new Point(2, 0, 0), new Point(0, 2, 0), new Point(1, 0, 1), new Point(0, 1, 1));
-    //    private PointCreator pointCreator = new PointCreator();
+    //    private TetrahedronCreator pointCreator = new TetrahedronCreator();
 //    private Tetrahedron TETRAHEDRON = new Tetrahedron();
     private final Calculator CALCULATOR = new Calculator();
 
