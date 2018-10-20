@@ -20,12 +20,7 @@ public class ParserFileTest {
 
     @DataProvider(name = "dataForParsingLinesTestPositive")
     public Object[][] dataForParsingLinesTestPositive() {
-        List<String> lines = new ArrayList<>();
-        lines.add("2 0 0 0 2 0 1 0 1 0 1 1");
-
-        List<Double> expectedResult = Arrays.asList(2.0, 0.0, 0.0, 0.0, 2.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0);
-
-        return new Object[][]{{lines, expectedResult}};
+        return new Object[][]{{Collections.singletonList("2 0 0 0 2 0 1 0 1 0 1 1"), Arrays.asList(2.0, 0.0, 0.0, 0.0, 2.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0)}};
     }
 
     @Test(dataProvider = "dataForParsingLinesTestPositive")
@@ -36,12 +31,7 @@ public class ParserFileTest {
 
     @DataProvider(name = "dataForParsingLinesTestNegative")
     public Object[][] dataForParsingLinesTestNegative() {
-        List<String> lines = new ArrayList<>();
-        lines.add("2.0 0.0f 0 0 -2 0 1 0 1 0 1 1 Ad.2 0 0 =0 2 0 1 0 1 0 1 1");
-
-        List<Double> expectedResult = Collections.emptyList();
-
-        return new Object[][]{{lines, expectedResult}};
+        return new Object[][]{{Collections.singletonList(("2.0 0.0f 0 0 -2 0 1 0 1 0 1 1 Ad.2 0 0 =0 2 0 1 0 1 0 1 1")), Collections.emptyList()}};
     }
 
     @Test(dataProvider = "dataForParsingLinesTestNegative")

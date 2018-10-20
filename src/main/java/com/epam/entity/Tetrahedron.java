@@ -1,36 +1,21 @@
 package com.epam.entity;
 
 import com.epam.action.Calculator;
+import com.epam.action.TetrahedronActions;
 
 import java.util.List;
 
 public class Tetrahedron {
 
     private Point pointA, pointB, pointC, pointD;
+    private TetrahedronActions tetrahedronActions;
     private double edge, edgeOfSection;
-    List<Point> points;
 
     public Tetrahedron(Point pointA, Point pointB, Point pointC, Point pointD) {
         this.pointA = pointA;
         this.pointB = pointB;
         this.pointC = pointC;
         this.pointD = pointD;
-    }
-
-    public double getEdge() {
-        return new Calculator().calculateEdge(this);
-    }
-
-    public void setEdgeOfSection(double edgeOfSection) {
-        this.edgeOfSection = edgeOfSection;
-    }
-
-   /* public double getEdgeOfSection() {
-        return edgeOfSection;
-    }*/
-
-    public double getEdgeOfSection() {
-        return new Calculator().calculateEdgeOfSection(this);
     }
 
     public Point getPointA() {
@@ -49,13 +34,27 @@ public class Tetrahedron {
         return pointD;
     }
 
-    public void setPointA(Point pointA) {
-        this.pointA = pointA;
+    public double getSideAB() {
+        return tetrahedronActions.createSide(pointA, pointB);
     }
 
-    public void setPointB(Point pointB) {
-        this.pointB = pointB;
+    public double getSideAC() {
+        return tetrahedronActions.createSide(pointA, pointC);
     }
 
+    public double getSideBC() {
+        return tetrahedronActions.createSide(pointB, pointC);
+    }
 
+    public double getSideDA() {
+        return tetrahedronActions.createSide(pointD, pointA);
+    }
+
+    public double getSideDB() {
+        return tetrahedronActions.createSide(pointD, pointB);
+    }
+
+    public double getSideDC() {
+        return tetrahedronActions.createSide(pointD, pointC);
+    }
 }

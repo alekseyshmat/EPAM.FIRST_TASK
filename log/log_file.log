@@ -2,3 +2,22 @@
 2018-10-20 17:31:27,027 INFO c.e.p.ParserFile [main] Line '2 0 0 0 2 0 1 0 1 0 1 1' is valid 
 2018-10-20 17:32:10,694 INFO c.e.p.ParserFile [main] Line: 2.0 0.0f 0 0 -2 0 1 0 1 0 1 1 Ad.2 0 0 =0 2 0 1 0 1 0 1 1 is not valid 
 2018-10-20 17:32:10,709 INFO c.e.p.ParserFile [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 is valid 
+2018-10-20 21:01:57,996 INFO c.e.a.Calculator [main] Tetrahedron's side is 10.0 
+2018-10-20 21:10:53,311 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.0 
+2018-10-20 21:14:32,903 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.0 
+2018-10-21 00:31:39,424 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.0 
+2018-10-21 00:31:39,451 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.0 
+2018-10-21 00:31:39,453 INFO c.e.a.Calculator [main] Tetrahedron's side is 9.273618495495704 
+2018-10-21 00:31:39,456 INFO c.e.a.Calculator [main] Tetrahedron's side is 0.0 
+2018-10-21 00:33:00,490 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.0 
+2018-10-21 00:33:00,521 INFO c.e.a.Calculator [main] Tetrahedron's side is 10.723805294763608 
+2018-10-21 00:33:00,548 INFO c.e.a.Calculator [main] Tetrahedron's side is 9.273618495495704 
+2018-10-21 00:33:00,557 INFO c.e.a.Calculator [main] Tetrahedron's side is 0.0 
+2018-10-21 00:34:42,590 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.0 
+2018-10-21 00:34:42,615 INFO c.e.a.Calculator [main] Tetrahedron's side is 10.723805294763608 
+2018-10-21 00:34:42,623 INFO c.e.a.Calculator [main] Tetrahedron's side is 9.273618495495704 
+2018-10-21 00:34:42,631 INFO c.e.a.Calculator [main] Tetrahedron's side is 0.0 
+2018-10-21 00:40:13,923 INFO c.e.p.ParserFile [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 is valid 
+2018-10-21 00:41:54,845 INFO c.e.p.ParserFile [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 is valid 
+2018-10-21 00:42:06,904 INFO c.e.p.ParserFile [main] Line: 2.0 0.0f 0 0 -2 0 1 0 1 0 1 1 Ad.2 0 0 =0 2 0 1 0 1 0 1 1 is not valid 
+2018-10-21 00:42:06,931 INFO c.e.p.ParserFile [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 is valid 
