@@ -1,11 +1,14 @@
-package entity;
+package com.epam.entity;
 
-import action.Calculator;
+import com.epam.action.Calculator;
+
+import java.util.List;
 
 public class Tetrahedron {
 
     private Point pointA, pointB, pointC, pointD;
     private double edge, edgeOfSection;
+    List<Point> points;
 
     public Tetrahedron(Point pointA, Point pointB, Point pointC, Point pointD) {
         this.pointA = pointA;
@@ -53,5 +56,6 @@ public class Tetrahedron {
     public void setPointB(Point pointB) {
         this.pointB = pointB;
     }
+
 
 }
