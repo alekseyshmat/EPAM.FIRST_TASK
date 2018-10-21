@@ -21,3 +21,24 @@
 2018-10-21 00:41:54,845 INFO c.e.p.ParserFile [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 is valid 
 2018-10-21 00:42:06,904 INFO c.e.p.ParserFile [main] Line: 2.0 0.0f 0 0 -2 0 1 0 1 0 1 1 Ad.2 0 0 =0 2 0 1 0 1 0 1 1 is not valid 
 2018-10-21 00:42:06,931 INFO c.e.p.ParserFile [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 is valid 
+2018-10-21 00:58:32,849 INFO c.e.p.ParserFile [main] Line: 2.0 0.0f 0 0 -2 0 1 0 1 0 1 1 Ad.2 0 0 =0 2 0 1 0 1 0 1 1 is not valid 
+2018-10-21 00:58:32,889 INFO c.e.p.ParserFile [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 is valid 
+2018-10-21 13:45:42,521 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.0 
+2018-10-21 13:45:42,545 INFO c.e.a.Calculator [main] Tetrahedron's side is 10.723805294763608 
+2018-10-21 13:45:42,548 INFO c.e.a.Calculator [main] Tetrahedron's side is 9.273618495495704 
+2018-10-21 13:45:42,549 INFO c.e.a.Calculator [main] Tetrahedron's side is 0.0 
+2018-10-21 13:46:11,338 INFO c.e.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-21 13:46:11,358 INFO c.e.a.Calculator [main] Tetrahedron's square is 13.856406460551021 
+2018-10-21 13:46:11,371 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.0 
+2018-10-21 13:46:11,378 INFO c.e.a.Calculator [main] Tetrahedron's side is 10.723805294763608 
+2018-10-21 13:46:11,380 INFO c.e.a.Calculator [main] Tetrahedron's side is 9.273618495495704 
+2018-10-21 13:46:11,382 INFO c.e.a.Calculator [main] Tetrahedron's side is 0.0 
+2018-10-21 13:46:11,384 INFO c.e.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-21 13:46:11,386 INFO c.e.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-21 13:48:37,162 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.0 
+2018-10-21 13:48:37,190 INFO c.e.a.Calculator [main] Tetrahedron's side is 10.723805294763608 
+2018-10-21 13:48:37,192 INFO c.e.a.Calculator [main] Tetrahedron's side is 9.273618495495704 
+2018-10-21 13:48:37,194 INFO c.e.a.Calculator [main] Tetrahedron's side is 0.0 
+2018-10-21 13:49:00,797 INFO c.e.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-21 13:49:00,820 INFO c.e.a.Calculator [main] Tetrahedron's square is 13.856406460551021 
+2018-10-21 13:51:27,495 INFO c.e.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 

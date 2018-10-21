@@ -8,14 +8,15 @@ import java.util.List;
 public class Tetrahedron {
 
     private Point pointA, pointB, pointC, pointD;
-    private TetrahedronActions tetrahedronActions;
     private double edge, edgeOfSection;
+    private Calculator calculator;
 
     public Tetrahedron(Point pointA, Point pointB, Point pointC, Point pointD) {
         this.pointA = pointA;
         this.pointB = pointB;
         this.pointC = pointC;
         this.pointD = pointD;
+        calculator = new Calculator();
     }
 
     public Point getPointA() {
@@ -35,26 +36,26 @@ public class Tetrahedron {
     }
 
     public double getSideAB() {
-        return tetrahedronActions.createSide(pointA, pointB);
+        return calculator.calculateSide(pointA, pointB);
     }
 
     public double getSideAC() {
-        return tetrahedronActions.createSide(pointA, pointC);
+        return calculator.calculateSide(pointA, pointC);
     }
 
     public double getSideBC() {
-        return tetrahedronActions.createSide(pointB, pointC);
+        return calculator.calculateSide(pointB, pointC);
     }
 
     public double getSideDA() {
-        return tetrahedronActions.createSide(pointD, pointA);
+        return calculator.calculateSide(pointD, pointA);
     }
 
     public double getSideDB() {
-        return tetrahedronActions.createSide(pointD, pointB);
+        return calculator.calculateSide(pointD, pointB);
     }
 
     public double getSideDC() {
-        return tetrahedronActions.createSide(pointD, pointC);
+        return calculator.calculateSide(pointD, pointC);
     }
 }

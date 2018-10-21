@@ -1,5 +1,6 @@
 package com.epam.action;
 
+import com.epam.entity.Point;
 import com.epam.entity.Tetrahedron;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -13,6 +14,14 @@ public class Calculator {
     private static final Logger logger = LogManager.getLogger();
 
     public Calculator() {
+    }
+
+    public double calculateSide(Point firstPoint, Point secondPoint) {
+        double side = Math.sqrt(Math.pow((firstPoint.getX() - secondPoint.getX()), NUMBER_TWO) +
+                Math.pow((firstPoint.getY() - secondPoint.getY()), NUMBER_TWO) +
+                Math.pow((firstPoint.getZ() - secondPoint.getZ()), NUMBER_TWO));
+        logger.info("Tetrahedron's side is " + side);
+        return side;
     }
 
     public double calculateArea(Tetrahedron tetrahedron) {

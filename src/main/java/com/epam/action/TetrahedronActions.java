@@ -13,13 +13,6 @@ public class TetrahedronActions {
     public TetrahedronActions() {
     }
 
-    public double createSide(Point firstPoint, Point secondPoint) {
-        double side = Math.sqrt(Math.pow((firstPoint.getX() - secondPoint.getX()), NUMBER_TWO) +
-                Math.pow((firstPoint.getY() - secondPoint.getY()), NUMBER_TWO) +
-                Math.pow((firstPoint.getZ() - secondPoint.getZ()), NUMBER_TWO));
-        logger.info("Tetrahedron's side is " + side);
-        return side;
-    }
 
     public boolean isTetrahedron(Tetrahedron tetrahedron) {
         if (tetrahedron.getSideAB() - tetrahedron.getSideAC() == 0
