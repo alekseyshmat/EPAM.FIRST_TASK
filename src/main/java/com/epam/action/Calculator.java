@@ -94,10 +94,13 @@ public class Calculator {
         double squareOfTruncatedPyramid = Math.pow(tetrahedron.getSideAB(), 2) * Math.sqrt(NUMBER_THREE) / 4;
         double squareOfSmallPyramid = Math.pow(sideOfSection(tetrahedron), 2) * Math.sqrt(NUMBER_THREE) / 4;
 
+
         double ratio = heightOfTruncatedPyramid * (squareOfTruncatedPyramid + Math.sqrt(squareOfTruncatedPyramid * squareOfSmallPyramid) + squareOfSmallPyramid) /
                 (heightOfSmallPyramid * squareOfSmallPyramid);
 
         logger.info("The ratio of the truncated pyramid to the small " + ratio);
         return ratio;
     }
+
+
 }

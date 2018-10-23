@@ -56,4 +56,37 @@ public class Tetrahedron {
     }
 
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+
+        if (obj == null || obj.getClass() != this.getClass()) {
+            return false;
+        }
+
+        Tetrahedron tetrahedron = (Tetrahedron) obj;
+        return tetrahedron.getPointA() == this.getPointA() &&
+                tetrahedron.getPointB() == this.getPointB() &&
+                tetrahedron.getPointC() == this.getPointC() &&
+                tetrahedron.getPointD() == this.getPointD();
+    }
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + (int) (this.getPointA().getX() + this.getPointA().getY() + this.getPointA().getZ());
+        result = prime * result + (int) (this.getPointB().getX() + this.getPointB().getY() + this.getPointB().getZ());
+        result = prime * result + (int) (this.getPointC().getX() + this.getPointC().getY() + this.getPointC().getZ());
+        result = prime * result + (int) (this.getPointD().getX() + this.getPointD().getY() + this.getPointD().getZ());
+        return result;
+    }
+
+    @Override
+    public String toString() {
+        return "Tetrahedron{" +
+                "pointA=" + pointA + ", pointB=" + pointB + ", pointC=" + pointC + ", pointD=" + pointD + '}';
+    }
 }

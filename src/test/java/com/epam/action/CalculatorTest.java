@@ -17,19 +17,6 @@ public class CalculatorTest {
         calculator = new Calculator();
     }
 
-    @DataProvider(name = "calculateSidePositiveTest")
-    public Object[][] dataForCalculateSidePositiveTest() {
-        return new Object[][]{{new Point(0, 5, 0), new Point(0, 10, 0), 5},
-                {new Point(2, -4, 7), new Point(-3, -1, -2), 10.72},
-                {new Point(4, 5, 0), new Point(-1, 0, 6), 9.27},
-                {new Point(0, 0, 0), new Point(0, 0, 0), 0}};
-    }
-
-    @Test(dataProvider = "calculateSidePositiveTest")
-    public void calculateSidePositiveTest(Point firstPoint, Point secondPoint, final double expectedSide) {
-        double actual = calculator.calculateSide(firstPoint, secondPoint);
-        org.testng.Assert.assertEquals(actual, expectedSide, DELTA);
-    }
 
     @DataProvider(name = "calculateAreaPositiveTest")
     public Object[][] dataForCalculateAreaPositiveTest() {

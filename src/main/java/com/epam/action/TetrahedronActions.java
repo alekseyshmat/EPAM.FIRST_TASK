@@ -1,6 +1,5 @@
 package com.epam.action;
 
-import com.epam.entity.Point;
 import com.epam.entity.Tetrahedron;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -13,12 +12,6 @@ public class TetrahedronActions {
     }
 
     public boolean isTetrahedron(Tetrahedron tetrahedron) {
-        logger.debug(tetrahedron.getSideAB());
-        logger.debug(tetrahedron.getSideAC());
-        logger.debug(tetrahedron.getSideBC());
-        logger.debug(tetrahedron.getSideDB());
-        logger.debug(tetrahedron.getSideDA());
-        logger.debug(tetrahedron.getSideDC());
         if (tetrahedron.getSideAB() - tetrahedron.getSideAC() < DELTA
                 && tetrahedron.getSideAC() - tetrahedron.getSideBC() < DELTA
                 && tetrahedron.getSideDA() - tetrahedron.getSideDB() < DELTA
