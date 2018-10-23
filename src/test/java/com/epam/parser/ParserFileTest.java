@@ -26,7 +26,7 @@ public class ParserFileTest {
     @Test(dataProvider = "dataForParsingLinesTestPositive")
     public void parsingLinesTestPositive(List<String> lines, List<Double> expectedResult) {
         List actual = parserFile.parsingLines(lines);
-        Assert.assertEquals(expectedResult, actual);
+        Assert.assertEquals(actual, expectedResult);
     }
 
     @DataProvider(name = "dataForParsingLinesTestNegative")
@@ -37,6 +37,6 @@ public class ParserFileTest {
     @Test(dataProvider = "dataForParsingLinesTestNegative")
     public void parsingLinesTestNegative(List<String> lines, List<Double> expectedResult) {
         List actual = parserFile.parsingLines(lines);
-        Assert.assertEquals(expectedResult, actual);
+        Assert.assertEquals(actual, expectedResult);
     }
 }

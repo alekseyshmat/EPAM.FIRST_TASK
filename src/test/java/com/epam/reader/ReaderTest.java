@@ -7,6 +7,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class ReaderTest {
@@ -20,10 +21,14 @@ public class ReaderTest {
 
     @DataProvider
     public static Object[][] dataForReadingLinesTestPositive() {
-        String path = "src/test/resources/test.txt";
-        List<String> expectedResult = new ArrayList<>();
-        expectedResult.add("2 0 0 0 2 0 1 0 1 0 1 1");
-        return new Object[][]{{path, expectedResult}};
+        final String FIRST_PATH = "src/test/resources/test.txt";
+        return new Object[][]{{FIRST_PATH, Arrays.asList("2 0 0 0 2 0 1 0 1 0 1 1",
+                "2.0 0.0f 0 0 -2 0 1 0 1 0 1 1",
+                "Ad.2 0 0 =0 2 0 1 0 1 0 1 1",
+                "2.00 0 0 0 2.00 0 1 0 1 0 1 00",
+                "2 0 0 0 2 0 1 0 1 0 1 1f",
+                "2 0 0 0 2 0 1 0 1 0 1 1 sd",
+                " 2 0   0 0 2 0 1 0 1 0 1 1")}};
     }
 
     @Test(dataProvider = "dataForReadingLinesTestPositive")
@@ -34,6 +39,6 @@ public class ReaderTest {
         } catch (ReadingFileException e) {
             e.printStackTrace();
         }
-        Assert.assertEquals(expectedResult, actual);
+        Assert.assertEquals(actual, expectedResult);
     }
 }

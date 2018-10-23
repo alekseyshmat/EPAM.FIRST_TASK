@@ -3,13 +3,11 @@ package com.epam.entity;
 import com.epam.action.Calculator;
 import com.epam.action.TetrahedronActions;
 
-import java.util.List;
-
 public class Tetrahedron {
 
     private Point pointA, pointB, pointC, pointD;
-    private double edge, edgeOfSection;
     private Calculator calculator;
+    private TetrahedronActions tetrahedronActions;
 
     public Tetrahedron(Point pointA, Point pointB, Point pointC, Point pointD) {
         this.pointA = pointA;
@@ -58,4 +56,6 @@ public class Tetrahedron {
     public double getSideDC() {
         return calculator.calculateSide(pointD, pointC);
     }
+
+
 }
