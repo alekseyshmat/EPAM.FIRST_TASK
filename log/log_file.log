@@ -1819,3 +1819,8 @@
 2018-10-23 19:33:54,158 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.3094010767585034 
 2018-10-23 19:33:54,158 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
 2018-10-23 19:33:54,158 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-23 21:13:44,791 INFO c.e.p.ParserFile [main] Line: 2.0 0.0f 0 0 -2 0 1 0 1 0 1 1 Ad.2 0 0 =0 2 0 1 0 1 0 1 1 is not valid line 
+2018-10-23 21:13:58,085 INFO c.e.p.ParserFile [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 is valid line 
+2018-10-23 21:17:51,554 INFO c.e.c.TetrahedronCreator [main] Create new tetrahedron 
+2018-10-23 21:27:16,159 INFO c.e.c.TetrahedronCreator [main] Create new tetrahedron 
+2018-10-23 21:28:57,997 INFO c.e.c.TetrahedronCreator [main] Create new tetrahedron 

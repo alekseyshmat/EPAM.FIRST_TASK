@@ -86,7 +86,6 @@ public class Tetrahedron {
 
     @Override
     public String toString() {
-        return "Tetrahedron{" +
-                "pointA=" + pointA + ", pointB=" + pointB + ", pointC=" + pointC + ", pointD=" + pointD + '}';
+        return "Tetrahedron{pointA=" + pointA + ", pointB=" + pointB + ", pointC=" + pointC + ", pointD=" + pointD + '}';
     }
 }

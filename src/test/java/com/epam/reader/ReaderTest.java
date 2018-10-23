@@ -22,11 +22,11 @@ public class ReaderTest {
     @DataProvider
     public static Object[][] dataForReadingLinesTestPositive() {
         final String FIRST_PATH = "src/test/resources/test.txt";
-        return new Object[][]{{FIRST_PATH, Arrays.asList("2 0 0 0 2 0 1 0 1 0 1 1",
-                "2.0 0.0f 0 0 -2 0 1 0 1 0 1 1",
+        return new Object[][]{{FIRST_PATH, Arrays.asList("2.0 0.0f 0 0 -2 0 1 0 1 0 1 1",
                 "Ad.2 0 0 =0 2 0 1 0 1 0 1 1",
                 "2.00 0 0 0 2.00 0 1 0 1 0 1 00",
                 "2 0 0 0 2 0 1 0 1 0 1 1f",
+                "2 0 0 0 2 0 1 0 1 0 1 1",
                 "2 0 0 0 2 0 1 0 1 0 1 1 sd",
                 " 2 0   0 0 2 0 1 0 1 0 1 1")}};
     }
