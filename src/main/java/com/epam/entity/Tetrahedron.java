@@ -1,13 +1,11 @@
 package com.epam.entity;
 
 import com.epam.action.Calculator;
-import com.epam.action.TetrahedronActions;
 
 public class Tetrahedron {
 
     private Point pointA, pointB, pointC, pointD;
     private Calculator calculator;
-    private TetrahedronActions tetrahedronActions;
 
     public Tetrahedron(Point pointA, Point pointB, Point pointC, Point pointD) {
         this.pointA = pointA;

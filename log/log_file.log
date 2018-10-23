@@ -1575,3 +1575,22 @@
 2018-10-23 12:33:27,195 INFO c.e.r.Reader [main] File was read 
 2018-10-23 12:34:08,180 INFO c.e.r.Reader [main] File was read 
 2018-10-23 12:34:30,092 INFO c.e.r.Reader [main] File was read 
+2018-10-23 13:53:21,973 INFO c.e.r.Reader [main] File was read 
+2018-10-23 13:53:22,004 INFO c.e.p.ParserFile [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 is valid 
+2018-10-23 13:53:22,004 INFO c.e.p.ParserFile [main] Line: 2.0 0.0f 0 0 -2 0 1 0 1 0 1 1 is not valid 
+2018-10-23 13:53:22,004 INFO c.e.p.ParserFile [main] Line: Ad.2 0 0 =0 2 0 1 0 1 0 1 1 is not valid 
+2018-10-23 13:53:22,004 INFO c.e.p.ParserFile [main] Line: 2.00 0 0 0 2.00 0 1 0 1 0 1 00 is valid 
+2018-10-23 13:53:22,004 INFO c.e.p.ParserFile [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1f is not valid 
+2018-10-23 13:53:22,004 INFO c.e.p.ParserFile [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 sd is not valid 
+2018-10-23 13:53:22,004 INFO c.e.p.ParserFile [main] Line:  2 0   0` 0 2 0 1 0 1 0 1 1 is not valid 
+2018-10-23 13:53:22,036 INFO c.e.c.TetrahedronCreator [main] Create new tetrahedron 
+2018-10-23 13:53:22,051 INFO c.e.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-23 13:53:22,051 INFO c.e.a.Calculator [main] Tetrahedron's square is 13.856406460551021 
+2018-10-23 14:00:22,979 INFO c.e.r.Reader [main] File was read 
+2018-10-23 14:00:23,010 INFO c.e.p.ParserFile [main] Line: -2 0 -1 0 -3 -1 1.6 0.23 -1 -0.13 -0.92 1.94 is valid 
+2018-10-23 14:00:23,010 INFO c.e.p.ParserFile [main] Line: 3 -1 0 3 1 4 3 3.46 0.27 6.65 1.16 1.42 is valid 
+2018-10-23 14:00:23,010 INFO c.e.p.ParserFile [main] Line: -1 2 3 2 2 1 2.23 2 4.6 1.08 -0.94 2.87 is valid 
+2018-10-23 14:00:23,010 INFO c.e.p.ParserFile [main] Line: -1 2 3 2 2 1 2.23 2 4.6 1.08 -0.94 2.87d is not valid 
+2018-10-23 14:00:23,010 INFO c.e.c.TetrahedronCreator [main] Create new tetrahedron 
+2018-10-23 14:00:23,010 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-23 14:00:23,010 INFO c.e.a.Calculator [main] Tetrahedron's square is 22.5166604983954 

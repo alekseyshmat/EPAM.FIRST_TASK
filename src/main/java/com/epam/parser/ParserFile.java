@@ -24,13 +24,13 @@ public class ParserFile {
         List<Double> resultList = new ArrayList<>();
         for (String line : inputList) {
             if (validation.isValid(line)) {
-                logger.info("Line: " + line + " is valid");
+                logger.info("Line: " + line + " is valid line");
                 String[] numbers = line.split("\\s");
                 for (String coordinates : numbers) {
                     resultList.add(Double.parseDouble(coordinates));
                 }
             } else {
-                logger.info("Line: " + line + " is not valid");
+                logger.info("Line: " + line + " is not valid line");
             }
         }
         return resultList;

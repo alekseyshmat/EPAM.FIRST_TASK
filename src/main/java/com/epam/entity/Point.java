@@ -24,17 +24,35 @@ public class Point {
         return z;
     }
 
-    public void setX(double x) {
-        this.x = x;
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+
+        if (obj == null || obj.getClass() != this.getClass()) {
+            return false;
+        }
+
+        Point point = (Point) obj;
+        return point.getX() == this.getX() &&
+                point.getY() == this.getY() &&
+                point.getZ() == this.getZ();
     }
 
-    public void setY(double y) {
-        this.y = y;
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + (int) this.getX();
+        result = prime * result + (int) this.getY();
+        result = prime * result + (int) this.getZ();
+        return result;
     }
 
-    public void setZ(double z) {
-        this.z = z;
+    @Override
+    public String toString() {
+        return "Point{" + "x=" + x + ", y=" + y + ", z=" + z + '}';
     }
-
 
 }
