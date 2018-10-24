@@ -1,6 +1,7 @@
 package com.epam.action;
 
 import com.epam.entity.Tetrahedron;
+import com.epam.entity.TetrahedronPoint;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -25,12 +26,15 @@ public class TetrahedronActions {
     }
 
     public boolean isBaseBelongsToTheXOY(Tetrahedron tetrahedron) {
-        if (tetrahedron.getTetrahedronPointA().getX() > 0
-                && tetrahedron.getTetrahedronPointA().getY() > 0
-                && tetrahedron.getTetrahedronPointB().getY() > 0
-                && tetrahedron.getTetrahedronPointB().getY() > 0
-                && tetrahedron.getTetrahedronPointC().getX() > 0
-                && tetrahedron.getTetrahedronPointC().getY() > 0) {
+        TetrahedronPoint pointA = tetrahedron.getTetrahedronPointA();
+        TetrahedronPoint pointB = tetrahedron.getTetrahedronPointB();
+        TetrahedronPoint pointC = tetrahedron.getTetrahedronPointC();
+        if (pointA.getX() > 0
+                && pointA.getY() > 0
+                && pointB.getY() > 0
+                && pointB.getY() > 0
+                && pointC.getX() > 0
+                && pointC.getY() > 0) {
             logger.info("Base ABC belongs to the plane XOY");
             return true;
         }

@@ -52,33 +52,22 @@ public class Calculator {
     }
 
     public double calculateHeightOfSmallPyramid(Tetrahedron tetrahedron) {
-        double pointAcoordinateX = tetrahedron.getTetrahedronPointA().getX();
-        double pointAcoordinateY = tetrahedron.getTetrahedronPointA().getY();
-        double pointAcoordinateZ = tetrahedron.getTetrahedronPointA().getZ();
+        TetrahedronPoint pointA = tetrahedron.getTetrahedronPointA();
+        TetrahedronPoint pointB = tetrahedron.getTetrahedronPointB();
+        TetrahedronPoint pointC = tetrahedron.getTetrahedronPointC();
+        TetrahedronPoint pointD = tetrahedron.getTetrahedronPointD();
 
-        double pointBcoordinateX = tetrahedron.getTetrahedronPointB().getX();
-        double pointBcoordinateY = tetrahedron.getTetrahedronPointB().getY();
-        double pointBcoordinateZ = tetrahedron.getTetrahedronPointB().getZ();
-
-        double pointCcoordinateX = tetrahedron.getTetrahedronPointC().getX();
-        double pointCcoordinateY = tetrahedron.getTetrahedronPointC().getY();
-        double pointCcoordinateZ = tetrahedron.getTetrahedronPointC().getZ();
-
-        double pointDcoordinateX = tetrahedron.getTetrahedronPointD().getX();
-        double pointDcoordinateY = tetrahedron.getTetrahedronPointD().getY();
-        double pointDcoordinateZ = tetrahedron.getTetrahedronPointD().getZ();
-
-        double smallHeight = 0;
+        double smallHeight;
         double height = calculateHeight(tetrahedron);
 
-        if (pointAcoordinateZ == pointBcoordinateZ && pointAcoordinateZ == pointCcoordinateZ && pointDcoordinateZ != 0) {
-            smallHeight = height - Math.abs(pointAcoordinateZ);
+        if (pointA.getZ() == pointB.getZ() && pointA.getZ() == pointC.getZ() && pointD.getZ() != 0) {
+            smallHeight = height - Math.abs(pointA.getZ());
             logger.info("Dissected by the plane Z");
-        } else if (pointAcoordinateX == pointBcoordinateX && pointBcoordinateX == pointCcoordinateX && pointDcoordinateX != 0) {
-            smallHeight = height - Math.abs(pointAcoordinateX);
+        } else if (pointA.getX() == pointB.getX() && pointB.getX() == pointC.getX() && pointD.getX() != 0) {
+            smallHeight = height - Math.abs(pointA.getX());
             logger.info("Dissected by the plane X");
-        } else if (pointAcoordinateY == pointBcoordinateY && pointBcoordinateY == pointCcoordinateY && pointDcoordinateY != 0) {
-            smallHeight = height - Math.abs(pointAcoordinateY);
+        } else if (pointA.getY() == pointB.getY() && pointB.getY() == pointC.getY() && pointD.getY() != 0) {
+            smallHeight = height - Math.abs(pointA.getY());
             logger.info("Dissected by the plane Y");
         } else {
             logger.info("This tetrahedron is not dissected therefore height of dissected tetrahedron is 0 ");
@@ -94,13 +83,9 @@ public class Calculator {
         double squareOfTruncatedPyramid = Math.pow(tetrahedron.getSideAB(), 2) * Math.sqrt(NUMBER_THREE) / 4;
         double squareOfSmallPyramid = Math.pow(sideOfSection(tetrahedron), 2) * Math.sqrt(NUMBER_THREE) / 4;
 
-
         double ratio = heightOfTruncatedPyramid * (squareOfTruncatedPyramid + Math.sqrt(squareOfTruncatedPyramid * squareOfSmallPyramid) + squareOfSmallPyramid) /
                 (heightOfSmallPyramid * squareOfSmallPyramid);
-
         logger.info("The ratio of the truncated pyramid to the small " + ratio);
         return ratio;
     }
-
-
 }
