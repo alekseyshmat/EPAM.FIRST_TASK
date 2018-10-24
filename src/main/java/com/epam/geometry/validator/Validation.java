@@ -1,4 +1,4 @@
-package com.epam.validator;
+package com.epam.geometry.validator;
 
 public class Validation {
 

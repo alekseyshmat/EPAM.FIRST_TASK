@@ -1,19 +1,18 @@
-package com.epam.parser;
+package com.epam.geometry.parser;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import com.epam.reader.DataReader;
-import com.epam.validator.Validation;
+import com.epam.geometry.validator.Validation;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ParserFile {
+public class FileParser {
 
-    private static final Logger logger = LogManager.getLogger(ParserFile.class);
+    private static final Logger logger = LogManager.getLogger(FileParser.class);
     private Validation validation;
 
-    public ParserFile() {
+    public FileParser() {
         validation = new Validation();
     }
 

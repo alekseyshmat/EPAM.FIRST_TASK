@@ -1,6 +1,6 @@
-package com.epam.reader;
+package com.epam.geometry.reader;
 
-import com.epam.exception.ReadingFileException;
+import com.epam.geometry.exception.ReadingFileException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -10,7 +10,6 @@ import java.util.List;
 
 public class DataReader {
 
-    private static final String PATH = "src/test/resources/test.txt";
     private static final String MESSAGE_FOR_EXCEPTION = "File is not found";
     private static final Logger logger = LogManager.getLogger(DataReader.class);
 
