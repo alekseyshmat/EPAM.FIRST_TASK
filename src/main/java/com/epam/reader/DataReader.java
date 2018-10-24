@@ -29,6 +29,7 @@ public class DataReader {
             }
             logger.info("File was read");
         } catch (Exception ex) {
+            logger.info("File is not found");
             throw new ReadingFileException(MESSAGE_FOR_EXCEPTION, ex);
         } finally {
             if (bufferedReader != null) {

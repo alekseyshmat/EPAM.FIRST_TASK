@@ -2016,3 +2016,8 @@
 2018-10-24 13:24:43,917 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
 2018-10-24 13:24:43,918 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.910549889815668 
 2018-10-24 13:24:43,919 INFO c.e.a.Calculator [main] This is a tetrahedron 
+2018-10-24 13:54:54,060 INFO c.e.r.DataReader [main] File was read 
+2018-10-24 13:55:31,367 INFO c.e.r.DataReader [main] File was read 
+2018-10-24 14:00:14,476 INFO c.e.r.DataReader [main] File is not found 
+2018-10-24 14:07:02,492 INFO c.e.r.DataReader [main] File is not found 
+2018-10-24 14:07:46,958 INFO c.e.r.DataReader [main] File was read 

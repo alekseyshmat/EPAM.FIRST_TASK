@@ -22,7 +22,7 @@
         <!-- Корневой логгер -->
         <Root level="trace">
             <AppenderRef ref="file" level="DEBUG"/>
-            <appender-ref ref="Console"/>
+            <appenderRef ref="Console" level="DEBUG"/>
         </Root>
         <!-- Логгер нашего класса -->
 
