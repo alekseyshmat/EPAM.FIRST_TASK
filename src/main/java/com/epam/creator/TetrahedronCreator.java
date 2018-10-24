@@ -22,5 +22,4 @@ public class TetrahedronCreator {
         logger.info("Create new tetrahedron");
         return new Tetrahedron(tetrahedronPointA, tetrahedronPointB, tetrahedronPointC, tetrahedronPointD);
     }
-
 }

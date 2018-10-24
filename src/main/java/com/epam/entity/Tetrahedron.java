@@ -1,18 +1,14 @@
 package com.epam.entity;
 
-import com.epam.action.Calculator;
-
 public class Tetrahedron {
 
     private TetrahedronPoint tetrahedronPointA, tetrahedronPointB, tetrahedronPointC, tetrahedronPointD;
-    private Calculator calculator;
 
     public Tetrahedron(TetrahedronPoint tetrahedronPointA, TetrahedronPoint tetrahedronPointB, TetrahedronPoint tetrahedronPointC, TetrahedronPoint tetrahedronPointD) {
         this.tetrahedronPointA = tetrahedronPointA;
         this.tetrahedronPointB = tetrahedronPointB;
         this.tetrahedronPointC = tetrahedronPointC;
         this.tetrahedronPointD = tetrahedronPointD;
-        calculator = new Calculator();
     }
 
     public TetrahedronPoint getTetrahedronPointA() {
@@ -30,31 +26,6 @@ public class Tetrahedron {
     public TetrahedronPoint getTetrahedronPointD() {
         return tetrahedronPointD;
     }
-
-    public double getSideAB() {
-        return calculator.calculateSide(tetrahedronPointA, tetrahedronPointB);
-    }
-
-    public double getSideAC() {
-        return calculator.calculateSide(tetrahedronPointA, tetrahedronPointC);
-    }
-
-    public double getSideBC() {
-        return calculator.calculateSide(tetrahedronPointB, tetrahedronPointC);
-    }
-
-    public double getSideDA() {
-        return calculator.calculateSide(tetrahedronPointD, tetrahedronPointA);
-    }
-
-    public double getSideDB() {
-        return calculator.calculateSide(tetrahedronPointD, tetrahedronPointB);
-    }
-
-    public double getSideDC() {
-        return calculator.calculateSide(tetrahedronPointD, tetrahedronPointC);
-    }
-
 
     @Override
     public boolean equals(Object obj) {
@@ -86,6 +57,7 @@ public class Tetrahedron {
 
     @Override
     public String toString() {
-        return "Tetrahedron{tetrahedronPointA=" + tetrahedronPointA + ", tetrahedronPointB=" + tetrahedronPointB + ", tetrahedronPointC=" + tetrahedronPointC + ", tetrahedronPointD=" + tetrahedronPointD + '}';
+        return "Tetrahedron{tetrahedronPointA=" + tetrahedronPointA + ", tetrahedronPointB=" + tetrahedronPointB +
+                ", tetrahedronPointC=" + tetrahedronPointC + ", tetrahedronPointD=" + tetrahedronPointD + '}';
     }
 }

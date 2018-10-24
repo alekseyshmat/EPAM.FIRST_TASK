@@ -10,13 +10,14 @@ import java.util.List;
 
 public class DataReader {
 
-    private String path = "src/test/resources/test.txt";
+    private static final String PATH = "src/test/resources/test.txt";
+    private static final String MESSAGE_FOR_EXCEPTION = "File is not found";
     private static final Logger logger = LogManager.getLogger(DataReader.class);
 
     public DataReader() {
     }
 
-    public List readingLines(String path) throws ReadingFileException {
+    public List readingLines(String path) throws ReadingFileException, IOException {
 
         List<String> linesWithValues = new ArrayList<String>();
         BufferedReader bufferedReader = null;
@@ -28,14 +29,10 @@ public class DataReader {
             }
             logger.info("File was read");
         } catch (Exception ex) {
-            throw new ReadingFileException("File is not found", ex);
+            throw new ReadingFileException(MESSAGE_FOR_EXCEPTION, ex);
         } finally {
             if (bufferedReader != null) {
-                try {
-                    bufferedReader.close();
-                } catch (IOException ex) {
-                    throw new ReadingFileException("File is close", ex);
-                }
+                bufferedReader.close();
             }
         }
         return linesWithValues;

@@ -7,17 +7,24 @@ import org.apache.logging.log4j.Logger;
 
 public class TetrahedronActions {
     private static final double DELTA = 0.01;
+    private Calculator calculator;
     private static final Logger logger = LogManager.getLogger(Calculator.class);
 
     public TetrahedronActions() {
+        calculator = new Calculator();
     }
 
     public boolean isTetrahedron(Tetrahedron tetrahedron) {
-        if (tetrahedron.getSideAB() - tetrahedron.getSideAC() < DELTA
-                && tetrahedron.getSideAC() - tetrahedron.getSideBC() < DELTA
-                && tetrahedron.getSideDA() - tetrahedron.getSideDB() < DELTA
-                && tetrahedron.getSideDB() - tetrahedron.getSideDC() < DELTA
-                && tetrahedron.getSideAB() - tetrahedron.getSideDA() < DELTA) {
+        TetrahedronPoint pointA = tetrahedron.getTetrahedronPointA();
+        TetrahedronPoint pointB = tetrahedron.getTetrahedronPointB();
+        TetrahedronPoint pointC = tetrahedron.getTetrahedronPointC();
+        TetrahedronPoint pointD = tetrahedron.getTetrahedronPointD();
+
+        if (calculator.calculateSide(pointA, pointB) - calculator.calculateSide(pointA, pointC) < DELTA
+                && calculator.calculateSide(pointA, pointC) - calculator.calculateSide(pointB, pointC) < DELTA
+                && calculator.calculateSide(pointD, pointA) - calculator.calculateSide(pointD, pointB) < DELTA
+                && calculator.calculateSide(pointD, pointB) - calculator.calculateSide(pointD, pointC) < DELTA
+                && calculator.calculateSide(pointA, pointB) - calculator.calculateSide(pointD, pointA) < DELTA) {
             logger.info("This is a tetrahedron");
             return true;
         }

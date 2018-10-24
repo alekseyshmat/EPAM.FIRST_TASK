@@ -13,7 +13,6 @@ public class ParserFile {
     private static final Logger logger = LogManager.getLogger(ParserFile.class);
     private Validation validation;
     private DataReader dataReader;
-    private List linesList;
 
     public ParserFile() {
         validation = new Validation();
