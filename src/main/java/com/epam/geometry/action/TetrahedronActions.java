@@ -1,7 +1,7 @@
 package com.epam.geometry.action;
 
+import com.epam.geometry.entity.Point;
 import com.epam.geometry.entity.Tetrahedron;
-import com.epam.geometry.entity.TetrahedronPoint;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -15,10 +15,10 @@ public class TetrahedronActions {
     }
 
     public boolean isTetrahedron(Tetrahedron tetrahedron) {
-        TetrahedronPoint pointA = tetrahedron.getTetrahedronPointA();
-        TetrahedronPoint pointB = tetrahedron.getTetrahedronPointB();
-        TetrahedronPoint pointC = tetrahedron.getTetrahedronPointC();
-        TetrahedronPoint pointD = tetrahedron.getTetrahedronPointD();
+        Point pointA = tetrahedron.getPointA();
+        Point pointB = tetrahedron.getPointB();
+        Point pointC = tetrahedron.getPointC();
+        Point pointD = tetrahedron.getPointD();
 
         if (calculator.calculateSide(pointA, pointB) - calculator.calculateSide(pointA, pointC) < DELTA
                 && calculator.calculateSide(pointA, pointC) - calculator.calculateSide(pointB, pointC) < DELTA
@@ -33,9 +33,9 @@ public class TetrahedronActions {
     }
 
     public boolean isBaseBelongsToTheXOY(Tetrahedron tetrahedron) {
-        TetrahedronPoint pointA = tetrahedron.getTetrahedronPointA();
-        TetrahedronPoint pointB = tetrahedron.getTetrahedronPointB();
-        TetrahedronPoint pointC = tetrahedron.getTetrahedronPointC();
+        Point pointA = tetrahedron.getPointA();
+        Point pointB = tetrahedron.getPointB();
+        Point pointC = tetrahedron.getPointC();
 
         if (pointA.getX() > 0
                 && pointA.getY() > 0

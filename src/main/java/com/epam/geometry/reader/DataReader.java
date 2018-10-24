@@ -22,7 +22,7 @@ public class DataReader {
         BufferedReader bufferedReader = null;
         try {
             bufferedReader = new BufferedReader(new FileReader(new File(path)));
-            String tmp = "";
+            String tmp;
             while ((tmp = bufferedReader.readLine()) != null) {
                 linesWithValues.add(tmp);
             }

@@ -2603,3 +2603,11 @@
 2018-10-24 14:51:46,078 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.3094010767585034 
 2018-10-24 14:51:46,079 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
 2018-10-24 14:51:46,080 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 20:52:55,702 INFO c.e.g.p.FileParser [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 is valid line 
+2018-10-24 21:03:32,327 INFO c.e.g.p.FileParser [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 is valid line 
+2018-10-24 21:04:07,265 INFO c.e.g.p.FileParser [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 is valid line 
+2018-10-24 21:04:07,265 INFO c.e.g.p.FileParser [main] Line: -1 2 3 2 2 1 2.23 2 4.6 1.08 -0.94 2.87 is valid line 
+2018-10-24 21:06:07,436 INFO c.e.g.p.FileParser [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 is valid line 
+2018-10-24 21:06:07,451 INFO c.e.g.p.FileParser [main] Line: -1 2 3 2 2 1 2.23 2 4.6 1.08 -0.94 2.87 is valid line 
+2018-10-24 21:07:00,941 INFO c.e.g.p.FileParser [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 is valid line 
+2018-10-24 21:08:25,208 INFO c.e.g.p.FileParser [main] Line: -1 2 3 2 2 1 2.23 2 4.6 1.08 -0.94 2.87 is valid line 

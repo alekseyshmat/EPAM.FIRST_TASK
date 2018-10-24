@@ -2,29 +2,38 @@ package com.epam.geometry.entity;
 
 public class Tetrahedron {
 
-    private TetrahedronPoint tetrahedronPointA, tetrahedronPointB, tetrahedronPointC, tetrahedronPointD;
+    private Point pointA, pointB, pointC, pointD;
+    private long id;
 
-    public Tetrahedron(TetrahedronPoint tetrahedronPointA, TetrahedronPoint tetrahedronPointB, TetrahedronPoint tetrahedronPointC, TetrahedronPoint tetrahedronPointD) {
-        this.tetrahedronPointA = tetrahedronPointA;
-        this.tetrahedronPointB = tetrahedronPointB;
-        this.tetrahedronPointC = tetrahedronPointC;
-        this.tetrahedronPointD = tetrahedronPointD;
+    public Tetrahedron(Point pointA, Point pointB, Point pointC, Point pointD) {
+        this.pointA = pointA;
+        this.pointB = pointB;
+        this.pointC = pointC;
+        this.pointD = pointD;
     }
 
-    public TetrahedronPoint getTetrahedronPointA() {
-        return tetrahedronPointA;
+    public Point getPointA() {
+        return pointA;
     }
 
-    public TetrahedronPoint getTetrahedronPointB() {
-        return tetrahedronPointB;
+    public Point getPointB() {
+        return pointB;
     }
 
-    public TetrahedronPoint getTetrahedronPointC() {
-        return tetrahedronPointC;
+    public Point getPointC() {
+        return pointC;
     }
 
-    public TetrahedronPoint getTetrahedronPointD() {
-        return tetrahedronPointD;
+    public Point getPointD() {
+        return pointD;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     @Override
@@ -38,26 +47,26 @@ public class Tetrahedron {
         }
 
         Tetrahedron tetrahedron = (Tetrahedron) obj;
-        return tetrahedron.getTetrahedronPointA() == this.getTetrahedronPointA() &&
-                tetrahedron.getTetrahedronPointB() == this.getTetrahedronPointB() &&
-                tetrahedron.getTetrahedronPointC() == this.getTetrahedronPointC() &&
-                tetrahedron.getTetrahedronPointD() == this.getTetrahedronPointD();
+        return tetrahedron.getPointA() == this.getPointA() &&
+                tetrahedron.getPointB() == this.getPointB() &&
+                tetrahedron.getPointC() == this.getPointC() &&
+                tetrahedron.getPointD() == this.getPointD();
     }
 
     @Override
     public int hashCode() {
         final int prime = 31;
         int result = 1;
-        result = prime * result + (int) (this.getTetrahedronPointA().getX() + this.getTetrahedronPointA().getY() + this.getTetrahedronPointA().getZ());
-        result = prime * result + (int) (this.getTetrahedronPointB().getX() + this.getTetrahedronPointB().getY() + this.getTetrahedronPointB().getZ());
-        result = prime * result + (int) (this.getTetrahedronPointC().getX() + this.getTetrahedronPointC().getY() + this.getTetrahedronPointC().getZ());
-        result = prime * result + (int) (this.getTetrahedronPointD().getX() + this.getTetrahedronPointD().getY() + this.getTetrahedronPointD().getZ());
+        result = prime * result + (int) (this.getPointA().getX() + this.getPointA().getY() + this.getPointA().getZ());
+        result = prime * result + (int) (this.getPointB().getX() + this.getPointB().getY() + this.getPointB().getZ());
+        result = prime * result + (int) (this.getPointC().getX() + this.getPointC().getY() + this.getPointC().getZ());
+        result = prime * result + (int) (this.getPointD().getX() + this.getPointD().getY() + this.getPointD().getZ());
         return result;
     }
 
     @Override
     public String toString() {
-        return "Tetrahedron{tetrahedronPointA=" + tetrahedronPointA + ", tetrahedronPointB=" + tetrahedronPointB +
-                ", tetrahedronPointC=" + tetrahedronPointC + ", tetrahedronPointD=" + tetrahedronPointD + '}';
+        return "Tetrahedron{pointA=" + pointA + ", pointB=" + pointB +
+                ", pointC=" + pointC + ", pointD=" + pointD + '}';
     }
 }

@@ -1,6 +1,6 @@
 package com.epam.geometry.action;
 
-import com.epam.geometry.entity.TetrahedronPoint;
+import com.epam.geometry.entity.Point;
 import com.epam.geometry.entity.Tetrahedron;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -15,17 +15,17 @@ public class Calculator {
     public Calculator() {
     }
 
-    public double calculateSide(TetrahedronPoint firstTetrahedronPoint, TetrahedronPoint secondTetrahedronPoint) {
-        double side = Math.sqrt(Math.pow((firstTetrahedronPoint.getX() - secondTetrahedronPoint.getX()), NUMBER_TWO) +
-                Math.pow((firstTetrahedronPoint.getY() - secondTetrahedronPoint.getY()), NUMBER_TWO) +
-                Math.pow((firstTetrahedronPoint.getZ() - secondTetrahedronPoint.getZ()), NUMBER_TWO));
+    public double calculateSide(Point firstPoint, Point secondPoint) {
+        double side = Math.sqrt(Math.pow((firstPoint.getX() - secondPoint.getX()), NUMBER_TWO) +
+                Math.pow((firstPoint.getY() - secondPoint.getY()), NUMBER_TWO) +
+                Math.pow((firstPoint.getZ() - secondPoint.getZ()), NUMBER_TWO));
         logger.info("Tetrahedron's side is " + side);
         return side;
     }
 
     public double calculateArea(Tetrahedron tetrahedron) {
-        TetrahedronPoint pointA = tetrahedron.getTetrahedronPointA();
-        TetrahedronPoint pointB = tetrahedron.getTetrahedronPointB();
+        Point pointA = tetrahedron.getPointA();
+        Point pointB = tetrahedron.getPointB();
         double edge = calculateSide(pointA, pointB);
         double square = Math.pow(edge, NUMBER_TWO) * Math.sqrt(NUMBER_THREE);
         logger.info("Tetrahedron's square is " + square);
@@ -33,8 +33,8 @@ public class Calculator {
     }
 
     public double calculateVolume(Tetrahedron tetrahedron) {
-        TetrahedronPoint pointA = tetrahedron.getTetrahedronPointA();
-        TetrahedronPoint pointB = tetrahedron.getTetrahedronPointB();
+        Point pointA = tetrahedron.getPointA();
+        Point pointB = tetrahedron.getPointB();
         double edge = calculateSide(pointA, pointB);
         double volume = Math.sqrt(NUMBER_THREE) / NUMBER_TWELVE * Math.pow(edge, NUMBER_THREE);
         logger.info("Tetrahedron's volume is " + volume);
@@ -42,8 +42,8 @@ public class Calculator {
     }
 
     public double calculateHeight(Tetrahedron tetrahedron) {
-        TetrahedronPoint pointA = tetrahedron.getTetrahedronPointA();
-        TetrahedronPoint pointB = tetrahedron.getTetrahedronPointB();
+        Point pointA = tetrahedron.getPointA();
+        Point pointB = tetrahedron.getPointB();
         double edge = calculateSide(pointA, pointB);
         double height = Math.sqrt(NUMBER_TWO / NUMBER_THREE) * edge;
         logger.info("Tetrahedron's height is " + height);
@@ -51,10 +51,10 @@ public class Calculator {
     }
 
     public double calculateHeightOfSmallPyramid(Tetrahedron tetrahedron) {
-        TetrahedronPoint pointA = tetrahedron.getTetrahedronPointA();
-        TetrahedronPoint pointB = tetrahedron.getTetrahedronPointB();
-        TetrahedronPoint pointC = tetrahedron.getTetrahedronPointC();
-        TetrahedronPoint pointD = tetrahedron.getTetrahedronPointD();
+        Point pointA = tetrahedron.getPointA();
+        Point pointB = tetrahedron.getPointB();
+        Point pointC = tetrahedron.getPointC();
+        Point pointD = tetrahedron.getPointD();
 
         double smallHeight;
         double height = calculateHeight(tetrahedron);
@@ -77,8 +77,8 @@ public class Calculator {
     }
 
     private double sideOfSection(Tetrahedron tetrahedron) {
-        TetrahedronPoint pointA = tetrahedron.getTetrahedronPointA();
-        TetrahedronPoint pointB = tetrahedron.getTetrahedronPointB();
+        Point pointA = tetrahedron.getPointA();
+        Point pointB = tetrahedron.getPointB();
         double edge = calculateSide(pointA, pointB);
         double smallSide = 2 * (edge - calculateHeightOfSmallPyramid(tetrahedron)) / Math.sqrt(NUMBER_THREE);
         logger.info("Small side is " + smallSide);
@@ -86,8 +86,8 @@ public class Calculator {
     }
 
     public double volumeRatio(Tetrahedron tetrahedron) {
-        TetrahedronPoint pointA = tetrahedron.getTetrahedronPointA();
-        TetrahedronPoint pointB = tetrahedron.getTetrahedronPointB();
+        Point pointA = tetrahedron.getPointA();
+        Point pointB = tetrahedron.getPointB();
 
         double heightOfSmallPyramid = calculateHeightOfSmallPyramid(tetrahedron);
         if (heightOfSmallPyramid == 0) {
