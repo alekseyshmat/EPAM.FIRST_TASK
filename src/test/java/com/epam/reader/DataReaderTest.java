@@ -10,13 +10,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class ReaderTest {
+public class DataReaderTest {
 
-    private Reader reader;
+    private DataReader dataReader;
 
     @BeforeClass
     public void setUp() {
-        reader = new Reader();
+        dataReader = new DataReader();
     }
 
     @DataProvider
@@ -35,7 +35,7 @@ public class ReaderTest {
     public void readingLinesTestPositive(String path, List<String> expectedResult) {
         List actual = new ArrayList<>();
         try {
-            actual = reader.readingLines(path);
+            actual = dataReader.readingLines(path);
         } catch (ReadingFileException e) {
             e.printStackTrace();
         }

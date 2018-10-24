@@ -2,7 +2,7 @@ package com.epam.parser;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import com.epam.reader.Reader;
+import com.epam.reader.DataReader;
 import com.epam.validator.Validation;
 
 import java.util.ArrayList;
@@ -12,12 +12,12 @@ public class ParserFile {
 
     private static final Logger logger = LogManager.getLogger(ParserFile.class);
     private Validation validation;
-    private Reader reader;
+    private DataReader dataReader;
     private List linesList;
 
     public ParserFile() {
         validation = new Validation();
-        reader = new Reader();
+        dataReader = new DataReader();
     }
 
     public List<Double> parsingLines(List<String> inputList) {

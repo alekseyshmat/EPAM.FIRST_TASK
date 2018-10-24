@@ -1,12 +1,12 @@
 package com.epam.entity;
 
-public class Point {
+public class TetrahedronPoint {
 
     private double x;
     private double y;
     private double z;
 
-    public Point(double x, double y, double z) {
+    public TetrahedronPoint(double x, double y, double z) {
         this.x = x;
         this.y = y;
         this.z = z;
@@ -34,10 +34,10 @@ public class Point {
             return false;
         }
 
-        Point point = (Point) obj;
-        return point.getX() == this.getX() &&
-                point.getY() == this.getY() &&
-                point.getZ() == this.getZ();
+        TetrahedronPoint tetrahedronPoint = (TetrahedronPoint) obj;
+        return tetrahedronPoint.getX() == this.getX() &&
+                tetrahedronPoint.getY() == this.getY() &&
+                tetrahedronPoint.getZ() == this.getZ();
     }
 
     @Override
@@ -52,7 +52,7 @@ public class Point {
 
     @Override
     public String toString() {
-        return "Point{" + "x=" + x + ", y=" + y + ", z=" + z + '}';
+        return "TetrahedronPoint{" + "x=" + x + ", y=" + y + ", z=" + z + '}';
     }
 
 }

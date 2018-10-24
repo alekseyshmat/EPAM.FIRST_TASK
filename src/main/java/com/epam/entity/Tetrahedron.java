@@ -4,55 +4,55 @@ import com.epam.action.Calculator;
 
 public class Tetrahedron {
 
-    private Point pointA, pointB, pointC, pointD;
+    private TetrahedronPoint tetrahedronPointA, tetrahedronPointB, tetrahedronPointC, tetrahedronPointD;
     private Calculator calculator;
 
-    public Tetrahedron(Point pointA, Point pointB, Point pointC, Point pointD) {
-        this.pointA = pointA;
-        this.pointB = pointB;
-        this.pointC = pointC;
-        this.pointD = pointD;
+    public Tetrahedron(TetrahedronPoint tetrahedronPointA, TetrahedronPoint tetrahedronPointB, TetrahedronPoint tetrahedronPointC, TetrahedronPoint tetrahedronPointD) {
+        this.tetrahedronPointA = tetrahedronPointA;
+        this.tetrahedronPointB = tetrahedronPointB;
+        this.tetrahedronPointC = tetrahedronPointC;
+        this.tetrahedronPointD = tetrahedronPointD;
         calculator = new Calculator();
     }
 
-    public Point getPointA() {
-        return pointA;
+    public TetrahedronPoint getTetrahedronPointA() {
+        return tetrahedronPointA;
     }
 
-    public Point getPointB() {
-        return pointB;
+    public TetrahedronPoint getTetrahedronPointB() {
+        return tetrahedronPointB;
     }
 
-    public Point getPointC() {
-        return pointC;
+    public TetrahedronPoint getTetrahedronPointC() {
+        return tetrahedronPointC;
     }
 
-    public Point getPointD() {
-        return pointD;
+    public TetrahedronPoint getTetrahedronPointD() {
+        return tetrahedronPointD;
     }
 
     public double getSideAB() {
-        return calculator.calculateSide(pointA, pointB);
+        return calculator.calculateSide(tetrahedronPointA, tetrahedronPointB);
     }
 
     public double getSideAC() {
-        return calculator.calculateSide(pointA, pointC);
+        return calculator.calculateSide(tetrahedronPointA, tetrahedronPointC);
     }
 
     public double getSideBC() {
-        return calculator.calculateSide(pointB, pointC);
+        return calculator.calculateSide(tetrahedronPointB, tetrahedronPointC);
     }
 
     public double getSideDA() {
-        return calculator.calculateSide(pointD, pointA);
+        return calculator.calculateSide(tetrahedronPointD, tetrahedronPointA);
     }
 
     public double getSideDB() {
-        return calculator.calculateSide(pointD, pointB);
+        return calculator.calculateSide(tetrahedronPointD, tetrahedronPointB);
     }
 
     public double getSideDC() {
-        return calculator.calculateSide(pointD, pointC);
+        return calculator.calculateSide(tetrahedronPointD, tetrahedronPointC);
     }
 
 
@@ -67,25 +67,25 @@ public class Tetrahedron {
         }
 
         Tetrahedron tetrahedron = (Tetrahedron) obj;
-        return tetrahedron.getPointA() == this.getPointA() &&
-                tetrahedron.getPointB() == this.getPointB() &&
-                tetrahedron.getPointC() == this.getPointC() &&
-                tetrahedron.getPointD() == this.getPointD();
+        return tetrahedron.getTetrahedronPointA() == this.getTetrahedronPointA() &&
+                tetrahedron.getTetrahedronPointB() == this.getTetrahedronPointB() &&
+                tetrahedron.getTetrahedronPointC() == this.getTetrahedronPointC() &&
+                tetrahedron.getTetrahedronPointD() == this.getTetrahedronPointD();
     }
 
     @Override
     public int hashCode() {
         final int prime = 31;
         int result = 1;
-        result = prime * result + (int) (this.getPointA().getX() + this.getPointA().getY() + this.getPointA().getZ());
-        result = prime * result + (int) (this.getPointB().getX() + this.getPointB().getY() + this.getPointB().getZ());
-        result = prime * result + (int) (this.getPointC().getX() + this.getPointC().getY() + this.getPointC().getZ());
-        result = prime * result + (int) (this.getPointD().getX() + this.getPointD().getY() + this.getPointD().getZ());
+        result = prime * result + (int) (this.getTetrahedronPointA().getX() + this.getTetrahedronPointA().getY() + this.getTetrahedronPointA().getZ());
+        result = prime * result + (int) (this.getTetrahedronPointB().getX() + this.getTetrahedronPointB().getY() + this.getTetrahedronPointB().getZ());
+        result = prime * result + (int) (this.getTetrahedronPointC().getX() + this.getTetrahedronPointC().getY() + this.getTetrahedronPointC().getZ());
+        result = prime * result + (int) (this.getTetrahedronPointD().getX() + this.getTetrahedronPointD().getY() + this.getTetrahedronPointD().getZ());
         return result;
     }
 
     @Override
     public String toString() {
-        return "Tetrahedron{pointA=" + pointA + ", pointB=" + pointB + ", pointC=" + pointC + ", pointD=" + pointD + '}';
+        return "Tetrahedron{tetrahedronPointA=" + tetrahedronPointA + ", tetrahedronPointB=" + tetrahedronPointB + ", tetrahedronPointC=" + tetrahedronPointC + ", tetrahedronPointD=" + tetrahedronPointD + '}';
     }
 }

@@ -25,12 +25,12 @@ public class TetrahedronActions {
     }
 
     public boolean isBaseBelongsToTheXOY(Tetrahedron tetrahedron) {
-        if (tetrahedron.getPointA().getX() > 0
-                && tetrahedron.getPointA().getY() > 0
-                && tetrahedron.getPointB().getY() > 0
-                && tetrahedron.getPointB().getY() > 0
-                && tetrahedron.getPointC().getX() > 0
-                && tetrahedron.getPointC().getY() > 0) {
+        if (tetrahedron.getTetrahedronPointA().getX() > 0
+                && tetrahedron.getTetrahedronPointA().getY() > 0
+                && tetrahedron.getTetrahedronPointB().getY() > 0
+                && tetrahedron.getTetrahedronPointB().getY() > 0
+                && tetrahedron.getTetrahedronPointC().getX() > 0
+                && tetrahedron.getTetrahedronPointC().getY() > 0) {
             logger.info("Base ABC belongs to the plane XOY");
             return true;
         }

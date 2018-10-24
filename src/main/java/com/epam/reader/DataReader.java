@@ -8,12 +8,12 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Reader {
+public class DataReader {
 
     private String path = "src/test/resources/test.txt";
-    private static final Logger logger = LogManager.getLogger(Reader.class);
+    private static final Logger logger = LogManager.getLogger(DataReader.class);
 
-    public Reader() {
+    public DataReader() {
     }
 
     public List readingLines(String path) throws ReadingFileException {
@@ -34,7 +34,7 @@ public class Reader {
                 try {
                     bufferedReader.close();
                 } catch (IOException ex) {
-                    throw new ReadingFileException("File_is_close", ex);
+                    throw new ReadingFileException("File is close", ex);
                 }
             }
         }

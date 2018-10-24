@@ -1,6 +1,6 @@
 package com.epam.action;
 
-import com.epam.entity.Point;
+import com.epam.entity.TetrahedronPoint;
 import com.epam.entity.Tetrahedron;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -16,10 +16,10 @@ public class Calculator {
     public Calculator() {
     }
 
-    public double calculateSide(Point firstPoint, Point secondPoint) {
-        double side = Math.sqrt(Math.pow((firstPoint.getX() - secondPoint.getX()), NUMBER_TWO) +
-                Math.pow((firstPoint.getY() - secondPoint.getY()), NUMBER_TWO) +
-                Math.pow((firstPoint.getZ() - secondPoint.getZ()), NUMBER_TWO));
+    public double calculateSide(TetrahedronPoint firstTetrahedronPoint, TetrahedronPoint secondTetrahedronPoint) {
+        double side = Math.sqrt(Math.pow((firstTetrahedronPoint.getX() - secondTetrahedronPoint.getX()), NUMBER_TWO) +
+                Math.pow((firstTetrahedronPoint.getY() - secondTetrahedronPoint.getY()), NUMBER_TWO) +
+                Math.pow((firstTetrahedronPoint.getZ() - secondTetrahedronPoint.getZ()), NUMBER_TWO));
         logger.info("Tetrahedron's side is " + side);
         return side;
     }
@@ -52,21 +52,21 @@ public class Calculator {
     }
 
     public double calculateHeightOfSmallPyramid(Tetrahedron tetrahedron) {
-        double pointAcoordinateX = tetrahedron.getPointA().getX();
-        double pointAcoordinateY = tetrahedron.getPointA().getY();
-        double pointAcoordinateZ = tetrahedron.getPointA().getZ();
+        double pointAcoordinateX = tetrahedron.getTetrahedronPointA().getX();
+        double pointAcoordinateY = tetrahedron.getTetrahedronPointA().getY();
+        double pointAcoordinateZ = tetrahedron.getTetrahedronPointA().getZ();
 
-        double pointBcoordinateX = tetrahedron.getPointB().getX();
-        double pointBcoordinateY = tetrahedron.getPointB().getY();
-        double pointBcoordinateZ = tetrahedron.getPointB().getZ();
+        double pointBcoordinateX = tetrahedron.getTetrahedronPointB().getX();
+        double pointBcoordinateY = tetrahedron.getTetrahedronPointB().getY();
+        double pointBcoordinateZ = tetrahedron.getTetrahedronPointB().getZ();
 
-        double pointCcoordinateX = tetrahedron.getPointC().getX();
-        double pointCcoordinateY = tetrahedron.getPointC().getY();
-        double pointCcoordinateZ = tetrahedron.getPointC().getZ();
+        double pointCcoordinateX = tetrahedron.getTetrahedronPointC().getX();
+        double pointCcoordinateY = tetrahedron.getTetrahedronPointC().getY();
+        double pointCcoordinateZ = tetrahedron.getTetrahedronPointC().getZ();
 
-        double pointDcoordinateX = tetrahedron.getPointD().getX();
-        double pointDcoordinateY = tetrahedron.getPointD().getY();
-        double pointDcoordinateZ = tetrahedron.getPointD().getZ();
+        double pointDcoordinateX = tetrahedron.getTetrahedronPointD().getX();
+        double pointDcoordinateY = tetrahedron.getTetrahedronPointD().getY();
+        double pointDcoordinateZ = tetrahedron.getTetrahedronPointD().getZ();
 
         double smallHeight = 0;
         double height = calculateHeight(tetrahedron);
