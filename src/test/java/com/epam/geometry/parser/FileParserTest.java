@@ -1,21 +1,20 @@
-package com.epam.parser;
+package com.epam.geometry.parser;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class ParserFileTest {
-    private ParserFile parserFile;
+public class FileParserTest {
+    private FileParser fileParser;
 
     @BeforeClass
     public void setUp() {
-        parserFile = new ParserFile();
+        fileParser = new FileParser();
     }
 
     @DataProvider(name = "dataForParsingLinesTestPositive")
@@ -25,7 +24,7 @@ public class ParserFileTest {
 
     @Test(dataProvider = "dataForParsingLinesTestPositive")
     public void parsingLinesTestPositive(List<String> lines, List<Double> expectedResult) {
-        List actual = parserFile.parsingLines(lines);
+        List actual = fileParser.parsingLines(lines);
         Assert.assertEquals(actual, expectedResult);
     }
 
@@ -36,7 +35,7 @@ public class ParserFileTest {
 
     @Test(dataProvider = "dataForParsingLinesTestNegative")
     public void parsingLinesTestNegative(List<String> lines, List<Double> expectedResult) {
-        List actual = parserFile.parsingLines(lines);
+        List actual = fileParser.parsingLines(lines);
         Assert.assertEquals(actual, expectedResult);
     }
 }
