@@ -2021,3 +2021,585 @@
 2018-10-24 14:00:14,476 INFO c.e.r.DataReader [main] File is not found 
 2018-10-24 14:07:02,492 INFO c.e.r.DataReader [main] File is not found 
 2018-10-24 14:07:46,958 INFO c.e.r.DataReader [main] File was read 
+2018-10-24 14:23:09,429 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:23:09,437 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:23:09,437 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:23:09,438 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:23:09,438 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:23:09,438 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:23:09,439 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:23:09,439 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:23:09,439 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:23:09,439 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:23:09,440 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:23:09,440 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:23:09,442 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:23:09,442 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:23:09,442 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:23:09,443 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:23:09,443 INFO c.e.a.Calculator [main] Small side is 1.9186861949163272 
+2018-10-24 14:23:09,444 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small 3.297709272128455 
+2018-10-24 14:23:09,454 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:23:09,458 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:23:09,460 INFO c.e.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-10-24 14:23:09,460 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:23:09,460 INFO c.e.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-10-24 14:23:09,462 INFO c.e.a.Calculator [main] Dissected by the plane X 
+2018-10-24 14:23:09,462 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.6514837167011076 
+2018-10-24 14:23:09,462 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:23:09,463 INFO c.e.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-10-24 14:23:09,463 INFO c.e.a.Calculator [main] Dissected by the plane X 
+2018-10-24 14:23:09,464 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.6514837167011076 
+2018-10-24 14:23:09,465 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:23:09,465 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:23:09,466 INFO c.e.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-10-24 14:23:09,466 INFO c.e.a.Calculator [main] Dissected by the plane X 
+2018-10-24 14:23:09,467 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.6514837167011076 
+2018-10-24 14:23:09,467 INFO c.e.a.Calculator [main] Small side is 4.411709196523138 
+2018-10-24 14:23:09,468 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small 14.004701452978242 
+2018-10-24 14:23:09,471 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:23:09,473 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:23:09,476 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:23:09,477 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:23:09,480 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:23:09,481 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:23:09,484 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.9439202887759488 
+2018-10-24 14:23:09,484 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:23:09,484 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:23:09,485 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:23:09,485 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.9439202887759488 
+2018-10-24 14:23:09,485 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:23:09,485 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:23:09,485 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:23:09,486 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:23:09,486 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.9439202887759488 
+2018-10-24 14:23:09,487 INFO c.e.a.Calculator [main] Small side is 3.0733867332955787 
+2018-10-24 14:23:09,487 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small 7.52063340831528 
+2018-10-24 14:29:14,314 INFO c.e.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-24 14:29:14,322 INFO c.e.a.Calculator [main] Tetrahedron's square is 13.856406460551021 
+2018-10-24 14:29:14,331 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:29:14,331 INFO c.e.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-24 14:29:30,655 INFO c.e.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-24 14:29:30,668 INFO c.e.a.Calculator [main] Tetrahedron's square is 13.856406460551021 
+2018-10-24 14:29:30,681 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:29:30,684 INFO c.e.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-24 14:30:08,107 INFO c.e.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-24 14:30:08,117 INFO c.e.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-24 14:30:08,123 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:30:08,124 INFO c.e.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-24 14:31:55,780 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:31:55,786 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:31:55,787 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:31:55,788 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:31:55,796 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:31:55,797 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:31:55,798 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:31:55,800 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is -0.0560797112240512 
+2018-10-24 14:35:10,619 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:35:10,632 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:35:10,656 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:35:10,656 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:35:10,665 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:35:10,665 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:35:10,665 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:35:10,665 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is -0.0560797112240512 
+2018-10-24 14:41:36,190 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:41:36,198 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:41:36,199 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:41:36,200 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:41:36,244 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:41:36,245 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:41:36,245 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:41:36,245 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.0560797112240512 
+2018-10-24 14:42:20,219 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:42:20,233 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:42:20,235 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:42:20,236 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:42:20,236 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:42:20,237 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:42:20,237 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:42:20,237 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:42:20,238 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:42:20,238 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:42:20,238 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:42:20,240 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:42:20,242 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:42:20,243 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:42:20,244 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:42:20,244 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:42:20,244 INFO c.e.a.Calculator [main] Small side is 1.9186861949163272 
+2018-10-24 14:42:20,245 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small 3.297709272128455 
+2018-10-24 14:42:20,253 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:42:20,253 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:42:20,254 INFO c.e.a.Calculator [main] Tetrahedron's height is 4.83045891539648 
+2018-10-24 14:42:20,254 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:42:20,254 INFO c.e.a.Calculator [main] Tetrahedron's height is 4.83045891539648 
+2018-10-24 14:42:20,263 INFO c.e.a.Calculator [main] This tetrahedron is not dissected therefore height of dissected tetrahedron is 0  
+2018-10-24 14:42:20,263 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:42:20,263 INFO c.e.a.Calculator [main] Tetrahedron's height is 4.83045891539648 
+2018-10-24 14:42:20,264 INFO c.e.a.Calculator [main] This tetrahedron is not dissected therefore height of dissected tetrahedron is 0  
+2018-10-24 14:42:20,264 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:42:20,264 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:42:20,265 INFO c.e.a.Calculator [main] Tetrahedron's height is 4.83045891539648 
+2018-10-24 14:42:20,265 INFO c.e.a.Calculator [main] This tetrahedron is not dissected therefore height of dissected tetrahedron is 0  
+2018-10-24 14:42:20,265 INFO c.e.a.Calculator [main] Small side is 6.831300510639733 
+2018-10-24 14:42:20,266 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small Infinity 
+2018-10-24 14:45:22,894 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:45:22,906 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:45:22,907 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:45:22,909 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:45:22,910 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:45:22,911 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:45:22,912 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:45:22,912 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:45:22,912 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:45:22,912 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:45:22,914 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:45:22,915 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:45:22,915 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:45:22,915 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:45:22,916 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:45:22,916 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:45:22,916 INFO c.e.a.Calculator [main] Small side is 1.9186861949163272 
+2018-10-24 14:45:22,916 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small 3.297709272128455 
+2018-10-24 14:45:22,921 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:45:22,923 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:45:22,925 INFO c.e.a.Calculator [main] Tetrahedron's height is 4.83045891539648 
+2018-10-24 14:45:22,926 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:45:22,928 INFO c.e.a.Calculator [main] Tetrahedron's height is 4.83045891539648 
+2018-10-24 14:45:22,930 INFO c.e.a.Calculator [main] This tetrahedron is not dissected therefore height of dissected tetrahedron is 0  
+2018-10-24 14:45:22,933 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:45:22,933 INFO c.e.a.Calculator [main] Tetrahedron's height is 4.83045891539648 
+2018-10-24 14:45:22,933 INFO c.e.a.Calculator [main] This tetrahedron is not dissected therefore height of dissected tetrahedron is 0  
+2018-10-24 14:46:00,465 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:00,490 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:00,491 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:46:00,492 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:00,492 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:46:00,493 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:46:00,494 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:46:00,494 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:00,494 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:46:00,495 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:46:00,495 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:46:00,495 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:00,495 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:00,497 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:46:00,498 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:46:00,498 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:46:00,498 INFO c.e.a.Calculator [main] Small side is 1.9186861949163272 
+2018-10-24 14:46:00,499 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small 3.297709272128455 
+2018-10-24 14:46:00,508 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:46:00,509 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:46:00,510 INFO c.e.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-10-24 14:46:00,510 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:46:00,511 INFO c.e.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-10-24 14:46:00,512 INFO c.e.a.Calculator [main] Dissected by the plane X 
+2018-10-24 14:46:00,513 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.6514837167011076 
+2018-10-24 14:46:00,513 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:46:00,514 INFO c.e.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-10-24 14:46:00,514 INFO c.e.a.Calculator [main] Dissected by the plane X 
+2018-10-24 14:46:00,515 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.6514837167011076 
+2018-10-24 14:46:00,515 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:46:00,515 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:46:00,516 INFO c.e.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-10-24 14:46:00,516 INFO c.e.a.Calculator [main] Dissected by the plane X 
+2018-10-24 14:46:00,516 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.6514837167011076 
+2018-10-24 14:46:00,517 INFO c.e.a.Calculator [main] Small side is 4.411709196523138 
+2018-10-24 14:46:00,517 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small 14.004701452978242 
+2018-10-24 14:46:00,519 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:00,519 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:00,520 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:46:00,520 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:00,521 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:46:00,521 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:46:00,525 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.9439202887759488 
+2018-10-24 14:46:00,525 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:00,526 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:46:00,526 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:46:00,526 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.9439202887759488 
+2018-10-24 14:46:00,527 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:00,527 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:00,527 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:46:00,527 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:46:00,528 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.9439202887759488 
+2018-10-24 14:46:00,528 INFO c.e.a.Calculator [main] Small side is 3.0733867332955787 
+2018-10-24 14:46:00,529 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small 7.52063340831528 
+2018-10-24 14:46:00,532 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:00,533 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:00,533 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:46:00,533 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:00,538 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:46:00,538 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:46:00,539 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.0560797112240512 
+2018-10-24 14:46:00,539 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:00,539 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:46:00,540 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:46:00,544 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.0560797112240512 
+2018-10-24 14:46:00,545 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:00,545 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:00,546 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:46:00,546 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:46:00,546 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.0560797112240512 
+2018-10-24 14:46:00,546 INFO c.e.a.Calculator [main] Small side is 4.098576726189701 
+2018-10-24 14:46:00,547 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small 136.6476001934528 
+2018-10-24 14:46:00,569 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:46:00,570 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:46:00,570 INFO c.e.a.Calculator [main] Tetrahedron's height is 4.83045891539648 
+2018-10-24 14:46:00,570 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:46:00,570 INFO c.e.a.Calculator [main] Tetrahedron's height is 4.83045891539648 
+2018-10-24 14:46:00,571 INFO c.e.a.Calculator [main] This tetrahedron is not dissected therefore height of dissected tetrahedron is 0  
+2018-10-24 14:46:00,571 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:46:00,571 INFO c.e.a.Calculator [main] Tetrahedron's height is 4.83045891539648 
+2018-10-24 14:46:00,571 INFO c.e.a.Calculator [main] This tetrahedron is not dissected therefore height of dissected tetrahedron is 0  
+2018-10-24 14:46:28,929 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:28,993 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:28,993 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:46:28,993 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:28,994 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:46:28,994 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:46:28,994 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:46:28,995 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:28,995 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:46:28,995 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:46:28,995 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:46:28,996 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:28,997 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:28,997 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:46:28,997 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:46:28,997 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:46:28,998 INFO c.e.a.Calculator [main] Small side is 1.9186861949163272 
+2018-10-24 14:46:28,998 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small 3.297709272128455 
+2018-10-24 14:46:29,004 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:46:29,004 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:46:29,004 INFO c.e.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-10-24 14:46:29,004 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:46:29,005 INFO c.e.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-10-24 14:46:29,005 INFO c.e.a.Calculator [main] Dissected by the plane X 
+2018-10-24 14:46:29,005 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.6514837167011076 
+2018-10-24 14:46:29,005 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:46:29,006 INFO c.e.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-10-24 14:46:29,007 INFO c.e.a.Calculator [main] Dissected by the plane X 
+2018-10-24 14:46:29,010 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.6514837167011076 
+2018-10-24 14:46:29,011 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:46:29,011 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:46:29,012 INFO c.e.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-10-24 14:46:29,013 INFO c.e.a.Calculator [main] Dissected by the plane X 
+2018-10-24 14:46:29,013 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.6514837167011076 
+2018-10-24 14:46:29,013 INFO c.e.a.Calculator [main] Small side is 4.411709196523138 
+2018-10-24 14:46:29,017 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small 14.004701452978242 
+2018-10-24 14:46:29,022 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:29,022 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:29,029 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:46:29,029 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:29,030 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:46:29,031 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:46:29,035 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.9439202887759488 
+2018-10-24 14:46:29,036 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:29,036 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:46:29,036 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:46:29,036 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.9439202887759488 
+2018-10-24 14:46:29,037 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:29,037 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:29,037 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:46:29,037 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:46:29,038 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.9439202887759488 
+2018-10-24 14:46:29,039 INFO c.e.a.Calculator [main] Small side is 3.0733867332955787 
+2018-10-24 14:46:29,039 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small 7.52063340831528 
+2018-10-24 14:46:29,043 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:29,051 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:29,051 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:46:29,051 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:29,052 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:46:29,052 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:46:29,052 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.0560797112240512 
+2018-10-24 14:46:29,053 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:29,053 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:46:29,054 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:46:29,056 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.0560797112240512 
+2018-10-24 14:46:29,057 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:29,057 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:46:29,058 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:46:29,058 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:46:29,058 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.0560797112240512 
+2018-10-24 14:46:29,058 INFO c.e.a.Calculator [main] Small side is 4.098576726189701 
+2018-10-24 14:46:29,085 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small 136.6476001934528 
+2018-10-24 14:46:29,088 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:46:29,088 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:46:29,092 INFO c.e.a.Calculator [main] Tetrahedron's height is 4.83045891539648 
+2018-10-24 14:46:29,093 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:46:29,094 INFO c.e.a.Calculator [main] Tetrahedron's height is 4.83045891539648 
+2018-10-24 14:46:29,095 INFO c.e.a.Calculator [main] This tetrahedron is not dissected therefore height of dissected tetrahedron is 0  
+2018-10-24 14:46:29,097 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:46:29,098 INFO c.e.a.Calculator [main] Tetrahedron's height is 4.83045891539648 
+2018-10-24 14:46:29,098 INFO c.e.a.Calculator [main] This tetrahedron is not dissected therefore height of dissected tetrahedron is 0  
+2018-10-24 14:48:06,563 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:48:06,569 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:48:06,570 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:48:06,570 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:48:06,570 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:48:06,570 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:48:06,571 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:48:06,571 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:48:06,571 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:48:06,571 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:48:06,572 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:48:06,572 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:48:06,572 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:48:06,573 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:48:06,577 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:48:06,578 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:48:06,578 INFO c.e.a.Calculator [main] Small side is 1.9186861949163272 
+2018-10-24 14:48:06,579 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small 3.297709272128455 
+2018-10-24 14:48:06,590 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:48:06,593 INFO c.e.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-10-24 14:48:06,597 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:48:06,597 INFO c.e.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-10-24 14:48:06,597 INFO c.e.a.Calculator [main] Dissected by the plane X 
+2018-10-24 14:48:06,598 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.6514837167011076 
+2018-10-24 14:48:06,598 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:48:06,600 INFO c.e.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-10-24 14:48:06,610 INFO c.e.a.Calculator [main] Dissected by the plane X 
+2018-10-24 14:48:06,611 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.6514837167011076 
+2018-10-24 14:48:06,613 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:48:06,613 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:48:06,621 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:48:06,622 INFO c.e.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-10-24 14:48:06,624 INFO c.e.a.Calculator [main] Dissected by the plane X 
+2018-10-24 14:48:06,625 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.6514837167011076 
+2018-10-24 14:48:06,626 INFO c.e.a.Calculator [main] Small side is 4.411709196523138 
+2018-10-24 14:48:06,627 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small 14.004701452978242 
+2018-10-24 14:48:06,630 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:48:06,630 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:48:06,631 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:48:06,631 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:48:06,637 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:48:06,638 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.9439202887759488 
+2018-10-24 14:48:06,640 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:48:06,642 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:48:06,642 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:48:06,643 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.9439202887759488 
+2018-10-24 14:48:06,643 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:48:06,644 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:48:06,644 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:48:06,645 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:48:06,645 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:48:06,646 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.9439202887759488 
+2018-10-24 14:48:06,647 INFO c.e.a.Calculator [main] Small side is 3.0733867332955787 
+2018-10-24 14:48:06,647 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small 7.52063340831528 
+2018-10-24 14:48:06,653 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:48:06,653 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:48:06,653 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:48:06,654 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:48:06,654 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:48:06,655 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.0560797112240512 
+2018-10-24 14:48:06,655 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:48:06,655 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:48:06,655 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:48:06,657 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.0560797112240512 
+2018-10-24 14:48:06,679 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:48:06,680 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:48:06,680 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:48:06,680 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:48:06,680 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:48:06,681 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.0560797112240512 
+2018-10-24 14:48:06,681 INFO c.e.a.Calculator [main] Small side is 4.098576726189701 
+2018-10-24 14:48:06,681 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small 136.6476001934528 
+2018-10-24 14:48:06,687 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:48:06,687 INFO c.e.a.Calculator [main] Tetrahedron's height is 4.83045891539648 
+2018-10-24 14:48:06,688 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:48:06,688 INFO c.e.a.Calculator [main] Tetrahedron's height is 4.83045891539648 
+2018-10-24 14:48:06,688 INFO c.e.a.Calculator [main] This tetrahedron is not dissected therefore height of dissected tetrahedron is 0  
+2018-10-24 14:48:06,688 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:48:06,688 INFO c.e.a.Calculator [main] Tetrahedron's height is 4.83045891539648 
+2018-10-24 14:48:06,688 INFO c.e.a.Calculator [main] This tetrahedron is not dissected therefore height of dissected tetrahedron is 0  
+2018-10-24 14:48:06,689 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:48:06,689 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:48:06,689 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:48:06,689 INFO c.e.a.Calculator [main] Tetrahedron's height is 4.83045891539648 
+2018-10-24 14:48:06,690 INFO c.e.a.Calculator [main] This tetrahedron is not dissected therefore height of dissected tetrahedron is 0  
+2018-10-24 14:48:06,699 INFO c.e.a.Calculator [main] Small side is 6.831300510639733 
+2018-10-24 14:48:06,821 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small Infinity 
+2018-10-24 14:50:31,305 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:50:31,332 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:50:31,332 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:50:31,334 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:50:31,335 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:50:31,337 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:50:31,343 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:50:31,344 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:50:31,345 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:50:31,346 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:50:31,346 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:50:31,347 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:50:31,348 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:50:31,349 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:50:31,350 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:50:31,351 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:50:31,352 INFO c.e.a.Calculator [main] Small side is 1.9186861949163272 
+2018-10-24 14:50:31,353 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small 3.297709272128455 
+2018-10-24 14:50:31,359 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:50:31,360 INFO c.e.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-10-24 14:50:31,360 INFO c.e.a.Calculator [main] Dissected by the plane X 
+2018-10-24 14:50:31,361 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.6514837167011076 
+2018-10-24 14:50:31,362 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:50:31,365 INFO c.e.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-10-24 14:50:31,369 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:50:31,370 INFO c.e.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-10-24 14:50:31,373 INFO c.e.a.Calculator [main] Dissected by the plane X 
+2018-10-24 14:50:31,373 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.6514837167011076 
+2018-10-24 14:50:31,375 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:50:31,376 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:50:31,376 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:50:31,377 INFO c.e.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-10-24 14:50:31,378 INFO c.e.a.Calculator [main] Dissected by the plane X 
+2018-10-24 14:50:31,378 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.6514837167011076 
+2018-10-24 14:50:31,379 INFO c.e.a.Calculator [main] Small side is 4.411709196523138 
+2018-10-24 14:50:31,380 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small 14.004701452978242 
+2018-10-24 14:50:31,382 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:50:31,383 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:50:31,383 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:50:31,384 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.9439202887759488 
+2018-10-24 14:50:31,391 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:50:31,392 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:50:31,399 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:50:31,411 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:50:31,432 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:50:31,442 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.9439202887759488 
+2018-10-24 14:50:31,445 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:50:31,449 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:50:31,452 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:50:31,454 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:50:31,457 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:50:31,458 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.9439202887759488 
+2018-10-24 14:50:31,459 INFO c.e.a.Calculator [main] Small side is 3.0733867332955787 
+2018-10-24 14:50:31,459 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small 7.52063340831528 
+2018-10-24 14:50:31,461 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:50:31,463 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:50:31,464 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:50:31,465 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.0560797112240512 
+2018-10-24 14:50:31,466 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:50:31,467 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:50:31,469 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:50:31,470 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:50:31,470 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:50:31,474 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.0560797112240512 
+2018-10-24 14:50:31,476 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:50:31,477 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:50:31,478 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:50:31,478 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:50:31,479 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:50:31,479 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.0560797112240512 
+2018-10-24 14:50:31,480 INFO c.e.a.Calculator [main] Small side is 4.098576726189701 
+2018-10-24 14:50:31,480 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small 136.6476001934528 
+2018-10-24 14:50:31,482 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:50:31,483 INFO c.e.a.Calculator [main] Tetrahedron's height is 4.83045891539648 
+2018-10-24 14:50:31,483 INFO c.e.a.Calculator [main] This tetrahedron is not dissected therefore height of dissected tetrahedron is 0  
+2018-10-24 14:50:31,493 INFO c.e.a.Calculator [main] Height of small pyramid is 0, therefore volume ratio also is 0 
+2018-10-24 14:51:45,867 INFO c.e.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-24 14:51:45,887 INFO c.e.a.Calculator [main] Tetrahedron's square is 13.856406460551021 
+2018-10-24 14:51:45,893 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:51:45,894 INFO c.e.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-24 14:51:45,897 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:51:45,898 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:51:45,899 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:51:45,899 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:51:45,901 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:51:45,902 INFO c.e.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-10-24 14:51:45,902 INFO c.e.a.Calculator [main] Dissected by the plane X 
+2018-10-24 14:51:45,904 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.6514837167011076 
+2018-10-24 14:51:45,933 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:51:45,934 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:51:45,934 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:51:45,935 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.9439202887759488 
+2018-10-24 14:51:45,937 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:51:45,938 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:51:45,939 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:51:45,942 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.0560797112240512 
+2018-10-24 14:51:45,944 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:51:45,945 INFO c.e.a.Calculator [main] Tetrahedron's height is 4.83045891539648 
+2018-10-24 14:51:45,945 INFO c.e.a.Calculator [main] This tetrahedron is not dissected therefore height of dissected tetrahedron is 0  
+2018-10-24 14:51:45,948 INFO c.e.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-24 14:51:45,949 INFO c.e.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-24 14:51:45,951 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:51:45,955 INFO c.e.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-24 14:51:45,959 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:51:45,959 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:51:45,960 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:51:45,961 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:51:45,962 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:51:45,964 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:51:45,964 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:51:45,966 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:51:45,966 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:51:45,967 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:51:45,968 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:51:45,970 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:51:45,971 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:51:45,972 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:51:45,973 INFO c.e.a.Calculator [main] Dissected by the plane Z 
+2018-10-24 14:51:45,976 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-10-24 14:51:45,977 INFO c.e.a.Calculator [main] Small side is 1.9186861949163272 
+2018-10-24 14:51:45,978 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small 3.297709272128455 
+2018-10-24 14:51:45,979 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:51:45,980 INFO c.e.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-10-24 14:51:45,981 INFO c.e.a.Calculator [main] Dissected by the plane X 
+2018-10-24 14:51:45,981 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.6514837167011076 
+2018-10-24 14:51:45,982 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:51:45,983 INFO c.e.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-10-24 14:51:45,984 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:51:45,984 INFO c.e.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-10-24 14:51:45,985 INFO c.e.a.Calculator [main] Dissected by the plane X 
+2018-10-24 14:51:45,986 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.6514837167011076 
+2018-10-24 14:51:45,989 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:51:45,989 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:51:45,991 INFO c.e.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-24 14:51:45,992 INFO c.e.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-10-24 14:51:45,993 INFO c.e.a.Calculator [main] Dissected by the plane X 
+2018-10-24 14:51:45,993 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.6514837167011076 
+2018-10-24 14:51:45,995 INFO c.e.a.Calculator [main] Small side is 4.411709196523138 
+2018-10-24 14:51:45,996 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small 14.004701452978242 
+2018-10-24 14:51:46,032 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:51:46,033 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:51:46,035 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:51:46,036 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.9439202887759488 
+2018-10-24 14:51:46,036 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:51:46,037 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:51:46,037 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:51:46,038 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:51:46,038 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:51:46,039 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.9439202887759488 
+2018-10-24 14:51:46,039 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:51:46,040 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:51:46,042 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:51:46,043 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:51:46,044 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:51:46,045 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.9439202887759488 
+2018-10-24 14:51:46,045 INFO c.e.a.Calculator [main] Small side is 3.0733867332955787 
+2018-10-24 14:51:46,046 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small 7.52063340831528 
+2018-10-24 14:51:46,048 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:51:46,048 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:51:46,049 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:51:46,049 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.0560797112240512 
+2018-10-24 14:51:46,050 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:51:46,052 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:51:46,053 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:51:46,053 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:51:46,054 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:51:46,054 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.0560797112240512 
+2018-10-24 14:51:46,054 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:51:46,055 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:51:46,055 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:51:46,061 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-10-24 14:51:46,064 INFO c.e.a.Calculator [main] Dissected by the plane Y 
+2018-10-24 14:51:46,065 INFO c.e.a.Calculator [main] Height of dissected tetrahedron is 0.0560797112240512 
+2018-10-24 14:51:46,066 INFO c.e.a.Calculator [main] Small side is 4.098576726189701 
+2018-10-24 14:51:46,066 INFO c.e.a.Calculator [main] The ratio of the truncated pyramid to the small 136.6476001934528 
+2018-10-24 14:51:46,070 INFO c.e.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-24 14:51:46,071 INFO c.e.a.Calculator [main] Tetrahedron's height is 4.83045891539648 
+2018-10-24 14:51:46,072 INFO c.e.a.Calculator [main] This tetrahedron is not dissected therefore height of dissected tetrahedron is 0  
+2018-10-24 14:51:46,073 INFO c.e.a.Calculator [main] Height of small pyramid is 0, therefore volume ratio also is 0 
+2018-10-24 14:51:46,077 INFO c.e.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-24 14:51:46,078 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.3094010767585034 
+2018-10-24 14:51:46,079 INFO c.e.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-24 14:51:46,080 INFO c.e.a.Calculator [main] Tetrahedron's height is 2.943920288775949 

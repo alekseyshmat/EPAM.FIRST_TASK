@@ -36,6 +36,7 @@ public class TetrahedronActions {
         TetrahedronPoint pointA = tetrahedron.getTetrahedronPointA();
         TetrahedronPoint pointB = tetrahedron.getTetrahedronPointB();
         TetrahedronPoint pointC = tetrahedron.getTetrahedronPointC();
+
         if (pointA.getX() > 0
                 && pointA.getY() > 0
                 && pointB.getY() > 0

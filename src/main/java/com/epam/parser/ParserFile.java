@@ -12,11 +12,9 @@ public class ParserFile {
 
     private static final Logger logger = LogManager.getLogger(ParserFile.class);
     private Validation validation;
-    private DataReader dataReader;
 
     public ParserFile() {
         validation = new Validation();
-        dataReader = new DataReader();
     }
 
     public List<Double> parsingLines(List<String> inputList) {

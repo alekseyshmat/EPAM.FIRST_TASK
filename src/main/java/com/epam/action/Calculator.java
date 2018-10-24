@@ -50,15 +50,6 @@ public class Calculator {
         return height;
     }
 
-    public double sideOfSection(Tetrahedron tetrahedron) {
-        TetrahedronPoint pointA = tetrahedron.getTetrahedronPointA();
-        TetrahedronPoint pointB = tetrahedron.getTetrahedronPointB();
-        double edge = calculateSide(pointA, pointB);
-        double smallSide = 2 * (edge - calculateHeightOfSmallPyramid(tetrahedron)) / Math.sqrt(NUMBER_THREE);
-        logger.info("Small side is " + smallSide);
-        return smallSide;
-    }
-
     public double calculateHeightOfSmallPyramid(Tetrahedron tetrahedron) {
         TetrahedronPoint pointA = tetrahedron.getTetrahedronPointA();
         TetrahedronPoint pointB = tetrahedron.getTetrahedronPointB();
@@ -75,7 +66,7 @@ public class Calculator {
             smallHeight = height - Math.abs(pointA.getX());
             logger.info("Dissected by the plane X");
         } else if (pointA.getY() == pointB.getY() && pointB.getY() == pointC.getY() && pointD.getY() != 0) {
-            smallHeight = height - Math.abs(pointA.getY());
+            smallHeight = Math.abs(height - Math.abs(pointA.getY()));
             logger.info("Dissected by the plane Y");
         } else {
             logger.info("This tetrahedron is not dissected therefore height of dissected tetrahedron is 0 ");
@@ -85,12 +76,26 @@ public class Calculator {
         return smallHeight;
     }
 
-    public double volumeRatio(Tetrahedron tetrahedron) {
+    private double sideOfSection(Tetrahedron tetrahedron) {
         TetrahedronPoint pointA = tetrahedron.getTetrahedronPointA();
         TetrahedronPoint pointB = tetrahedron.getTetrahedronPointB();
         double edge = calculateSide(pointA, pointB);
-        double heightOfTruncatedPyramid = calculateHeight(tetrahedron) - calculateHeightOfSmallPyramid(tetrahedron);
+        double smallSide = 2 * (edge - calculateHeightOfSmallPyramid(tetrahedron)) / Math.sqrt(NUMBER_THREE);
+        logger.info("Small side is " + smallSide);
+        return smallSide;
+    }
+
+    public double volumeRatio(Tetrahedron tetrahedron) {
+        TetrahedronPoint pointA = tetrahedron.getTetrahedronPointA();
+        TetrahedronPoint pointB = tetrahedron.getTetrahedronPointB();
+
         double heightOfSmallPyramid = calculateHeightOfSmallPyramid(tetrahedron);
+        if (heightOfSmallPyramid == 0) {
+            logger.info("Height of small pyramid is 0, therefore volume ratio also is 0");
+            return 0;
+        }
+        double heightOfTruncatedPyramid = calculateHeight(tetrahedron) - calculateHeightOfSmallPyramid(tetrahedron);
+        double edge = calculateSide(pointA, pointB);
         double squareOfTruncatedPyramid = Math.pow(edge, 2) * Math.sqrt(NUMBER_THREE) / 4;
         double squareOfSmallPyramid = Math.pow(sideOfSection(tetrahedron), 2) * Math.sqrt(NUMBER_THREE) / 4;
 
