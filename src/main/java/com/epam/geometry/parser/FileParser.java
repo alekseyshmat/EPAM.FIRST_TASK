@@ -16,17 +16,17 @@ public class FileParser {
         validation = new Validation();
     }
 
-    public List<double[]> parsingLines(List<String> inputList) {
-        List<double[]> resultList = new ArrayList<>();
-        double[] coordinateData = new double[50];
+    public List<List<Double>> parsingLines(List<String> inputList) {
+        List<List<Double>> resultList = new ArrayList<>();
         for (String line : inputList) {
             if (validation.isValid(line)) {
                 logger.info("Line: " + line + " is valid line");
                 String[] numbers = line.split("\\s");
-                for (int i = 0; i < numbers.length; i++) {
-                    coordinateData[i] = Double.parseDouble(numbers[i]);
+                List<Double> numberList = new ArrayList<>();
+                for (String number : numbers) {
+                    numberList.add(Double.parseDouble(number));
                 }
-                resultList.add(coordinateData);
+                resultList.add(numberList);
             } else {
                 logger.info("Line: " + line + " is not valid line");
             }

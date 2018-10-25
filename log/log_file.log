@@ -2611,3 +2611,76 @@
 2018-10-24 21:06:07,451 INFO c.e.g.p.FileParser [main] Line: -1 2 3 2 2 1 2.23 2 4.6 1.08 -0.94 2.87 is valid line 
 2018-10-24 21:07:00,941 INFO c.e.g.p.FileParser [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 is valid line 
 2018-10-24 21:08:25,208 INFO c.e.g.p.FileParser [main] Line: -1 2 3 2 2 1 2.23 2 4.6 1.08 -0.94 2.87 is valid line 
+2018-10-25 12:55:34,929 INFO c.e.g.r.DataReader [main] File was read 
+2018-10-25 12:55:34,944 INFO c.e.g.p.FileParser [main] Line: 2.0 0.0f 0 0 -2 0 1 0 1 0 1 1 is not valid line 
+2018-10-25 12:55:34,944 INFO c.e.g.p.FileParser [main] Line: Ad.2 0 0 =0 2 0 1 0 1 0 1 1 is not valid line 
+2018-10-25 12:55:34,960 INFO c.e.g.p.FileParser [main] Line: 2.00 0 0 0 2.00 0 1 0 1 0 1 00 is valid line 
+2018-10-25 12:55:34,960 INFO c.e.g.p.FileParser [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1f is not valid line 
+2018-10-25 12:55:34,960 INFO c.e.g.p.FileParser [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 is valid line 
+2018-10-25 12:55:34,960 INFO c.e.g.p.FileParser [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 sd is not valid line 
+2018-10-25 12:55:34,960 INFO c.e.g.p.FileParser [main] Line:  2 0   0 0 2 0 1 0 1 0 1 1 is not valid line 
+2018-10-25 12:55:34,960 INFO c.e.g.c.TetrahedronCreator [main] Create new tetrahedron 
+2018-10-25 12:55:34,960 INFO c.e.g.c.TetrahedronCreator [main] Create new tetrahedron 
+2018-10-25 12:55:34,976 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-25 12:55:34,976 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 13.856406460551021 
+2018-10-25 12:55:34,976 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-25 12:55:34,976 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 13.856406460551021 
+2018-10-25 12:56:07,870 INFO c.e.g.r.DataReader [main] File was read 
+2018-10-25 12:56:07,870 INFO c.e.g.p.FileParser [main] Line: -2 0 -1 0 -3 -1 1.6 0.23 -1 -0.13 -0.92 1.94 is valid line 
+2018-10-25 12:56:07,886 INFO c.e.g.p.FileParser [main] Line: 3 -1 0 3 1 4 3 3.46 0.27 6.65 1.16 1.42 is valid line 
+2018-10-25 12:56:07,886 INFO c.e.g.p.FileParser [main] Line: -1 2 3 2 2 1 2.23 2 4.6 1.08 -0.94 2.87 is valid line 
+2018-10-25 12:56:07,886 INFO c.e.g.p.FileParser [main] Line: -1 2 3 2 2 1 2.23 2 4.6 1.08 -0.94 2.87d is not valid line 
+2018-10-25 12:56:07,886 INFO c.e.g.c.TetrahedronCreator [main] Create new tetrahedron 
+2018-10-25 12:56:07,886 INFO c.e.g.c.TetrahedronCreator [main] Create new tetrahedron 
+2018-10-25 12:56:07,886 INFO c.e.g.c.TetrahedronCreator [main] Create new tetrahedron 
+2018-10-25 12:56:07,886 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-25 12:56:07,886 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-25 12:56:07,886 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-25 12:56:07,886 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 34.64101615137755 
+2018-10-25 12:56:07,901 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-25 12:56:07,901 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-25 12:58:13,043 INFO c.e.g.r.DataReader [main] File was read 
+2018-10-25 12:58:13,043 INFO c.e.g.p.FileParser [main] Line: -1 2 3 2 2 1 2.23 2 4.6 1.08 -0.94 2.87d is not valid line 
+2018-10-25 12:58:13,043 INFO c.e.g.p.FileParser [main] Line: -2 0 -1 0 -3 -1 1.6 0.23 -1 -0.13 -0.92 1.94 is valid line 
+2018-10-25 12:58:13,043 INFO c.e.g.p.FileParser [main] Line: 3 -1 0 3 1 4 3 3.46 0.27 6.65 1.16 1.42 is valid line 
+2018-10-25 12:58:13,043 INFO c.e.g.p.FileParser [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 is valid line 
+2018-10-25 12:58:13,043 INFO c.e.g.p.FileParser [main] Line: -1 2 3 2 2 1 2.23 2 4.6 1.08 -0.94 2.87d is not valid line 
+2018-10-25 12:58:13,059 INFO c.e.g.c.TetrahedronCreator [main] Create new tetrahedron 
+2018-10-25 12:58:13,059 INFO c.e.g.c.TetrahedronCreator [main] Create new tetrahedron 
+2018-10-25 12:58:13,059 INFO c.e.g.c.TetrahedronCreator [main] Create new tetrahedron 
+2018-10-25 12:58:13,059 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-25 12:58:13,059 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-25 12:58:13,059 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-25 12:58:13,059 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 34.64101615137755 
+2018-10-25 12:58:13,059 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-25 12:58:13,059 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 13.856406460551021 
+2018-10-25 13:04:21,683 INFO c.e.g.r.DataReader [main] File was read 
+2018-10-25 13:04:21,726 INFO c.e.g.p.FileParser [main] Line: -1 2 3 2 2 1 2.23 2 4.6 1.08 -0.94 2.87d is not valid line 
+2018-10-25 13:04:21,727 INFO c.e.g.p.FileParser [main] Line: -2 0 -1 0 -3 -1 1.6 0.23 -1 -0.13 -0.92 1.94 is valid line 
+2018-10-25 13:04:21,728 INFO c.e.g.p.FileParser [main] Line: 3 -1 0 3 1 4 3 3.46 0.27 6.65 1.16 1.42 is valid line 
+2018-10-25 13:04:21,729 INFO c.e.g.p.FileParser [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 is valid line 
+2018-10-25 13:04:21,730 INFO c.e.g.p.FileParser [main] Line: -1 2 3 2 2 1 2.23 2 4.6 1.08 -0.94 2.87d is not valid line 
+2018-10-25 13:04:21,740 INFO c.e.g.c.TetrahedronCreator [main] Create new tetrahedron 
+2018-10-25 13:04:21,741 INFO c.e.g.c.TetrahedronCreator [main] Create new tetrahedron 
+2018-10-25 13:04:21,742 INFO c.e.g.c.TetrahedronCreator [main] Create new tetrahedron 
+2018-10-25 13:04:21,751 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-25 13:04:21,752 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-25 13:04:21,752 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-25 13:04:21,753 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 34.64101615137755 
+2018-10-25 13:04:21,753 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-25 13:04:21,753 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 13.856406460551021 
+2018-10-25 13:04:50,563 INFO c.e.g.r.DataReader [main] File was read 
+2018-10-25 13:04:50,575 INFO c.e.g.p.FileParser [main] Line: -1 2 3 2 2 1 2.23 2 4.6 1.08 -0.94 2.87d is not valid line 
+2018-10-25 13:04:50,576 INFO c.e.g.p.FileParser [main] Line: -2 0 -1 0 -3 -1 1.6 0.23 -1 -0.13 -0.92 1.94 is valid line 
+2018-10-25 13:04:50,578 INFO c.e.g.p.FileParser [main] Line: 3 -1 0 3 1 4 3 3.46 0.27 6.65 1.16 1.42 is valid line 
+2018-10-25 13:04:50,578 INFO c.e.g.p.FileParser [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 is valid line 
+2018-10-25 13:04:50,579 INFO c.e.g.p.FileParser [main] Line: -1 2 3 2 2 1 2.23 2 4.6 1.08 -0.94 2.87d is not valid line 
+2018-10-25 13:08:05,094 INFO c.e.g.c.TetrahedronCreator [main] Create new tetrahedron 
+2018-10-25 13:08:22,530 INFO c.e.g.c.TetrahedronCreator [main] Create new tetrahedron 
+2018-10-25 13:08:22,531 INFO c.e.g.c.TetrahedronCreator [main] Create new tetrahedron 
+2018-10-25 13:08:22,535 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-25 13:08:22,535 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-25 13:08:22,536 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-25 13:08:22,537 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 34.64101615137755 
+2018-10-25 13:08:22,538 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-25 13:08:22,539 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 13.856406460551021 

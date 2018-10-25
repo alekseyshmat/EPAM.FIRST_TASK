@@ -24,24 +24,27 @@ public class DataReaderTest {
     @DataProvider
     public static Object[][] dataForReadingLinesTestPositive() {
         final String VALID_PATH = "src/test/resources/test.txt";
-        return new Object[][]{{VALID_PATH, Arrays.asList("2.0 0.0f 0 0 -2 0 1 0 1 0 1 1",
-                "Ad.2 0 0 =0 2 0 1 0 1 0 1 1",
-                "2.00 0 0 0 2.00 0 1 0 1 0 1 00",
-                "2 0 0 0 2 0 1 0 1 0 1 1f",
-                "2 0 0 0 2 0 1 0 1 0 1 1",
-                "2 0 0 0 2 0 1 0 1 0 1 1 sd",
-                " 2 0   0 0 2 0 1 0 1 0 1 1")}};
+        return new Object[][]{
+                {
+                        Arrays.asList("2.0 0.0f 0 0 -2 0 1 0 1 0 1 1",
+                                "Ad.2 0 0 =0 2 0 1 0 1 0 1 1",
+                                "2.00 0 0 0 2.00 0 1 0 1 0 1 00",
+                                "2 0 0 0 2 0 1 0 1 0 1 1f",
+                                "2 0 0 0 2 0 1 0 1 0 1 1",
+                                "2 0 0 0 2 0 1 0 1 0 1 1 sd",
+                                " 2 0   0 0 2 0 1 0 1 0 1 1"),
+                        VALID_PATH
+                }
+        };
     }
 
     @Test(dataProvider = "dataForReadingLinesTestPositive")
-    public void readingLinesTestPositive(String path, List<String> expectedResult) throws ReadingFileException {
-        List actual = new ArrayList<>();
+    public void readingLinesTestPositive(List<String> expectedResult, String path) throws ReadingFileException {
         try {
-            actual = dataReader.readingLines(path);
+            List<String> actual = dataReader.readingLines(path);
+            Assert.assertEquals(actual, expectedResult);
         } catch (ReadingFileException | IOException e) {
             throw new ReadingFileException(e);
         }
-        Assert.assertEquals(actual, expectedResult);
     }
-    
 }
