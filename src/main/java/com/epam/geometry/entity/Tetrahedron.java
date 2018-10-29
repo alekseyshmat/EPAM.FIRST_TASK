@@ -1,15 +1,33 @@
 package com.epam.geometry.entity;
 
-public class Tetrahedron {
+import com.epam.geometry.action.Calculator;
+import com.epam.geometry.observer.Observable;
+import com.epam.geometry.observer.Observer;
+import com.epam.geometry.observer.TetrahedronEvent;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Tetrahedron implements Observable<Observer> {
+
+    private List<Observer> observers = new ArrayList<>();
+    private static final Logger LOGGER = LogManager.getLogger();
 
     private Point pointA, pointB, pointC, pointD;
+    private Observer observer;
     private long id;
+    private double sideAB, sideAC, sideBC;
+
+    private Calculator calculator = new Calculator(); // todo may be static??
 
     public Tetrahedron(Point pointA, Point pointB, Point pointC, Point pointD) {
         this.pointA = pointA;
         this.pointB = pointB;
         this.pointC = pointC;
         this.pointD = pointD;
+        notifyObservers();
     }
 
     public Point getPointA() {
@@ -34,6 +52,39 @@ public class Tetrahedron {
 
     public void setId(long id) {
         this.id = id;
+    }
+
+    public double getSideAB() {
+        sideAB = calculator.calculateSide(pointA, pointB);
+        return sideAB;
+    }
+
+    public double getSideAC() {
+        sideAC = calculator.calculateSide(pointA, pointC);
+        return sideAC;
+    }
+
+    public double getSideBC() {
+        sideBC = calculator.calculateSide(pointB, pointC);
+        return sideBC;
+    }
+
+    public void setSideAB(double sideAB) {
+        this.sideAB = sideAB;
+        notifyObservers();
+        LOGGER.info("Side AB was changed");
+    }
+
+    public void setSideAC(double sideAC) {
+        this.sideAC = sideAC;
+        notifyObservers();
+        LOGGER.info("Side AC was changed");
+    }
+
+    public void setSideBC(double sideBC) {
+        this.sideBC = sideBC;
+        notifyObservers();
+        LOGGER.info("Side BC was changed");
     }
 
     @Override
@@ -66,7 +117,28 @@ public class Tetrahedron {
 
     @Override
     public String toString() {
-        return "Tetrahedron{pointA=" + pointA + ", pointB=" + pointB +
+        return "Tetrahedron {pointA=" + pointA + ", pointB=" + pointB +
                 ", pointC=" + pointC + ", pointD=" + pointD + '}';
+    }
+
+    @Override
+    public void addObserver(Observer observer) {
+        this.observer = observer;
+        observers.add(observer);
+        LOGGER.info("Adding observer is done");
+    }
+
+    @Override
+    public void removeObserver(Observer observer) {
+        this.observer = observer;
+        observers.remove(observer);
+        LOGGER.info("Removing observer is done");
+    }
+
+    @Override
+    public void notifyObservers() {
+        for (Observer observer : observers) {
+            observer.handleEvent(new TetrahedronEvent(this));
+        }
     }
 }

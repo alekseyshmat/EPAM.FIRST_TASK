@@ -1,5 +1,6 @@
 package com.epam.geometry.creator;
 
+import com.epam.geometry.generator.Generator;
 import com.epam.geometry.entity.Point;
 import com.epam.geometry.entity.Tetrahedron;
 import org.apache.logging.log4j.LogManager;
@@ -11,8 +12,12 @@ import java.util.List;
 
 public class TetrahedronCreator {
 
-    private static final Logger logger = LogManager.getLogger();
-    private Point pointA, pointB, pointC, pointD;
+    private static final Logger LOGGER = LogManager.getLogger();
+    private static final int INDEX_A = 0;
+    private static final int INDEX_B = 1;
+    private static final int INDEX_C = 2;
+    private static final int INDEX_D = 3;
+
     public TetrahedronCreator() {
     }
 
@@ -23,11 +28,16 @@ public class TetrahedronCreator {
             Point point = new Point(iterator.next(), iterator.next(), iterator.next());
             tetrahedronCoordinates.add(point);
         }
-        pointA = tetrahedronCoordinates.get(0);
-        pointB = tetrahedronCoordinates.get(1);
-        pointC = tetrahedronCoordinates.get(2);
-        pointD = tetrahedronCoordinates.get(3);
-        logger.info("Create new tetrahedron");
-        return new Tetrahedron(pointA, pointB, pointC, pointD);
+        Point pointA = tetrahedronCoordinates.get(INDEX_A);
+        Point pointB = tetrahedronCoordinates.get(INDEX_B);
+        Point pointC = tetrahedronCoordinates.get(INDEX_C);
+        Point pointD = tetrahedronCoordinates.get(INDEX_D);
+        Tetrahedron tetrahedron = new Tetrahedron(pointA, pointB, pointC, pointD);
+
+        long tetrahedronId = Generator.generate();
+        tetrahedron.setId(tetrahedronId);
+        LOGGER.info("Create new tetrahedron");
+        LOGGER.info("Tetrahedron's ID is " + tetrahedronId);
+        return tetrahedron;
     }
 }

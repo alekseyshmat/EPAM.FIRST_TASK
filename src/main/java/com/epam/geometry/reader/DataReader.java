@@ -11,7 +11,7 @@ import java.util.List;
 public class DataReader {
 
     private static final String MESSAGE_FOR_EXCEPTION = "File is not found";
-    private static final Logger logger = LogManager.getLogger(DataReader.class);
+    private static final Logger LOGGER = LogManager.getLogger(DataReader.class);
 
     public DataReader() {
     }
@@ -26,9 +26,9 @@ public class DataReader {
             while ((tmp = bufferedReader.readLine()) != null) {
                 linesWithValues.add(tmp);
             }
-            logger.info("File was read");
+            LOGGER.info("File was read");
         } catch (Exception ex) {
-            logger.info("File is not found");
+            LOGGER.info("File is not found");
             throw new ReadingFileException(MESSAGE_FOR_EXCEPTION, ex);
         } finally {
             if (bufferedReader != null) {

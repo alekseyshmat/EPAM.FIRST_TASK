@@ -9,8 +9,9 @@ import java.util.List;
 
 public class FileParser {
 
-    private static final Logger logger = LogManager.getLogger(FileParser.class);
+    private static final Logger LOGGER = LogManager.getLogger(FileParser.class);
     private Validation validation;
+    private static final String LINE_SPLIT = "\\s";
 
     public FileParser() {
         validation = new Validation();
@@ -20,15 +21,15 @@ public class FileParser {
         List<List<Double>> resultList = new ArrayList<>();
         for (String line : inputList) {
             if (validation.isValid(line)) {
-                logger.info("Line: " + line + " is valid line");
-                String[] numbers = line.split("\\s");
+                LOGGER.info("Line: " + line + " is valid line");
+                String[] numbers = line.split(LINE_SPLIT);
                 List<Double> numberList = new ArrayList<>();
                 for (String number : numbers) {
                     numberList.add(Double.parseDouble(number));
                 }
                 resultList.add(numberList);
             } else {
-                logger.info("Line: " + line + " is not valid line");
+                LOGGER.info("Line: " + line + " is not valid line");
             }
         }
         return resultList;
