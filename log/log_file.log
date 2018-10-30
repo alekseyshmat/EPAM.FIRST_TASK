@@ -3184,3 +3184,14 @@
 2018-10-30 21:50:53,322 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
 2018-10-30 21:50:53,323 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
 2018-10-30 21:50:53,323 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done:side of first tetrahedron shorter then side of second tetrahedron 
+2018-10-30 22:01:36,211 INFO c.e.g.p.FileParser [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 is valid line 
+2018-10-30 22:01:36,233 INFO c.e.g.p.FileParser [main] Line: -1 2 3 2 2 1 2.23 2 4.6 1.08 -0.94 2.87 is valid line 
+2018-10-30 22:06:46,420 INFO c.e.g.p.FileParser [main] Line: 2.0 0.0f 0 0 -2 0 1 0 1 0 1 1 Ad.2 0 0 =0 2 0 1 0 1 0 1 1 is not valid line 
+2018-10-30 22:06:46,431 INFO c.e.g.p.FileParser [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 is valid line 
+2018-10-30 22:06:46,432 INFO c.e.g.p.FileParser [main] Line: -1 2 3 2 2 1 2.23 2 4.6 1.08 -0.94 2.87 is valid line 
+2018-10-30 22:08:57,965 INFO c.e.g.p.FileParser [main] Line: 2.0 0.0f 0 0 -2 0 1 0 1 0 1 1 Ad.2 0 0 =0 2 0 1 0 1 0 1 1 is not valid line 
+2018-10-30 22:08:57,996 INFO c.e.g.p.FileParser [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 is valid line 
+2018-10-30 22:08:57,997 INFO c.e.g.p.FileParser [main] Line: -1 2 3 2 2 1 2.23 2 4.6 1.08 -0.94 2.87 is valid line 
+2018-10-30 22:11:36,748 INFO c.e.g.p.FileParser [main] Line: 2.0 0.0f 0 0 -2 0 1 0 1 0 1 1 Ad.2 0 0 =0 2 0 1 0 1 0 1 1 is not valid line 
+2018-10-30 22:11:36,775 INFO c.e.g.p.FileParser [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 is valid line 
+2018-10-30 22:11:36,776 INFO c.e.g.p.FileParser [main] Line: -1 2 3 2 2 1 2.23 2 4.6 1.08 -0.94 2.87 is valid line 
