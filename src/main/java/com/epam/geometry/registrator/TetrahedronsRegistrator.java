@@ -6,8 +6,6 @@ import com.epam.geometry.entity.Tetrahedron;
 import com.epam.geometry.observer.Observer;
 import com.epam.geometry.observer.TetrahedronEvent;
 
-import java.util.Map;
-
 public class TetrahedronsRegistrator implements Observer {
 
     private Calculator calculator = new Calculator();
@@ -54,9 +52,9 @@ public class TetrahedronsRegistrator implements Observer {
     public void handleEvent(TetrahedronEvent event) {
         Tetrahedron tetrahedron = event.getTetrahedron();
         Tetrahedron t = TetrahedronActions.changePointsValues(tetrahedron);
-        setId(tetrahedron.getId());
-        setArea(calculator.calculateArea(t));
-        setVolume(calculator.calculateVolume(t));
+        id = tetrahedron.getId();
+        area = calculator.calculateArea(t);
+        volume = calculator.calculateVolume(t);
 
         //todo add logger
     }

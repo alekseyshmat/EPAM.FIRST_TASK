@@ -51,10 +51,6 @@ public class Tetrahedron implements Observable<Observer> {
         return id;
     }
 
-    public void setId(long id) {
-        this.id = id;
-    }
-
     public double getSideAB() {
         sideAB = calculator.calculateSide(pointA, pointB);
         return sideAB;
@@ -125,6 +121,7 @@ public class Tetrahedron implements Observable<Observer> {
     @Override
     public void addObserver(Observer observer) {
         observers.add(observer);
+        observer.handleEvent(new TetrahedronEvent(this));
         LOGGER.info("Adding observer is done");
     }
 
