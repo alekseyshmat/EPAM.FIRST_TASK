@@ -1,6 +1,7 @@
 package com.epam.geometry.entity;
 
 import com.epam.geometry.action.Calculator;
+import com.epam.geometry.generator.Generator;
 import com.epam.geometry.observer.Observable;
 import com.epam.geometry.observer.Observer;
 import com.epam.geometry.observer.TetrahedronEvent;
@@ -26,6 +27,7 @@ public class Tetrahedron implements Observable<Observer> {
         this.pointB = pointB;
         this.pointC = pointC;
         this.pointD = pointD;
+        this.id = Generator.generate();
         notifyObservers();
     }
 

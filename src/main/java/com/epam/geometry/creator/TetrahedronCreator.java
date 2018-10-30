@@ -33,11 +33,8 @@ public class TetrahedronCreator {
         Point pointC = tetrahedronCoordinates.get(INDEX_C);
         Point pointD = tetrahedronCoordinates.get(INDEX_D);
         Tetrahedron tetrahedron = new Tetrahedron(pointA, pointB, pointC, pointD);
-
-        long tetrahedronId = Generator.generate();
-        tetrahedron.setId(tetrahedronId);
         LOGGER.info("Create new tetrahedron");
-        LOGGER.info("Tetrahedron's ID is " + tetrahedronId);
+
         return tetrahedron;
     }
 }

@@ -3195,3 +3195,1028 @@
 2018-10-30 22:11:36,748 INFO c.e.g.p.FileParser [main] Line: 2.0 0.0f 0 0 -2 0 1 0 1 0 1 1 Ad.2 0 0 =0 2 0 1 0 1 0 1 1 is not valid line 
 2018-10-30 22:11:36,775 INFO c.e.g.p.FileParser [main] Line: 2 0 0 0 2 0 1 0 1 0 1 1 is valid line 
 2018-10-30 22:11:36,776 INFO c.e.g.p.FileParser [main] Line: -1 2 3 2 2 1 2.23 2 4.6 1.08 -0.94 2.87 is valid line 
+2018-10-31 00:00:13,931 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 00:00:13,950 INFO c.e.g.c.TetrahedronCreator [main] Create new tetrahedron 
+2018-10-31 00:00:13,950 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 00:00:13,951 INFO c.e.g.c.TetrahedronCreator [main] Create new tetrahedron 
+2018-10-31 00:00:13,951 DEBUG c.e.g.s.s.SortById [main] Sort by id is done: first id < second id 
+2018-10-31 00:00:51,959 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 00:00:51,965 INFO c.e.g.c.TetrahedronCreator [main] Create new tetrahedron 
+2018-10-31 00:00:51,965 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 00:00:51,966 INFO c.e.g.c.TetrahedronCreator [main] Create new tetrahedron 
+2018-10-31 00:00:51,966 DEBUG c.e.g.s.s.SortById [main] Sort by id is done: first id < second id 
+2018-10-31 00:01:19,342 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 00:01:19,348 INFO c.e.g.c.TetrahedronCreator [main] Create new tetrahedron 
+2018-10-31 00:01:19,348 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 00:01:19,349 INFO c.e.g.c.TetrahedronCreator [main] Create new tetrahedron 
+2018-10-31 00:01:19,349 DEBUG c.e.g.s.s.SortById [main] Sort by id is done: first id < second id 
+2018-10-31 00:17:18,218 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 00:17:18,227 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 00:17:18,227 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 00:17:18,227 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 00:17:18,227 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 00:17:18,397 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:17:18,397 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:17:18,399 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:17:18,399 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:17:18,400 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:25:35,147 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 00:25:35,154 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 00:25:35,155 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 00:25:35,156 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 00:25:35,157 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 00:25:35,295 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:25:35,295 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:25:35,296 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:25:35,296 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:25:35,297 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:33:07,638 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 00:33:07,646 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 00:33:07,647 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 00:33:07,647 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 00:33:07,648 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 00:33:07,749 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:33:07,749 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:33:07,749 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:33:07,749 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:33:07,750 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:33:07,775 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 00:33:07,776 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 00:33:07,777 INFO c.e.g.s.s.SearchById [main] Search by id is done! 
+2018-10-31 00:33:07,777 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 00:33:07,778 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 00:35:47,223 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 00:35:47,260 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 00:35:47,261 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 00:35:47,263 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 00:35:47,263 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 00:35:47,387 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:35:47,387 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:35:47,388 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:35:47,389 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:35:47,389 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:35:47,409 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 00:35:47,410 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 00:35:47,410 INFO c.e.g.s.s.SearchById [main] Search by id is done! 
+2018-10-31 00:35:47,412 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 00:35:47,413 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 00:36:16,873 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 00:36:16,916 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 00:36:16,917 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 00:36:16,919 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 00:36:16,920 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 00:36:16,994 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:36:16,995 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:36:16,996 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:36:16,996 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:36:16,997 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:36:17,014 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 00:36:17,018 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 00:36:17,019 INFO c.e.g.s.s.SearchById [main] Search by id is done! 
+2018-10-31 00:36:17,020 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 00:36:17,021 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 00:38:13,565 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 00:38:13,596 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 00:38:13,596 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 00:38:13,597 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 00:38:13,601 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 00:38:13,717 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:38:13,718 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:38:13,719 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:38:13,721 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:38:13,722 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:38:13,739 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 00:38:13,740 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 00:38:13,740 INFO c.e.g.s.s.SearchById [main] Search by id is done! 
+2018-10-31 00:38:13,741 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 00:38:13,741 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 00:38:31,955 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 00:38:31,981 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 00:38:31,982 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 00:38:31,982 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 00:38:31,982 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 00:38:32,129 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:38:32,129 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:38:32,130 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:38:32,131 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:38:32,131 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:38:32,151 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:38:32,152 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-31 00:38:32,152 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is done! 
+2018-10-31 00:38:32,154 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:38:32,155 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-31 00:38:32,156 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is done! 
+2018-10-31 00:38:32,156 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 00:38:32,157 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 13.856406460551021 
+2018-10-31 00:38:32,157 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is done! 
+2018-10-31 00:38:32,157 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 00:38:32,157 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 34.64101615137755 
+2018-10-31 00:38:32,158 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is not done! 
+2018-10-31 00:38:32,158 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:38:32,158 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-31 00:38:32,159 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is done! 
+2018-10-31 00:39:45,543 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 00:39:45,563 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 00:39:45,564 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 00:39:45,564 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 00:39:45,565 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 00:39:45,717 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:39:45,718 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:39:45,718 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:39:45,719 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:39:45,719 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:39:45,752 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:39:45,753 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-31 00:39:45,754 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is done! 
+2018-10-31 00:39:45,754 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:39:45,754 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-31 00:39:45,755 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is done! 
+2018-10-31 00:39:45,757 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 00:39:45,757 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 13.856406460551021 
+2018-10-31 00:39:45,757 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is done! 
+2018-10-31 00:39:45,759 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 00:39:45,760 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 34.64101615137755 
+2018-10-31 00:39:45,760 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is not done! 
+2018-10-31 00:39:45,762 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:39:45,762 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-31 00:39:45,762 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is done! 
+2018-10-31 00:44:35,263 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 00:44:35,271 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 00:44:35,272 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 00:44:35,273 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 00:44:35,273 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 00:44:35,393 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:44:35,394 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:44:35,394 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:44:35,395 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:44:35,397 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:44:35,435 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:44:35,436 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-31 00:44:35,437 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is done! 
+2018-10-31 00:44:35,437 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:44:35,438 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-31 00:44:35,438 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is done! 
+2018-10-31 00:44:35,438 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 00:44:35,439 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 13.856406460551021 
+2018-10-31 00:44:35,439 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is done! 
+2018-10-31 00:44:35,439 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 00:44:35,440 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 34.64101615137755 
+2018-10-31 00:44:35,441 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is not done! 
+2018-10-31 00:44:35,442 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 00:44:35,443 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 60.6217782649107 
+2018-10-31 00:44:35,443 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is not done! 
+2018-10-31 00:45:47,403 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 00:45:47,410 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 00:45:47,410 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 00:45:47,411 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 00:45:47,411 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 00:45:47,516 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:45:47,516 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:45:47,517 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:45:47,517 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:45:47,517 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:45:47,541 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:45:47,543 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-31 00:45:47,543 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is done! 
+2018-10-31 00:45:47,545 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:45:47,545 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-31 00:45:47,546 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is done! 
+2018-10-31 00:45:47,546 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 00:45:47,546 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 13.856406460551021 
+2018-10-31 00:45:47,546 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is done! 
+2018-10-31 00:45:47,547 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 00:45:47,547 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 34.64101615137755 
+2018-10-31 00:45:47,547 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is not done! 
+2018-10-31 00:45:47,549 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 00:45:47,549 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 60.6217782649107 
+2018-10-31 00:45:47,550 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is not done! 
+2018-10-31 00:46:21,326 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 00:46:21,332 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 00:46:21,332 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 00:46:21,333 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 00:46:21,333 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 00:46:21,511 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:46:21,511 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:46:21,512 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:46:21,513 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:46:21,513 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:46:21,540 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:46:21,541 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-31 00:46:21,541 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is not done! 
+2018-10-31 00:46:21,542 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:46:21,542 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-31 00:46:21,542 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is not done! 
+2018-10-31 00:46:21,543 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 00:46:21,543 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 13.856406460551021 
+2018-10-31 00:46:21,543 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is not done! 
+2018-10-31 00:46:21,543 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 00:46:21,544 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 34.64101615137755 
+2018-10-31 00:46:21,544 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is done! 
+2018-10-31 00:46:21,546 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 00:46:21,546 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 60.6217782649107 
+2018-10-31 00:46:21,546 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is done! 
+2018-10-31 00:47:51,305 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 00:47:51,315 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 00:47:51,316 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 00:47:51,316 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 00:47:51,316 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 00:47:51,429 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:47:51,436 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:47:51,436 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:47:51,437 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:47:51,437 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:47:51,527 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:47:51,529 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 00:47:51,530 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is not done! 
+2018-10-31 00:47:51,531 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:47:51,532 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 00:47:51,532 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is not done! 
+2018-10-31 00:47:51,533 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 00:47:51,533 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 00:47:51,533 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is not done! 
+2018-10-31 00:47:51,534 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 00:47:51,534 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 00:47:51,534 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is not done! 
+2018-10-31 00:47:51,535 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 00:47:51,536 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 29.886939734048827 
+2018-10-31 00:47:51,536 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is not done! 
+2018-10-31 00:49:31,447 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 00:49:31,458 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 00:49:31,459 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 00:49:31,460 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 00:49:31,461 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 00:49:31,591 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:49:31,591 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:49:31,592 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:49:31,592 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:49:31,592 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:49:31,656 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:49:31,657 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 00:49:31,658 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is done! 
+2018-10-31 00:49:31,658 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:49:31,659 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 00:49:31,661 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is done! 
+2018-10-31 00:49:31,667 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 00:49:31,668 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 00:49:31,668 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is not done! 
+2018-10-31 00:49:31,668 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 00:49:31,669 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 00:49:31,669 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is done! 
+2018-10-31 00:49:31,673 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 00:49:31,673 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 29.886939734048827 
+2018-10-31 00:49:31,673 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is not done! 
+2018-10-31 00:51:44,760 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 00:51:44,768 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 00:51:44,768 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 00:51:44,769 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 00:51:44,776 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 00:51:44,920 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:51:44,920 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:51:44,920 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:51:44,921 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:51:44,921 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:51:44,949 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:51:44,952 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 00:51:44,953 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is done! 
+2018-10-31 00:51:44,954 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:51:44,954 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 00:51:44,954 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is done! 
+2018-10-31 00:51:44,955 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 00:51:44,955 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 00:51:44,955 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is not done! 
+2018-10-31 00:51:44,956 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 00:51:44,956 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 00:51:44,956 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is done! 
+2018-10-31 00:51:44,957 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 00:51:44,958 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 29.886939734048827 
+2018-10-31 00:51:44,958 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is not done! 
+2018-10-31 00:51:54,751 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 00:51:54,758 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 00:51:54,758 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 00:51:54,759 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 00:51:54,759 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 00:51:54,879 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:51:54,881 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:51:54,881 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:51:54,881 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:51:54,882 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:51:54,918 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 00:51:54,918 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 00:51:54,918 INFO c.e.g.s.s.SearchById [main] Search by id is done! 
+2018-10-31 00:51:54,919 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 00:51:54,919 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 00:52:04,076 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 00:52:04,082 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 00:52:04,083 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 00:52:04,084 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 00:52:04,085 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 00:52:04,228 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:52:04,228 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:52:04,229 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:52:04,229 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:52:04,229 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:52:04,303 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:52:04,304 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 00:52:04,305 DEBUG c.e.g.s.s.SearchVolumeGreater [main] Search by greater volume is not done! 
+2018-10-31 00:52:04,306 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:52:04,306 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 00:52:04,307 DEBUG c.e.g.s.s.SearchVolumeGreater [main] Search by greater volume is not done! 
+2018-10-31 00:52:04,307 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 00:52:04,307 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 00:52:04,307 DEBUG c.e.g.s.s.SearchVolumeGreater [main] Search by greater volume is not done! 
+2018-10-31 00:52:04,311 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 00:52:04,313 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 00:52:04,313 DEBUG c.e.g.s.s.SearchVolumeGreater [main] Search by greater volume is not done! 
+2018-10-31 00:52:04,319 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 00:52:04,319 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 29.886939734048827 
+2018-10-31 00:52:04,319 DEBUG c.e.g.s.s.SearchVolumeGreater [main] Search by greater volume is done! 
+2018-10-31 00:57:44,654 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 00:57:44,659 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 00:57:44,659 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 00:57:44,659 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 00:57:44,660 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 00:57:44,783 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:57:44,784 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:57:44,784 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:57:44,784 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:57:44,784 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:57:44,807 DEBUG c.e.g.s.s.SortById [main] Sort by id is done: first id > second id 
+2018-10-31 00:57:44,808 DEBUG c.e.g.s.s.SortById [main] Sort by id is done: first id > second id 
+2018-10-31 00:57:44,809 DEBUG c.e.g.s.s.SortById [main] Sort by id is done: first id > second id 
+2018-10-31 00:57:44,809 DEBUG c.e.g.s.s.SortById [main] Sort by id is done: first id > second id 
+2018-10-31 00:58:18,433 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 00:58:18,448 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 00:58:18,449 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 00:58:18,450 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 00:58:18,451 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 00:58:18,596 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:58:18,596 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:58:18,597 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:58:18,597 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:58:18,597 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 00:58:18,621 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 00:58:18,622 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 00:58:18,623 INFO c.e.g.s.s.SearchById [main] Search by id is done! 
+2018-10-31 00:58:18,624 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 00:58:18,624 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 00:58:18,631 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:58:18,632 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-31 00:58:18,633 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is not done! 
+2018-10-31 00:58:18,637 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:58:18,637 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-31 00:58:18,638 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is not done! 
+2018-10-31 00:58:18,638 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 00:58:18,638 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 13.856406460551021 
+2018-10-31 00:58:18,639 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is not done! 
+2018-10-31 00:58:18,639 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 00:58:18,639 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 34.64101615137755 
+2018-10-31 00:58:18,640 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is done! 
+2018-10-31 00:58:18,641 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 00:58:18,643 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 60.6217782649107 
+2018-10-31 00:58:18,643 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is done! 
+2018-10-31 00:58:18,648 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:58:18,649 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 00:58:18,649 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is done! 
+2018-10-31 00:58:18,650 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:58:18,650 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 00:58:18,675 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is done! 
+2018-10-31 00:58:18,676 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 00:58:18,676 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 00:58:18,677 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is not done! 
+2018-10-31 00:58:18,677 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 00:58:18,677 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 00:58:18,682 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is done! 
+2018-10-31 00:58:18,682 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 00:58:18,688 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 29.886939734048827 
+2018-10-31 00:58:18,689 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is not done! 
+2018-10-31 00:58:18,707 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:58:18,708 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 00:58:18,708 DEBUG c.e.g.s.s.SearchVolumeGreater [main] Search by greater volume is not done! 
+2018-10-31 00:58:18,708 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 00:58:18,709 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 00:58:18,709 DEBUG c.e.g.s.s.SearchVolumeGreater [main] Search by greater volume is not done! 
+2018-10-31 00:58:18,710 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 00:58:18,710 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 00:58:18,710 DEBUG c.e.g.s.s.SearchVolumeGreater [main] Search by greater volume is not done! 
+2018-10-31 00:58:18,711 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 00:58:18,711 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 00:58:18,711 DEBUG c.e.g.s.s.SearchVolumeGreater [main] Search by greater volume is not done! 
+2018-10-31 00:58:18,712 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 00:58:18,712 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 29.886939734048827 
+2018-10-31 00:58:18,712 DEBUG c.e.g.s.s.SearchVolumeGreater [main] Search by greater volume is done! 
+2018-10-31 00:58:18,717 DEBUG c.e.g.s.s.SortById [main] Sort by id is done: first id > second id 
+2018-10-31 00:58:18,717 DEBUG c.e.g.s.s.SortById [main] Sort by id is done: first id > second id 
+2018-10-31 00:58:18,717 DEBUG c.e.g.s.s.SortById [main] Sort by id is done: first id > second id 
+2018-10-31 00:58:18,717 DEBUG c.e.g.s.s.SortById [main] Sort by id is done: first id > second id 
+2018-10-31 01:01:33,553 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 01:01:33,561 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 01:01:33,561 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 01:01:33,561 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 01:01:33,562 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 01:01:33,710 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:01:33,710 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:01:33,711 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:01:33,711 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:01:33,712 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:01:33,743 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:01:33,744 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:01:33,744 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done: side of first tetrahedron = side of second tetrahedron 
+2018-10-31 01:01:33,744 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:01:33,745 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:01:33,745 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done:side of first tetrahedron shorter then side of second tetrahedron 
+2018-10-31 01:01:33,745 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:01:33,746 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:01:33,746 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done:side of first tetrahedron shorter then side of second tetrahedron 
+2018-10-31 01:01:33,746 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:01:33,746 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:01:33,753 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done:side of first tetrahedron shorter then side of second tetrahedron 
+2018-10-31 01:01:33,759 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:01:33,759 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:01:33,759 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done: side of first tetrahedron longer then side of second tetrahedron 
+2018-10-31 01:01:33,760 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:01:33,760 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:01:33,788 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done: side of first tetrahedron longer then side of second tetrahedron 
+2018-10-31 01:01:33,789 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:01:33,789 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:01:33,789 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done: side of first tetrahedron longer then side of second tetrahedron 
+2018-10-31 01:01:33,800 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:01:33,801 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:01:33,801 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done: side of first tetrahedron longer then side of second tetrahedron 
+2018-10-31 01:02:12,198 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 01:02:12,210 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 01:02:12,251 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 01:02:12,254 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 01:02:12,255 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 01:02:12,432 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:02:12,432 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:02:12,433 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:02:12,433 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:02:12,435 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:02:12,463 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:02:12,467 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:02:12,468 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done: side of first tetrahedron = side of second tetrahedron 
+2018-10-31 01:02:12,468 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:02:12,468 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:02:12,469 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done:side of first tetrahedron shorter then side of second tetrahedron 
+2018-10-31 01:02:12,469 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:02:12,469 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:02:12,469 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done:side of first tetrahedron shorter then side of second tetrahedron 
+2018-10-31 01:02:12,470 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:02:12,473 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:02:12,473 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done:side of first tetrahedron shorter then side of second tetrahedron 
+2018-10-31 01:02:12,475 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:02:12,476 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:02:12,477 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done: side of first tetrahedron longer then side of second tetrahedron 
+2018-10-31 01:02:12,478 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:02:12,480 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:02:12,480 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done: side of first tetrahedron longer then side of second tetrahedron 
+2018-10-31 01:02:12,481 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:02:12,481 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:02:12,481 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done: side of first tetrahedron longer then side of second tetrahedron 
+2018-10-31 01:02:12,482 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:02:12,484 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:02:12,484 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done: side of first tetrahedron longer then side of second tetrahedron 
+2018-10-31 01:02:53,430 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 01:02:53,462 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 01:02:53,463 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 01:02:53,463 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 01:02:53,464 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 01:02:53,561 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:02:53,562 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:02:53,563 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:02:53,564 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:02:53,565 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:02:53,589 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 01:02:53,590 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 01:02:53,591 INFO c.e.g.s.s.SearchById [main] Search by id is done! 
+2018-10-31 01:02:53,595 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 01:02:53,596 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 01:02:53,612 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:02:53,612 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-31 01:02:53,613 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is not done! 
+2018-10-31 01:02:53,614 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:02:53,615 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-31 01:02:53,616 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is not done! 
+2018-10-31 01:02:53,617 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:02:53,618 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 13.856406460551021 
+2018-10-31 01:02:53,618 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is not done! 
+2018-10-31 01:02:53,619 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:02:53,620 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 34.64101615137755 
+2018-10-31 01:02:53,621 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is done! 
+2018-10-31 01:02:53,622 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:02:53,623 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 60.6217782649107 
+2018-10-31 01:02:53,623 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is done! 
+2018-10-31 01:02:53,626 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:02:53,626 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:02:53,627 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is done! 
+2018-10-31 01:02:53,628 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:02:53,628 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:02:53,630 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is done! 
+2018-10-31 01:02:53,632 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:02:53,633 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 01:02:53,634 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is not done! 
+2018-10-31 01:02:53,635 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:02:53,635 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 01:02:53,636 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is done! 
+2018-10-31 01:02:53,636 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:02:53,637 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 29.886939734048827 
+2018-10-31 01:02:53,638 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is not done! 
+2018-10-31 01:02:53,642 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:02:53,643 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:02:53,643 DEBUG c.e.g.s.s.SearchVolumeGreater [main] Search by greater volume is not done! 
+2018-10-31 01:02:53,644 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:02:53,645 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:02:53,645 DEBUG c.e.g.s.s.SearchVolumeGreater [main] Search by greater volume is not done! 
+2018-10-31 01:02:53,647 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:02:53,647 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 01:02:53,648 DEBUG c.e.g.s.s.SearchVolumeGreater [main] Search by greater volume is not done! 
+2018-10-31 01:02:53,649 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:02:53,649 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 01:02:53,649 DEBUG c.e.g.s.s.SearchVolumeGreater [main] Search by greater volume is not done! 
+2018-10-31 01:02:53,650 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:02:53,651 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 29.886939734048827 
+2018-10-31 01:02:53,654 DEBUG c.e.g.s.s.SearchVolumeGreater [main] Search by greater volume is done! 
+2018-10-31 01:02:53,674 DEBUG c.e.g.s.s.SortById [main] Sort by id is done: first id > second id 
+2018-10-31 01:02:53,679 DEBUG c.e.g.s.s.SortById [main] Sort by id is done: first id > second id 
+2018-10-31 01:02:53,681 DEBUG c.e.g.s.s.SortById [main] Sort by id is done: first id > second id 
+2018-10-31 01:02:53,683 DEBUG c.e.g.s.s.SortById [main] Sort by id is done: first id > second id 
+2018-10-31 01:02:53,688 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:02:53,689 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:02:53,689 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done: side of first tetrahedron = side of second tetrahedron 
+2018-10-31 01:02:53,690 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:02:53,690 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:02:53,690 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done:side of first tetrahedron shorter then side of second tetrahedron 
+2018-10-31 01:02:53,691 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:02:53,691 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:02:53,692 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done:side of first tetrahedron shorter then side of second tetrahedron 
+2018-10-31 01:02:53,695 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:02:53,695 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:02:53,696 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done:side of first tetrahedron shorter then side of second tetrahedron 
+2018-10-31 01:02:53,697 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:02:53,698 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:02:53,699 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done: side of first tetrahedron longer then side of second tetrahedron 
+2018-10-31 01:02:53,700 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:02:53,700 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:02:53,701 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done: side of first tetrahedron longer then side of second tetrahedron 
+2018-10-31 01:02:53,703 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:02:53,704 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:02:53,704 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done: side of first tetrahedron longer then side of second tetrahedron 
+2018-10-31 01:02:53,705 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:02:53,709 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:02:53,710 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done: side of first tetrahedron longer then side of second tetrahedron 
+2018-10-31 01:04:26,126 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 01:04:26,134 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 01:04:26,134 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 01:04:26,135 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 01:04:26,135 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 01:04:26,219 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:04:26,220 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:04:26,220 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:04:26,222 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:04:26,222 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:04:26,242 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 01:04:26,242 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 01:04:26,243 INFO c.e.g.s.s.SearchById [main] Search by id is done! 
+2018-10-31 01:04:26,243 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 01:04:26,243 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 01:04:26,252 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:26,254 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-31 01:04:26,255 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is not done! 
+2018-10-31 01:04:26,255 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:26,256 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-31 01:04:26,256 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is not done! 
+2018-10-31 01:04:26,257 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:04:26,257 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 13.856406460551021 
+2018-10-31 01:04:26,257 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is not done! 
+2018-10-31 01:04:26,257 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:04:26,258 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 34.64101615137755 
+2018-10-31 01:04:26,259 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is done! 
+2018-10-31 01:04:26,259 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:04:26,260 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 60.6217782649107 
+2018-10-31 01:04:26,260 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is done! 
+2018-10-31 01:04:26,265 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:26,265 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:26,265 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is done! 
+2018-10-31 01:04:26,266 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:26,266 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:26,266 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is done! 
+2018-10-31 01:04:26,266 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:04:26,267 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 01:04:26,267 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is not done! 
+2018-10-31 01:04:26,267 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:04:26,267 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 01:04:26,271 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is done! 
+2018-10-31 01:04:26,272 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:04:26,272 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 29.886939734048827 
+2018-10-31 01:04:26,272 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is not done! 
+2018-10-31 01:04:26,276 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:26,276 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:26,276 DEBUG c.e.g.s.s.SearchVolumeGreater [main] Search by greater volume is not done! 
+2018-10-31 01:04:26,277 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:26,277 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:26,277 DEBUG c.e.g.s.s.SearchVolumeGreater [main] Search by greater volume is not done! 
+2018-10-31 01:04:26,278 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:04:26,278 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 01:04:26,278 DEBUG c.e.g.s.s.SearchVolumeGreater [main] Search by greater volume is not done! 
+2018-10-31 01:04:26,279 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:04:26,280 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 01:04:26,281 DEBUG c.e.g.s.s.SearchVolumeGreater [main] Search by greater volume is not done! 
+2018-10-31 01:04:26,281 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:04:26,281 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 29.886939734048827 
+2018-10-31 01:04:26,282 DEBUG c.e.g.s.s.SearchVolumeGreater [main] Search by greater volume is done! 
+2018-10-31 01:04:26,287 DEBUG c.e.g.s.s.SortById [main] Sort by id is done: first id > second id 
+2018-10-31 01:04:26,287 DEBUG c.e.g.s.s.SortById [main] Sort by id is done: first id > second id 
+2018-10-31 01:04:26,287 DEBUG c.e.g.s.s.SortById [main] Sort by id is done: first id > second id 
+2018-10-31 01:04:26,288 DEBUG c.e.g.s.s.SortById [main] Sort by id is done: first id > second id 
+2018-10-31 01:04:26,292 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:26,294 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:26,294 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done: side of first tetrahedron = side of second tetrahedron 
+2018-10-31 01:04:26,294 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:04:26,294 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:26,295 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done:side of first tetrahedron shorter then side of second tetrahedron 
+2018-10-31 01:04:26,295 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:04:26,295 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:26,296 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done:side of first tetrahedron shorter then side of second tetrahedron 
+2018-10-31 01:04:26,297 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:04:26,297 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:26,298 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done:side of first tetrahedron shorter then side of second tetrahedron 
+2018-10-31 01:04:26,298 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:04:26,298 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:26,298 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done: side of first tetrahedron longer then side of second tetrahedron 
+2018-10-31 01:04:26,299 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:04:26,299 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:26,299 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done: side of first tetrahedron longer then side of second tetrahedron 
+2018-10-31 01:04:26,300 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:04:26,300 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:26,301 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done: side of first tetrahedron longer then side of second tetrahedron 
+2018-10-31 01:04:26,301 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:04:26,302 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:04:26,302 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done: side of first tetrahedron longer then side of second tetrahedron 
+2018-10-31 01:04:26,309 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:26,311 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:26,311 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:26,311 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:26,312 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron = volume of second tetrahedron 
+2018-10-31 01:04:26,312 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:04:26,312 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 01:04:26,312 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:26,312 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:26,314 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron < then volume of second tetrahedron 
+2018-10-31 01:04:26,314 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:04:26,315 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 01:04:26,315 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:26,315 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:26,315 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron < then volume of second tetrahedron 
+2018-10-31 01:04:26,316 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:04:26,317 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 01:04:26,321 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:26,321 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:26,321 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron < then volume of second tetrahedron 
+2018-10-31 01:04:26,322 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:04:26,322 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 01:04:26,322 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:26,322 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:26,323 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron 
+2018-10-31 01:04:26,323 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:04:26,323 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 01:04:26,323 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:26,323 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:26,323 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron 
+2018-10-31 01:04:26,324 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:04:26,324 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 29.886939734048827 
+2018-10-31 01:04:26,324 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:26,324 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:26,324 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron 
+2018-10-31 01:04:26,325 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:04:26,325 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 29.886939734048827 
+2018-10-31 01:04:26,325 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:04:26,326 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 01:04:26,327 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron 
+2018-10-31 01:04:32,740 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 01:04:32,746 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 01:04:32,746 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 01:04:32,747 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 01:04:32,747 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 01:04:32,979 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:04:32,980 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:04:32,981 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:04:32,984 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:04:32,984 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:04:33,016 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:33,018 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:33,019 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:33,019 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:33,020 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron = volume of second tetrahedron 
+2018-10-31 01:04:33,020 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:04:33,021 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 01:04:33,021 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:33,021 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:33,021 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron < then volume of second tetrahedron 
+2018-10-31 01:04:33,022 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:04:33,022 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 01:04:33,024 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:33,025 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:33,025 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron < then volume of second tetrahedron 
+2018-10-31 01:04:33,026 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:04:33,027 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 01:04:33,027 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:33,032 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:33,032 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron < then volume of second tetrahedron 
+2018-10-31 01:04:33,032 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:04:33,033 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 01:04:33,034 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:33,034 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:33,035 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron 
+2018-10-31 01:04:33,035 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:04:33,035 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 01:04:33,036 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:33,036 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:33,037 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron 
+2018-10-31 01:04:33,037 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:04:33,038 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 29.886939734048827 
+2018-10-31 01:04:33,038 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:33,038 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:33,039 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron 
+2018-10-31 01:04:33,039 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:04:33,040 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 29.886939734048827 
+2018-10-31 01:04:33,043 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:04:33,044 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 01:04:33,044 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron 
+2018-10-31 01:04:51,515 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 01:04:51,527 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 01:04:51,528 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 01:04:51,529 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 01:04:51,530 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 01:04:51,737 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:04:51,781 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:04:51,782 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:04:51,782 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:04:51,782 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:04:51,823 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:51,824 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:51,825 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:51,825 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:51,825 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron = volume of second tetrahedron 
+2018-10-31 01:04:51,826 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:04:51,826 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 01:04:51,826 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:51,827 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:51,827 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron < then volume of second tetrahedron 
+2018-10-31 01:04:51,827 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:04:51,828 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 01:04:51,831 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:51,831 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:51,833 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron < then volume of second tetrahedron 
+2018-10-31 01:04:51,833 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:04:51,835 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 01:04:51,835 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:51,835 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:51,836 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron < then volume of second tetrahedron 
+2018-10-31 01:04:51,836 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:04:51,836 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 01:04:51,837 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:51,837 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:51,845 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron 
+2018-10-31 01:04:51,845 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:04:51,846 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 01:04:51,847 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:51,847 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:51,850 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron 
+2018-10-31 01:04:51,850 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:04:51,851 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 29.886939734048827 
+2018-10-31 01:04:51,852 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:04:51,852 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:04:51,852 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron 
+2018-10-31 01:04:51,859 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:04:51,860 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 29.886939734048827 
+2018-10-31 01:04:51,860 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:04:51,860 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 01:04:51,860 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron 
+2018-10-31 01:05:10,308 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 01:05:10,315 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 01:05:10,315 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 01:05:10,316 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 01:05:10,317 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 01:05:10,435 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:05:10,436 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:05:10,459 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:05:10,460 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:05:10,460 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:05:10,480 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:10,481 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:10,481 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:10,483 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:10,486 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron = volume of second tetrahedron 
+2018-10-31 01:05:10,486 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:05:10,486 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 01:05:10,486 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:10,487 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:10,487 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron < then volume of second tetrahedron 
+2018-10-31 01:05:10,487 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:05:10,487 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 01:05:10,489 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:10,489 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:10,492 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron < then volume of second tetrahedron 
+2018-10-31 01:05:10,493 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:05:10,493 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 01:05:10,494 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:10,494 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:10,494 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron < then volume of second tetrahedron 
+2018-10-31 01:05:10,494 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:05:10,495 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 01:05:10,495 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:10,496 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:10,498 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron 
+2018-10-31 01:05:10,499 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:05:10,499 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 01:05:10,500 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:10,501 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:10,502 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron 
+2018-10-31 01:05:10,502 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:05:10,503 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 29.886939734048827 
+2018-10-31 01:05:10,504 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:10,505 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:10,505 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron 
+2018-10-31 01:05:10,507 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:05:10,507 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 29.886939734048827 
+2018-10-31 01:05:10,508 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:05:10,508 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 01:05:10,509 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron 
+2018-10-31 01:05:27,195 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 01:05:27,200 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 01:05:27,200 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 01:05:27,201 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 01:05:27,201 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 01:05:27,305 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:05:27,305 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:05:27,305 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:05:27,305 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:05:27,306 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:05:27,322 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:27,322 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:27,322 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:27,323 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:27,323 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron = volume of second tetrahedron 
+2018-10-31 01:05:27,323 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:05:27,327 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 01:05:27,327 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:27,328 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:27,328 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron < then volume of second tetrahedron 
+2018-10-31 01:05:27,328 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:05:27,329 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 01:05:27,329 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:27,329 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:27,329 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron < then volume of second tetrahedron 
+2018-10-31 01:05:27,330 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:05:27,332 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 01:05:27,332 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:27,332 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:27,334 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron < then volume of second tetrahedron 
+2018-10-31 01:05:27,334 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:05:27,334 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 01:05:27,334 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:27,334 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:27,335 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron 
+2018-10-31 01:05:27,336 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:05:27,336 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 01:05:27,336 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:27,337 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:27,337 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron 
+2018-10-31 01:05:27,337 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:05:27,338 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 29.886939734048827 
+2018-10-31 01:05:27,338 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:27,338 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:27,338 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron 
+2018-10-31 01:05:27,339 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:05:27,339 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 29.886939734048827 
+2018-10-31 01:05:27,339 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:05:27,339 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 01:05:27,340 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron 
+2018-10-31 01:05:38,108 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 01:05:38,117 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 2 
+2018-10-31 01:05:38,118 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 3 
+2018-10-31 01:05:38,118 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 4 
+2018-10-31 01:05:38,120 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 5 
+2018-10-31 01:05:38,310 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:05:38,312 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:05:38,313 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:05:38,313 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:05:38,313 INFO c.e.g.r.TetrahedronRepository [main] Adding in repository is done 
+2018-10-31 01:05:38,334 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 01:05:38,335 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 01:05:38,335 INFO c.e.g.s.s.SearchById [main] Search by id is done! 
+2018-10-31 01:05:38,335 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 01:05:38,335 INFO c.e.g.s.s.SearchById [main] Search by id is not done! 
+2018-10-31 01:05:38,345 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:38,345 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-31 01:05:38,345 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is not done! 
+2018-10-31 01:05:38,351 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:38,352 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-31 01:05:38,352 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is not done! 
+2018-10-31 01:05:38,352 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:05:38,352 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 13.856406460551021 
+2018-10-31 01:05:38,352 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is not done! 
+2018-10-31 01:05:38,353 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:05:38,353 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 34.64101615137755 
+2018-10-31 01:05:38,353 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is done! 
+2018-10-31 01:05:38,354 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:05:38,355 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 60.6217782649107 
+2018-10-31 01:05:38,355 DEBUG c.e.g.s.s.SearchByRangeOfArea [main] Search by range of area is done! 
+2018-10-31 01:05:38,358 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:38,358 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:38,358 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is done! 
+2018-10-31 01:05:38,359 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:38,360 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:38,362 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is done! 
+2018-10-31 01:05:38,364 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:05:38,364 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 01:05:38,364 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is not done! 
+2018-10-31 01:05:38,367 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:05:38,367 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 01:05:38,371 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is done! 
+2018-10-31 01:05:38,372 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:05:38,372 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 29.886939734048827 
+2018-10-31 01:05:38,373 DEBUG c.e.g.s.s.SearchByRangeOfVolume [main] Search by range of volume is not done! 
+2018-10-31 01:05:38,377 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:38,378 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:38,378 DEBUG c.e.g.s.s.SearchVolumeGreater [main] Search by greater volume is not done! 
+2018-10-31 01:05:38,379 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:38,379 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:38,380 DEBUG c.e.g.s.s.SearchVolumeGreater [main] Search by greater volume is not done! 
+2018-10-31 01:05:38,380 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:05:38,381 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 01:05:38,381 DEBUG c.e.g.s.s.SearchVolumeGreater [main] Search by greater volume is not done! 
+2018-10-31 01:05:38,381 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:05:38,382 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 01:05:38,382 DEBUG c.e.g.s.s.SearchVolumeGreater [main] Search by greater volume is not done! 
+2018-10-31 01:05:38,382 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:05:38,382 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 29.886939734048827 
+2018-10-31 01:05:38,382 DEBUG c.e.g.s.s.SearchVolumeGreater [main] Search by greater volume is done! 
+2018-10-31 01:05:38,393 DEBUG c.e.g.s.s.SortById [main] Sort by id is done: first id > second id 
+2018-10-31 01:05:38,393 DEBUG c.e.g.s.s.SortById [main] Sort by id is done: first id > second id 
+2018-10-31 01:05:38,394 DEBUG c.e.g.s.s.SortById [main] Sort by id is done: first id > second id 
+2018-10-31 01:05:38,394 DEBUG c.e.g.s.s.SortById [main] Sort by id is done: first id > second id 
+2018-10-31 01:05:38,397 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:38,397 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:38,397 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done: side of first tetrahedron = side of second tetrahedron 
+2018-10-31 01:05:38,397 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:05:38,398 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:38,398 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done:side of first tetrahedron shorter then side of second tetrahedron 
+2018-10-31 01:05:38,399 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:05:38,399 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:38,399 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done:side of first tetrahedron shorter then side of second tetrahedron 
+2018-10-31 01:05:38,399 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:05:38,400 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:38,400 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done:side of first tetrahedron shorter then side of second tetrahedron 
+2018-10-31 01:05:38,400 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:05:38,401 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:38,401 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done: side of first tetrahedron longer then side of second tetrahedron 
+2018-10-31 01:05:38,401 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:05:38,401 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:38,401 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done: side of first tetrahedron longer then side of second tetrahedron 
+2018-10-31 01:05:38,403 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:05:38,403 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:38,403 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done: side of first tetrahedron longer then side of second tetrahedron 
+2018-10-31 01:05:38,411 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:05:38,411 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:05:38,411 DEBUG c.e.g.s.s.SortByLengthOfSide [main] Sort by length of side is done: side of first tetrahedron longer then side of second tetrahedron 
+2018-10-31 01:05:38,414 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:38,416 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:38,418 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:38,418 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:38,418 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron = volume of second tetrahedron 
+2018-10-31 01:05:38,419 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:05:38,419 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 01:05:38,419 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:38,419 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:38,419 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron < then volume of second tetrahedron 
+2018-10-31 01:05:38,420 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:05:38,420 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 01:05:38,420 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:38,420 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:38,420 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron < then volume of second tetrahedron 
+2018-10-31 01:05:38,420 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-10-31 01:05:38,420 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-10-31 01:05:38,421 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:38,421 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:38,421 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron < then volume of second tetrahedron 
+2018-10-31 01:05:38,421 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:05:38,422 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 01:05:38,422 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:38,422 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:38,422 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron 
+2018-10-31 01:05:38,422 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:05:38,422 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 01:05:38,422 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:38,422 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:38,423 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron 
+2018-10-31 01:05:38,423 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:05:38,423 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 29.886939734048827 
+2018-10-31 01:05:38,423 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:05:38,435 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:05:38,435 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron 
+2018-10-31 01:05:38,435 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-10-31 01:05:38,435 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 29.886939734048827 
+2018-10-31 01:05:38,435 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-10-31 01:05:38,436 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
+2018-10-31 01:05:38,436 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron 
