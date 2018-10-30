@@ -13,7 +13,6 @@ public class SearchByRangeOfArea implements Specification<Tetrahedron> {
     private double maxArea;
     private Calculator calculator = new Calculator();
 
-
     public SearchByRangeOfArea(double minArea, double maxArea) {
         this.minArea = minArea;
         this.maxArea = maxArea;
@@ -26,6 +25,7 @@ public class SearchByRangeOfArea implements Specification<Tetrahedron> {
             LOGGER.debug("Search by range of area is done!");
             return true;
         } else {
+            LOGGER.debug("Search by range of area is not done!");
             return false;
         }
     }

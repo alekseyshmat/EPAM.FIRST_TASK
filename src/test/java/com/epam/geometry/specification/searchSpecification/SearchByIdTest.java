@@ -1,26 +1,44 @@
 package com.epam.geometry.specification.searchSpecification;
 
-import com.epam.geometry.entity.Point;
+import com.epam.geometry.creator.TetrahedronCreator;
 import com.epam.geometry.entity.Tetrahedron;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import java.util.Arrays;
+import java.util.List;
 
 public class SearchByIdTest {
 
-    private Tetrahedron tetrahedron = new Tetrahedron( // input object
-            new Point(2, 0, 0),
-            new Point(0, 2, 0),
-            new Point(1, 0, 1),
-            new Point(0, 1, 1)
-    );
+    private Tetrahedron tetrahedron;
+    private TetrahedronCreator tetrahedronCreator;
+    private SearchById searchById;
 
-    private static final long ID  = 0;
-    private SearchById searchById = new SearchById(ID);
+    @BeforeClass
+    public void setUp() {
+        tetrahedronCreator = new TetrahedronCreator();
+    }
 
+    @DataProvider(name = "dataForSearchByIdTestPositive")
+    public Object[][] dataForSearchByIdTestPositive() {
+        return new Object[][]{
+                {
+                        Arrays.asList(2.0, 0.0, 0.0, 0.0, 2.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0),
+                        1
+                },
+                {
+                        Arrays.asList(2.0, 0.0, 0.0, 0.0, 2.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0),
+                        2
+                }
+        };
+    }
 
-
-    @Test
-    public void searchByIdPositiveTest(){
+    @Test(dataProvider = "dataForSearchByIdTestPositive")
+    public void searchByIdPositiveTest(List<Double> resultList, long id) {
+        tetrahedron = tetrahedronCreator.createTetrahedron(resultList);
+        searchById = new SearchById(id);
 
         boolean result = searchById.specified(tetrahedron);
 

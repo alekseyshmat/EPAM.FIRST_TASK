@@ -52,11 +52,4 @@ public class TetrahedronRepository implements Repository<Tetrahedron> {
                 sorted((t1, t2) -> comparator.compare(t1, t2)).
                 collect(Collectors.toList());
     }
-
-    @Override
-    public List<Tetrahedron> deleteBy(Specification specification) {
-        return data.values().stream().filter(o -> specification.specified(o)).collect(Collectors.toList());
-    }
-
-
 }

@@ -12,15 +12,14 @@ import java.util.List;
 
 public class Tetrahedron implements Observable<Observer> {
 
-    private List<Observer> observers = new ArrayList<>();
     private static final Logger LOGGER = LogManager.getLogger();
+    private List<Observer> observers = new ArrayList<>();
 
     private Point pointA, pointB, pointC, pointD;
-    private Observer observer;
     private long id;
     private double sideAB, sideAC, sideBC;
 
-    private Calculator calculator = new Calculator(); // todo may be static??
+    private Calculator calculator = new Calculator();
 
     public Tetrahedron(Point pointA, Point pointB, Point pointC, Point pointD) {
         this.pointA = pointA;
@@ -123,14 +122,12 @@ public class Tetrahedron implements Observable<Observer> {
 
     @Override
     public void addObserver(Observer observer) {
-        this.observer = observer;
         observers.add(observer);
         LOGGER.info("Adding observer is done");
     }
 
     @Override
     public void removeObserver(Observer observer) {
-        this.observer = observer;
         observers.remove(observer);
         LOGGER.info("Removing observer is done");
     }

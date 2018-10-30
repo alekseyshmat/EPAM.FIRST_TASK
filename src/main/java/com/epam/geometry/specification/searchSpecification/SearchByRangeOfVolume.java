@@ -9,10 +9,8 @@ import org.apache.logging.log4j.Logger;
 public class SearchByRangeOfVolume implements Specification<Tetrahedron> {
 
     private static final Logger LOGGER = LogManager.getLogger();
-    private double minVolume;
-    private double maxVolume;
+    private double minVolume, maxVolume;
     private Calculator calculator = new Calculator();
-
 
     public SearchByRangeOfVolume(double minVolume, double maxVolume) {
         this.minVolume = minVolume;
@@ -26,6 +24,7 @@ public class SearchByRangeOfVolume implements Specification<Tetrahedron> {
             LOGGER.debug("Search by range of volume is done!");
             return true;
         } else {
+            LOGGER.debug("Search by range of volume is not done!");
             return false;
         }
     }

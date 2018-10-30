@@ -7,6 +7,8 @@ import org.testng.annotations.Test;
 
 public class SearchByRangeOfAreaTest {
 
+    private SearchByRangeOfArea searchByRangeOfArea;
+
     private Tetrahedron tetrahedron = new Tetrahedron( // input object
             new Point(2, 0, 0),
             new Point(0, 2, 0),
@@ -14,10 +16,9 @@ public class SearchByRangeOfAreaTest {
             new Point(0, 1, 1)
     );
 
-    private SearchByRangeOfArea searchByRangeOfArea = new SearchByRangeOfArea(1, 25);
-
     @Test
     public void searchByRangeOfAreaPositiveTest() {
+        searchByRangeOfArea = new SearchByRangeOfArea(1, 15);
 
         boolean result = searchByRangeOfArea.specified(tetrahedron);
 

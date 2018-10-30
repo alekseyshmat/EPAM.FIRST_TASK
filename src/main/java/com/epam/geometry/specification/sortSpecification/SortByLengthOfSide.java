@@ -12,7 +12,18 @@ public class SortByLengthOfSide implements Comparator<Tetrahedron> {
 
     @Override
     public int compare(Tetrahedron o1, Tetrahedron o2) {
-        LOGGER.debug("Sort by length of side is done!");
-        return (int) (o1.getSideAB() - o2.getSideAB());
+        double sideOfFirstTetrahedron = o1.getSideAB();
+        double sideOfSecondTetrahedron = o2.getSideAB();
+
+        if (sideOfFirstTetrahedron < sideOfSecondTetrahedron) {
+            LOGGER.debug("Sort by length of side is done:side of first tetrahedron shorter then side of second tetrahedron");
+            return -1;
+        } else if (sideOfFirstTetrahedron == sideOfSecondTetrahedron) {
+            LOGGER.debug("Sort by length of side is done: side of first tetrahedron = side of second tetrahedron");
+            return 0;
+        } else {
+            LOGGER.debug("Sort by length of side is done: side of first tetrahedron longer then side of second tetrahedron");
+            return 1;
+        }
     }
 }

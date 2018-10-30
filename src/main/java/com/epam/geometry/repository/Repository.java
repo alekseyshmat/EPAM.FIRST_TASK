@@ -17,6 +17,4 @@ public interface Repository<T> {
 
     List<T> sortBy(Comparator comparator);
 
-    List<T> deleteBy(Specification specification);
-
 }

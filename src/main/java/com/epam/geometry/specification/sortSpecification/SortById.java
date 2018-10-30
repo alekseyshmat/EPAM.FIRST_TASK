@@ -12,7 +12,17 @@ public class SortById implements Comparator<Tetrahedron> {
 
     @Override
     public int compare(Tetrahedron o1, Tetrahedron o2) {
-        LOGGER.debug("Sort by id is done!");
-        return (int) (o1.getId() - o2.getId());
+        long first_id = o1.getId();
+        long second_id = o2.getId();
+        if (first_id < second_id) {
+            LOGGER.debug("Sort by id is done: first id < second id");
+            return -1;
+        } else if (first_id == second_id) {
+            LOGGER.debug("Sort by id is done: first id = second id");
+            return 0;
+        } else {
+            LOGGER.debug("Sort by id is done: first id > second id");
+            return 1;
+        }
     }
 }

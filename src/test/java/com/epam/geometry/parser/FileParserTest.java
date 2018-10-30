@@ -38,14 +38,14 @@ public class FileParserTest {
     }
 
     @Test(dataProvider = "dataForParsingLinesTestPositive")
-    public void parsingLinesTestPositive(List<String> lines, List<double[]> expectedResult) {
+    public void parsingLinesTestPositive(List<String> lines, List<List<Double>> expectedResult) {
         List<List<Double>> actual = fileParser.parsingLines(lines);
         Assert.assertEquals(actual, expectedResult);
     }
 
     @Test(dataProvider = "dataForParsingLinesTestNegative")
-    public void parsingLinesTestNegative(List<String> lines, List<double[]> expectedResult) {
+    public void parsingLinesTestNegative(List<String> lines, List<List<Double>> expectedResult) {
         List<List<Double>> actual = fileParser.parsingLines(lines);
         Assert.assertEquals(actual, expectedResult);
-    }
+    }   //todo this
 }

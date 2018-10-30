@@ -23,6 +23,7 @@ public class SearchVolumeGreater implements Specification<Tetrahedron> {
             LOGGER.debug("Search by greater volume is done!");
             return true;
         } else {
+            LOGGER.debug("Search by greater volume is not done!");
             return false;
         }
     }
