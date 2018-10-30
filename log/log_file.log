@@ -4270,3 +4270,12 @@
 2018-10-31 01:37:22,041 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
 2018-10-31 01:37:22,047 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
 2018-10-31 01:37:22,050 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:48:05,729 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 
+2018-10-31 01:48:05,891 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:48:05,892 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.60733974003004 
+2018-10-31 01:48:05,892 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.604566548144173 
+2018-10-31 01:48:05,892 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:48:05,893 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-10-31 01:48:05,893 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-10-31 01:48:05,894 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-10-31 01:48:05,894 INFO c.e.g.e.Tetrahedron [main] Adding observer is done 

@@ -14,12 +14,6 @@ public class TetrahedronsRegistrator implements Observer {
     private double area;
     private double volume;
 
-    public TetrahedronsRegistrator(long id, double area, double volume) {
-        this.id = id;
-        this.area = area;
-        this.volume = volume;
-    }
-
     public TetrahedronsRegistrator() {
     }
 
@@ -27,26 +21,13 @@ public class TetrahedronsRegistrator implements Observer {
         return id;
     }
 
-    public void setId(long id) {
-        this.id = id;
-    }
-
     public double getArea() {
         return area;
-    }
-
-    public void setArea(double area) {
-        this.area = area;
     }
 
     public double getVolume() {
         return volume;
     }
-
-    public void setVolume(double volume) {
-        this.volume = volume;
-    }
-
 
     @Override
     public void handleEvent(TetrahedronEvent event) {
