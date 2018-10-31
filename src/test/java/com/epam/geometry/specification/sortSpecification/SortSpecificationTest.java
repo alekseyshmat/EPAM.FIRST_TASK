@@ -31,6 +31,7 @@ public class SortSpecificationTest {
     @Test
     public void sortByIdTestPositive() {
         sortById = new SortById();
+
         int result = sortById.compare(FIRST_TETRAHEDRON, SECOND_TETRAHEDRON);
 
         Assert.assertEquals(result, MINUS_ONE);
@@ -39,14 +40,18 @@ public class SortSpecificationTest {
     @Test
     public void sortByLengthOfSideTestPositive() {
         sortByLengthOfSide = new SortByLengthOfSide();
+
         int result = sortByLengthOfSide.compare(FIRST_TETRAHEDRON, SECOND_TETRAHEDRON);
+
         Assert.assertEquals(result, ONE);
     }
 
     @Test
     public void sortByVolumeTestPositive() {
         sortByVolume = new SortByVolume();
+
         int result = sortByVolume.compare(FIRST_TETRAHEDRON, SECOND_TETRAHEDRON);
+
         Assert.assertEquals(result, ONE);
     }
 }

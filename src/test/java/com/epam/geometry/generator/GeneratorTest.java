@@ -9,6 +9,7 @@ public class GeneratorTest {
     public void generateIdPositiveTest() {
         long expectedId = 1;
         long actualId = Generator.generateId();
+
         Assert.assertEquals(actualId, expectedId);
     }
 }

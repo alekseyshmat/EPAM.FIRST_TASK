@@ -90,18 +90,21 @@ public class TetrahedronActionsTest {
     @Test(dataProvider = "isTetrahedronPositiveTest")
     public void isTetrahedronPositiveTest(Tetrahedron tetrahedron) {
         boolean actual = tetrahedronActions.isTetrahedron(tetrahedron);
+
         Assert.assertTrue(actual);
     }
 
     @Test(dataProvider = "isBaseBelongsToTheXOYPositiveTest")
     public void isBaseBelongsToTheXOYPositiveTest(Tetrahedron tetrahedron) {
         boolean actual = tetrahedronActions.isBaseBelongsToTheXOY(tetrahedron);
+
         Assert.assertTrue(actual);
     }
 
     @Test(dataProvider = "isBaseBelongsToTheXOYNegativeTest")
     public void isBaseBelongsToTheXOYNegativeTest(Tetrahedron tetrahedron) {
         boolean actual = tetrahedronActions.isBaseBelongsToTheXOY(tetrahedron);
+
         Assert.assertFalse(actual);
     }
 }

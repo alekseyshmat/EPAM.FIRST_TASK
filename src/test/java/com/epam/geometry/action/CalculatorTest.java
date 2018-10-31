@@ -189,30 +189,35 @@ public class CalculatorTest {
     @Test(dataProvider = "calculateAreaPositiveTest")
     public void calculateAreaPositiveTest(Tetrahedron tetrahedron, final double expectedArea) {
         double square = calculator.calculateArea(tetrahedron);
+
         Assert.assertEquals(square, expectedArea, DELTA);
     }
 
     @Test(dataProvider = "calculateVolumePositiveTest")
     public void calculateVolumePositiveTest(Tetrahedron tetrahedron, final double expectedArea) {
         double square = calculator.calculateVolume(tetrahedron);
+
         Assert.assertEquals(square, expectedArea, DELTA);
     }
 
     @Test(dataProvider = "calculateHeightPositiveTest")
     public void shouldReturnTrueHeight(Tetrahedron tetrahedron, final double expectedHeight) {
         double height = calculator.calculateHeight(tetrahedron);
+
         Assert.assertEquals(height, expectedHeight, DELTA);
     }
 
     @Test(dataProvider = "calculateSmallHeightPositiveTest")
     public void calculateSmallHeightPositiveTest(Tetrahedron tetrahedron, final double expectedHeight) {
         double height = calculator.calculateHeightOfSmallPyramid(tetrahedron);
+
         Assert.assertEquals(height, expectedHeight, DELTA);
     }
 
     @Test(dataProvider = "calculateVolumeRatioPositiveTest")
     public void calculateVolumeRatioPositiveTest(Tetrahedron tetrahedron, final double expectedRatio) {
         double ratio = calculator.calculateVolumeRatio(tetrahedron);
+
         Assert.assertEquals(ratio, expectedRatio, DELTA);
     }
 }

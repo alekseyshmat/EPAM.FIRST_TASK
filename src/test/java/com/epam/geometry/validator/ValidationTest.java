@@ -46,12 +46,14 @@ public class ValidationTest {
     @Test(dataProvider = "dataForIsValidPositiveTest")
     public void isValidPositiveTest(String lines) {
         boolean actual = validation.isValid(lines);
+
         Assert.assertTrue(actual);
     }
 
     @Test(dataProvider = "dataForIsValidNegativeTest")
     public void isValidNegativeTest(String lines) {
         boolean actual = validation.isValid(lines);
+
         Assert.assertFalse(actual);
     }
 }

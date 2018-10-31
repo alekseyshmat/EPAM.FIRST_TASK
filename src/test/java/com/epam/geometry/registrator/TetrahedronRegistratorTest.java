@@ -29,6 +29,7 @@ public class TetrahedronRegistratorTest {
     public void handleEventIdPositiveTest() {
         long actualId = FIRST_TETRAHEDRON.getId();
         long expectedId = tetrahedronsRegistrator.getId();
+
         Assert.assertEquals(actualId, expectedId);
     }
 
@@ -36,6 +37,7 @@ public class TetrahedronRegistratorTest {
     public void handleEventAreaPositiveTest() {
         double actualArea = calculator.calculateArea(FIRST_TETRAHEDRON);
         double expectedArea = tetrahedronsRegistrator.getArea();
+
         Assert.assertEquals(actualArea, expectedArea);
     }
 
@@ -43,6 +45,7 @@ public class TetrahedronRegistratorTest {
     public void handleEventVolumePositiveTest() {
         double actualVolume = calculator.calculateVolume(FIRST_TETRAHEDRON);
         double expectedVolume = tetrahedronsRegistrator.getVolume();
+
         Assert.assertEquals(actualVolume, expectedVolume);
     }
 
@@ -50,6 +53,7 @@ public class TetrahedronRegistratorTest {
     public void handleEventVolumeRatioPositiveTest() {
         double actualVolume = calculator.calculateVolumeRatio(FIRST_TETRAHEDRON);
         double expectedVolume = tetrahedronsRegistrator.getVolumeRatio();
+
         Assert.assertEquals(actualVolume, expectedVolume);
     }
 }

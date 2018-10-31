@@ -68,6 +68,7 @@ public class TetrahedronRepositoryTest {
     public void findByIdPositiveTest() {
         List<Tetrahedron> resultList = repository.findBy(new SearchById(3));
         List<Tetrahedron> expectedResult = Arrays.asList(THIRD_TETRAHEDRON);
+
         Assert.assertEquals(resultList, expectedResult);
     }
 
@@ -75,6 +76,7 @@ public class TetrahedronRepositoryTest {
     public void findByRangeOfAreaPositiveTest() {
         List<Tetrahedron> resultList = repository.findBy(new SearchByRangeOfArea(30, 65));
         List<Tetrahedron> expectedResult = Arrays.asList(FOURTH_TETRAHEDRON, FIFTH_TETRAHEDRON);
+
         Assert.assertEquals(resultList, expectedResult);
     }
 
@@ -82,6 +84,7 @@ public class TetrahedronRepositoryTest {
     public void findByRangeOfVolumePositiveTest() {
         List<Tetrahedron> resultList = repository.findBy(new SearchByRangeOfVolume(6, 15));
         List<Tetrahedron> expectedResult = Arrays.asList(FIRST_TETRAHEDRON, SECOND_TETRAHEDRON, FOURTH_TETRAHEDRON);
+
         Assert.assertEquals(resultList, expectedResult);
     }
 
@@ -89,13 +92,13 @@ public class TetrahedronRepositoryTest {
     public void findByVolumeGreaterPositiveTest() {
         List<Tetrahedron> resultList = repository.findBy(new SearchVolumeGreater(25));
         List<Tetrahedron> expectedResult = Arrays.asList(FIFTH_TETRAHEDRON);
+
         Assert.assertEquals(resultList, expectedResult);
     }
 
     @Test
     public void sortByIdPositiveTest() {
         List<Tetrahedron> resultList = repository.sortBy(new SortById());
-
         List<Tetrahedron> expectedResult =
                 Arrays.asList(FIRST_TETRAHEDRON,
                         SECOND_TETRAHEDRON,
@@ -103,13 +106,13 @@ public class TetrahedronRepositoryTest {
                         FOURTH_TETRAHEDRON,
                         FIFTH_TETRAHEDRON
                 );
+
         Assert.assertEquals(resultList, expectedResult);
     }
 
     @Test
     public void sortByLengthOfSidePositiveTest() {
         List<Tetrahedron> resultList = repository.sortBy(new SortByLengthOfSide());
-
         List<Tetrahedron> expectedResult =
                 Arrays.asList(THIRD_TETRAHEDRON,
                         FIRST_TETRAHEDRON,
@@ -117,13 +120,13 @@ public class TetrahedronRepositoryTest {
                         FOURTH_TETRAHEDRON,
                         FIFTH_TETRAHEDRON
                 );
+
         Assert.assertEquals(resultList, expectedResult);
     }
 
     @Test
     public void sortByVolumePositiveTest() {
         List<Tetrahedron> resultList = repository.sortBy(new SortByVolume());
-
         List<Tetrahedron> expectedResult =
                 Arrays.asList(THIRD_TETRAHEDRON,
                         FIRST_TETRAHEDRON,
@@ -131,6 +134,7 @@ public class TetrahedronRepositoryTest {
                         FOURTH_TETRAHEDRON,
                         FIFTH_TETRAHEDRON
                 );
+
         Assert.assertEquals(resultList, expectedResult);
     }
 }
