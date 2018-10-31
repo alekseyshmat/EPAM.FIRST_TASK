@@ -52,4 +52,5 @@ public class TetrahedronRepository implements Repository<Tetrahedron> {
                 sorted((t1, t2) -> comparator.compare(t1, t2)).
                 collect(Collectors.toList());
     }
+
 }

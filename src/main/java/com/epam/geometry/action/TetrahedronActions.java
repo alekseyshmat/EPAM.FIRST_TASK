@@ -20,11 +20,18 @@ public class TetrahedronActions {
         Point pointC = tetrahedron.getPointC();
         Point pointD = tetrahedron.getPointD();
 
-        if (calculator.calculateSideOfTetrahedron(pointA, pointB) - calculator.calculateSideOfTetrahedron(pointA, pointC) < DELTA
-                && calculator.calculateSideOfTetrahedron(pointA, pointC) - calculator.calculateSideOfTetrahedron(pointB, pointC) < DELTA
-                && calculator.calculateSideOfTetrahedron(pointD, pointA) - calculator.calculateSideOfTetrahedron(pointD, pointB) < DELTA
-                && calculator.calculateSideOfTetrahedron(pointD, pointB) - calculator.calculateSideOfTetrahedron(pointD, pointC) < DELTA
-                && calculator.calculateSideOfTetrahedron(pointA, pointB) - calculator.calculateSideOfTetrahedron(pointD, pointA) < DELTA) {
+        double sideAB = calculator.calculateSideOfTetrahedron(pointA, pointB);
+        double sideAC = calculator.calculateSideOfTetrahedron(pointA, pointC);
+        double sideBC = calculator.calculateSideOfTetrahedron(pointB, pointC);
+        double sideDB = calculator.calculateSideOfTetrahedron(pointD, pointB);
+        double sideDA = calculator.calculateSideOfTetrahedron(pointD, pointA);
+        double sideDC = calculator.calculateSideOfTetrahedron(pointD, pointC);
+
+        if (sideAB - sideAC < DELTA
+                && sideAC - sideBC < DELTA
+                && sideDA - sideDB < DELTA
+                && sideDB - sideDC < DELTA
+                && sideAB - sideDA < DELTA) {
             LOGGER.info("This is a tetrahedron");
             return true;
         }
@@ -49,5 +56,4 @@ public class TetrahedronActions {
         LOGGER.info("Base ABC does not belong to the plane XOY");
         return false;
     }
-
 }

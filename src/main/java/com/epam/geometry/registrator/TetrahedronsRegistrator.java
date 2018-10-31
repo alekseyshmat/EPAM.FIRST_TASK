@@ -37,11 +37,9 @@ public class TetrahedronsRegistrator implements Observer {
     @Override
     public void handleEvent(TetrahedronEvent event) {
         Tetrahedron tetrahedron = event.getTetrahedron();
-//        Tetrahedron t = TetrahedronActions.changePointsValues(tetrahedron);
         id = tetrahedron.getId();
         area = calculator.calculateArea(tetrahedron);
         volume = calculator.calculateVolume(tetrahedron);
         volumeRatio = calculator.calculateVolumeRatio(tetrahedron);
-        //todo add logger
     }
 }

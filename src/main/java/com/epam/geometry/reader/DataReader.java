@@ -16,10 +16,10 @@ public class DataReader {
     public DataReader() {
     }
 
-    public List readingLines(String path) throws ReadingFileException, IOException {
-
+    public List readingLines(String path) throws ReadingFileException {
         List<String> linesWithValues = new ArrayList<String>();
         BufferedReader bufferedReader = null;
+
         try {
             bufferedReader = new BufferedReader(new FileReader(new File(path)));
             String tmp;
@@ -27,12 +27,16 @@ public class DataReader {
                 linesWithValues.add(tmp);
             }
             LOGGER.info("File was read");
-        } catch (Exception ex) {
+        } catch (IOException ex) {
             LOGGER.info("File is not found");
             throw new ReadingFileException(MESSAGE_FOR_EXCEPTION, ex);
         } finally {
             if (bufferedReader != null) {
-                bufferedReader.close();
+                try {
+                    bufferedReader.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
         }
         return linesWithValues;

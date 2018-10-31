@@ -27,7 +27,7 @@ public class Tetrahedron implements Observable<Observer> {
         this.pointB = pointB;
         this.pointC = pointC;
         this.pointD = pointD;
-        this.id = Generator.generate();
+        this.id = Generator.generateId();
         notifyObservers();
     }
 

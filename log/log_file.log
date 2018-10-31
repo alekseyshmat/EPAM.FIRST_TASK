@@ -6783,3 +6783,4 @@
 2018-10-31 13:18:18,520 INFO c.e.g.a.Calculator [main] Height of dissected tetrahedron is 0.9439202887759488 
 2018-10-31 13:18:18,520 INFO c.e.g.a.Calculator [main] Small side is 3.0733867332955787 
 2018-10-31 13:18:18,520 INFO c.e.g.a.Calculator [main] The ratio of the truncated pyramid to the small 7.52063340831528 
+2018-10-31 13:27:38,811 INFO c.e.g.g.Generator [main] Tetrahedron's ID is 1 

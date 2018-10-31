@@ -6,10 +6,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 public class DataReaderTest {
@@ -40,11 +37,9 @@ public class DataReaderTest {
 
     @Test(dataProvider = "dataForReadingLinesTestPositive")
     public void readingLinesTestPositive(List<String> expectedResult, String path) throws ReadingFileException {
-        try {
-            List<String> actual = dataReader.readingLines(path);
-            Assert.assertEquals(actual, expectedResult);
-        } catch (ReadingFileException | IOException e) {
-            throw new ReadingFileException(e);
-        }
+        List<String> actual = dataReader.readingLines(path);
+        Assert.assertEquals(actual, expectedResult);
     }
+
+
 }

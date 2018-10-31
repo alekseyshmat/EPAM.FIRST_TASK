@@ -24,6 +24,7 @@ public class FileParser {
                 LOGGER.info("Line: " + line + " is valid line");
                 String[] numbers = line.split(LINE_SPLIT);
                 List<Double> numberList = new ArrayList<>();
+
                 for (String number : numbers) {
                     numberList.add(Double.parseDouble(number));
                 }

@@ -8,6 +8,11 @@ import org.testng.annotations.Test;
 
 public class SearchSpecificationTest {
 
+    private static final int ONE = 1;
+    private static final int THREE = 3;
+    private static final int FOUR = 4;
+    private static final int FIVETEEN = 15;
+
     private SearchVolumeGreater searchVolumeGreater;
     private SearchById searchById;
     private SearchByRangeOfArea searchByRangeOfArea;
@@ -22,28 +27,28 @@ public class SearchSpecificationTest {
 
     @Test
     public void searchByIdPositiveTest() {
-        searchById = new SearchById(1);
+        searchById = new SearchById(ONE);
         boolean result = searchById.specified(TETRAHEDRON);
         Assert.assertTrue(result);
     }
 
     @Test
     public void searchByRangeOfAreaPositiveTest() {
-        searchByRangeOfArea = new SearchByRangeOfArea(1, 15);
+        searchByRangeOfArea = new SearchByRangeOfArea(ONE, FIVETEEN);
         boolean result = searchByRangeOfArea.specified(TETRAHEDRON);
         Assert.assertTrue(result);
     }
 
     @Test
     public void searchByRangeOfVolumePositiveTest() {
-        searchByRangeOfVolume = new SearchByRangeOfVolume(1, 4);
+        searchByRangeOfVolume = new SearchByRangeOfVolume(ONE, FOUR);
         boolean result = searchByRangeOfVolume.specified(TETRAHEDRON);
         Assert.assertTrue(result);
     }
 
     @Test
     public void searchByGreaterVolumePositiveTest() {
-        searchVolumeGreater = new SearchVolumeGreater(3);
+        searchVolumeGreater = new SearchVolumeGreater(THREE);
         boolean result = searchVolumeGreater.specified(TETRAHEDRON);
         Assert.assertTrue(result);
     }

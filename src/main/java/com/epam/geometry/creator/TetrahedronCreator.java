@@ -1,6 +1,5 @@
 package com.epam.geometry.creator;
 
-import com.epam.geometry.generator.Generator;
 import com.epam.geometry.entity.Point;
 import com.epam.geometry.entity.Tetrahedron;
 import org.apache.logging.log4j.LogManager;
@@ -28,13 +27,15 @@ public class TetrahedronCreator {
             Point point = new Point(iterator.next(), iterator.next(), iterator.next());
             tetrahedronCoordinates.add(point);
         }
+
         Point pointA = tetrahedronCoordinates.get(INDEX_A);
         Point pointB = tetrahedronCoordinates.get(INDEX_B);
         Point pointC = tetrahedronCoordinates.get(INDEX_C);
         Point pointD = tetrahedronCoordinates.get(INDEX_D);
-        Tetrahedron tetrahedron = new Tetrahedron(pointA, pointB, pointC, pointD);
-        LOGGER.info("Create new tetrahedron");
 
+        Tetrahedron tetrahedron = new Tetrahedron(pointA, pointB, pointC, pointD);
+
+        LOGGER.info("Create new tetrahedron");
         return tetrahedron;
     }
 }

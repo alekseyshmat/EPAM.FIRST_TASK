@@ -9,6 +9,9 @@ import java.util.Comparator;
 public class SortByLengthOfSide implements Comparator<Tetrahedron> {
 
     private static final Logger LOGGER = LogManager.getLogger();
+    private static final int ONE = 1;
+    private static final int MINUS_ONE = -1;
+    private static final int ZERO = 0;
 
     @Override
     public int compare(Tetrahedron o1, Tetrahedron o2) {
@@ -17,13 +20,13 @@ public class SortByLengthOfSide implements Comparator<Tetrahedron> {
 
         if (sideOfFirstTetrahedron < sideOfSecondTetrahedron) {
             LOGGER.debug("Sort by length of side is done:side of first tetrahedron shorter then side of second tetrahedron");
-            return -1;
+            return MINUS_ONE;
         } else if (sideOfFirstTetrahedron == sideOfSecondTetrahedron) {
             LOGGER.debug("Sort by length of side is done: side of first tetrahedron = side of second tetrahedron");
-            return 0;
+            return ZERO;
         } else {
             LOGGER.debug("Sort by length of side is done: side of first tetrahedron longer then side of second tetrahedron");
-            return 1;
+            return ONE;
         }
     }
 }
