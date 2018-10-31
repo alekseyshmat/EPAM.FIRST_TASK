@@ -212,7 +212,7 @@ public class CalculatorTest {
 
     @Test(dataProvider = "calculateVolumeRatioPositiveTest")
     public void calculateVolumeRatioPositiveTest(Tetrahedron tetrahedron, final double expectedRatio) {
-        double ratio = calculator.volumeRatio(tetrahedron);
+        double ratio = calculator.calculateVolumeRatio(tetrahedron);
         Assert.assertEquals(ratio, expectedRatio, DELTA);
     }
 }

@@ -46,4 +46,10 @@ public class TetrahedronRegistratorTest {
         Assert.assertEquals(actualVolume, expectedVolume);
     }
 
+    @Test
+    public void handleEventVolumeRatioPositiveTest() {
+        double actualVolume = calculator.calculateVolumeRatio(FIRST_TETRAHEDRON);
+        double expectedVolume = tetrahedronsRegistrator.getVolumeRatio();
+        Assert.assertEquals(actualVolume, expectedVolume);
+    }
 }

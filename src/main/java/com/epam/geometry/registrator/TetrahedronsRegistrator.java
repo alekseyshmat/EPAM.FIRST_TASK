@@ -13,6 +13,7 @@ public class TetrahedronsRegistrator implements Observer {
     private long id;
     private double area;
     private double volume;
+    private double volumeRatio;
 
     public TetrahedronsRegistrator() {
     }
@@ -29,14 +30,18 @@ public class TetrahedronsRegistrator implements Observer {
         return volume;
     }
 
+    public double getVolumeRatio() {
+        return volumeRatio;
+    }
+
     @Override
     public void handleEvent(TetrahedronEvent event) {
         Tetrahedron tetrahedron = event.getTetrahedron();
-        Tetrahedron t = TetrahedronActions.changePointsValues(tetrahedron);
+//        Tetrahedron t = TetrahedronActions.changePointsValues(tetrahedron);
         id = tetrahedron.getId();
-        area = calculator.calculateArea(t);
-        volume = calculator.calculateVolume(t);
-
+        area = calculator.calculateArea(tetrahedron);
+        volume = calculator.calculateVolume(tetrahedron);
+        volumeRatio = calculator.calculateVolumeRatio(tetrahedron);
         //todo add logger
     }
 }

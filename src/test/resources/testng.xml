@@ -1,0 +1,62 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Demo Suite">
+
+    <test name="SearchSpecificationTest">
+        <classes>
+            <class name="com.epam.geometry.specification.searchSpecification.SearchSpecificationTest"/>
+        </classes>
+    </test>
+
+    <test name="RepositoryTest">
+        <classes>
+            <class name="com.epam.geometry.repository.TetrahedronRepositoryTest"/>
+        </classes>
+    </test>
+
+    <test name="SortSpecificationTest">
+        <classes>
+            <class name="com.epam.geometry.specification.sortSpecification.SortSpecificationTest"/>
+        </classes>
+    </test>
+
+
+    <test name="CalculatorTest">
+        <classes>
+            <class name="com.epam.geometry.action.CalculatorTest"/>
+        </classes>
+    </test>
+
+    <test name="TetrahedronActionTest">
+        <classes>
+            <class name="com.epam.geometry.action.TetrahedronActionsTest"/>
+        </classes>
+    </test>
+
+    <test name="FileParserTest">
+        <classes>
+            <class name="com.epam.geometry.parser.FileParserTest"/>
+        </classes>
+    </test>
+
+    <test name="ReaderTest">
+        <classes>
+            <class name="com.epam.geometry.reader.DataReaderTest"/>
+        </classes>
+    </test>
+
+    <test name="RegistratorTest">
+        <classes>
+            <class name="com.epam.geometry.registrator.TetrahedronRegistratorTest"/>
+        </classes>
+    </test>
+
+    <test name="Validator">
+        <classes>
+            <class name="com.epam.geometry.validator.ValidationTest"/>
+        </classes>
+    </test>
+
+
+
+
+</suite>

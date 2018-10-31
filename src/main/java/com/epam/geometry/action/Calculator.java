@@ -15,7 +15,7 @@ public class Calculator {
     public Calculator() {
     }
 
-    public double calculateSide(Point firstPoint, Point secondPoint) {
+    public double calculateSideOfTetrahedron(Point firstPoint, Point secondPoint) {
         double side = Math.sqrt(Math.pow((firstPoint.getX() - secondPoint.getX()), NUMBER_TWO)
                 + Math.pow((firstPoint.getY() - secondPoint.getY()), NUMBER_TWO)
                 + Math.pow((firstPoint.getZ() - secondPoint.getZ()), NUMBER_TWO));
@@ -26,7 +26,7 @@ public class Calculator {
     public double calculateArea(Tetrahedron tetrahedron) {
         Point pointA = tetrahedron.getPointA();
         Point pointB = tetrahedron.getPointB();
-        double edge = calculateSide(pointA, pointB);
+        double edge = calculateSideOfTetrahedron(pointA, pointB);
         double square = Math.pow(edge, NUMBER_TWO) * Math.sqrt(NUMBER_THREE);
         LOGGER.info("Tetrahedron's square is " + square);
         return square;
@@ -35,7 +35,7 @@ public class Calculator {
     public double calculateVolume(Tetrahedron tetrahedron) {
         Point pointA = tetrahedron.getPointA();
         Point pointB = tetrahedron.getPointB();
-        double edge = calculateSide(pointA, pointB);
+        double edge = calculateSideOfTetrahedron(pointA, pointB);
         double volume = Math.sqrt(NUMBER_THREE)
                 / NUMBER_TWELVE * Math.pow(edge, NUMBER_THREE);
         LOGGER.info("Tetrahedron's volume is " + volume);
@@ -45,7 +45,7 @@ public class Calculator {
     public double calculateHeight(Tetrahedron tetrahedron) {
         Point pointA = tetrahedron.getPointA();
         Point pointB = tetrahedron.getPointB();
-        double edge = calculateSide(pointA, pointB);
+        double edge = calculateSideOfTetrahedron(pointA, pointB);
         double height = Math.sqrt(NUMBER_TWO / NUMBER_THREE) * edge;
         LOGGER.info("Tetrahedron's height is " + height);
         return height;
@@ -81,17 +81,17 @@ public class Calculator {
         return smallHeight;
     }
 
-    private double sideOfSection(Tetrahedron tetrahedron) {
+    private double calculateSideOfSection(Tetrahedron tetrahedron) {
         Point pointA = tetrahedron.getPointA();
         Point pointB = tetrahedron.getPointB();
-        double edge = calculateSide(pointA, pointB);
+        double edge = calculateSideOfTetrahedron(pointA, pointB);
         double smallSide = 2 * (edge - calculateHeightOfSmallPyramid(tetrahedron))
                 / Math.sqrt(NUMBER_THREE);
         LOGGER.info("Small side is " + smallSide);
         return smallSide;
     }
 
-    public double volumeRatio(Tetrahedron tetrahedron) {
+    public double calculateVolumeRatio(Tetrahedron tetrahedron) {
         Point pointA = tetrahedron.getPointA();
         Point pointB = tetrahedron.getPointB();
 
@@ -101,10 +101,10 @@ public class Calculator {
             return 0;
         }
         double heightOfTruncatedPyramid = calculateHeight(tetrahedron) - calculateHeightOfSmallPyramid(tetrahedron);
-        double edge = calculateSide(pointA, pointB);
+        double edge = calculateSideOfTetrahedron(pointA, pointB);
         double squareOfTruncatedPyramid = Math.pow(edge, 2)
                 * Math.sqrt(NUMBER_THREE) / 4;
-        double squareOfSmallPyramid = Math.pow(sideOfSection(tetrahedron), 2)
+        double squareOfSmallPyramid = Math.pow(calculateSideOfSection(tetrahedron), 2)
                 * Math.sqrt(NUMBER_THREE) / 4;
 
         double ratio = heightOfTruncatedPyramid * (squareOfTruncatedPyramid +

@@ -20,11 +20,11 @@ public class TetrahedronActions {
         Point pointC = tetrahedron.getPointC();
         Point pointD = tetrahedron.getPointD();
 
-        if (calculator.calculateSide(pointA, pointB) - calculator.calculateSide(pointA, pointC) < DELTA
-                && calculator.calculateSide(pointA, pointC) - calculator.calculateSide(pointB, pointC) < DELTA
-                && calculator.calculateSide(pointD, pointA) - calculator.calculateSide(pointD, pointB) < DELTA
-                && calculator.calculateSide(pointD, pointB) - calculator.calculateSide(pointD, pointC) < DELTA
-                && calculator.calculateSide(pointA, pointB) - calculator.calculateSide(pointD, pointA) < DELTA) {
+        if (calculator.calculateSideOfTetrahedron(pointA, pointB) - calculator.calculateSideOfTetrahedron(pointA, pointC) < DELTA
+                && calculator.calculateSideOfTetrahedron(pointA, pointC) - calculator.calculateSideOfTetrahedron(pointB, pointC) < DELTA
+                && calculator.calculateSideOfTetrahedron(pointD, pointA) - calculator.calculateSideOfTetrahedron(pointD, pointB) < DELTA
+                && calculator.calculateSideOfTetrahedron(pointD, pointB) - calculator.calculateSideOfTetrahedron(pointD, pointC) < DELTA
+                && calculator.calculateSideOfTetrahedron(pointA, pointB) - calculator.calculateSideOfTetrahedron(pointD, pointA) < DELTA) {
             LOGGER.info("This is a tetrahedron");
             return true;
         }
@@ -50,19 +50,4 @@ public class TetrahedronActions {
         return false;
     }
 
-    public static Tetrahedron changePointsValues(Tetrahedron tetrahedron) {
-        double sideAB = tetrahedron.getSideAB();
-        double sideBC = tetrahedron.getSideBC();
-        double sideAC = tetrahedron.getSideAC();
-
-        if (sideAB == sideBC && sideAB != sideAC) {
-            tetrahedron.setSideAC(sideAB);
-        } else if (sideAB == sideAC && sideAB != sideBC) {
-            tetrahedron.setSideBC(sideAB);
-        } else if (sideBC == sideAC && sideBC != sideAB) {
-            tetrahedron.setSideAB(sideBC);
-        }
-
-        return tetrahedron;
-    }
 }

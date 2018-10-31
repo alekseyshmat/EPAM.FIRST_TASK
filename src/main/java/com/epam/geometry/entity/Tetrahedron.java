@@ -52,17 +52,17 @@ public class Tetrahedron implements Observable<Observer> {
     }
 
     public double getSideAB() {
-        sideAB = calculator.calculateSide(pointA, pointB);
+        sideAB = calculator.calculateSideOfTetrahedron(pointA, pointB);
         return sideAB;
     }
 
     public double getSideAC() {
-        sideAC = calculator.calculateSide(pointA, pointC);
+        sideAC = calculator.calculateSideOfTetrahedron(pointA, pointC);
         return sideAC;
     }
 
     public double getSideBC() {
-        sideBC = calculator.calculateSide(pointB, pointC);
+        sideBC = calculator.calculateSideOfTetrahedron(pointB, pointC);
         return sideBC;
     }
 

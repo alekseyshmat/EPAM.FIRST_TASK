@@ -21,10 +21,10 @@ public class FileParserTest {
     public Object[][] dataForParsingLinesTestPositive() {
         return new Object[][]{
                 {
-                        Arrays.asList(          //input list
+                        Arrays.asList(                                            //input list
                                 "2 0 0 0 2 0 1 0 1 0 1 1",
                                 "-1 2 3 2 2 1 2.23 2 4.6 1.08 -0.94 2.87"),
-                        Arrays.asList(          //expected list
+                        Arrays.asList(                                              //expected list
                                 Arrays.asList(2.0, 0.0, 0.0, 0.0, 2.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0),
                                 Arrays.asList(-1.0, 2.0, 3.0, 2.0, 2.0, 1.0, 2.23, 2.0, 4.6, 1.08, -0.94, 2.87)
                         )
@@ -52,5 +52,5 @@ public class FileParserTest {
     public void parsingLinesTestNegative(List<String> lines, List<List<Double>> expectedResult) {
         List<List<Double>> actual = fileParser.parsingLines(lines);
         Assert.assertEquals(actual, expectedResult);
-    }   //todo this
+    }   
 }
