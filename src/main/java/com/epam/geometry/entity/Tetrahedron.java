@@ -18,7 +18,7 @@ public class Tetrahedron implements Observable<Observer> {
 
     private Point pointA, pointB, pointC, pointD;
     private long id;
-    private double sideAB, sideAC, sideBC;
+    private double sideAB;
 
     private Calculator calculator = new Calculator();
 
@@ -54,34 +54,6 @@ public class Tetrahedron implements Observable<Observer> {
     public double getSideAB() {
         sideAB = calculator.calculateSideOfTetrahedron(pointA, pointB);
         return sideAB;
-    }
-
-    public double getSideAC() {
-        sideAC = calculator.calculateSideOfTetrahedron(pointA, pointC);
-        return sideAC;
-    }
-
-    public double getSideBC() {
-        sideBC = calculator.calculateSideOfTetrahedron(pointB, pointC);
-        return sideBC;
-    }
-
-    public void setSideAB(double sideAB) {
-        this.sideAB = sideAB;
-        notifyObservers();
-        LOGGER.info("Side AB was changed");
-    }
-
-    public void setSideAC(double sideAC) {
-        this.sideAC = sideAC;
-        notifyObservers();
-        LOGGER.info("Side AC was changed");
-    }
-
-    public void setSideBC(double sideBC) {
-        this.sideBC = sideBC;
-        notifyObservers();
-        LOGGER.info("Side BC was changed");
     }
 
     @Override

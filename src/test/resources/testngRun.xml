@@ -19,7 +19,6 @@
         </classes>
     </test>
 
-
     <test name="CalculatorTest">
         <classes>
             <class name="com.epam.geometry.action.CalculatorTest"/>
@@ -46,7 +45,7 @@
 
     <test name="RegistratorTest">
         <classes>
-            <class name="com.epam.geometry.registrator.TetrahedronRegistratorTest"/>
+            <class name="com.epam.geometry.registrar.TetrahedronRegistrarTest"/>
         </classes>
     </test>
 
@@ -55,8 +54,4 @@
             <class name="com.epam.geometry.validator.ValidationTest"/>
         </classes>
     </test>
-
-
-
-
 </suite>

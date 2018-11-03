@@ -1,12 +1,11 @@
-package com.epam.geometry.registrator;
+package com.epam.geometry.registrar;
 
 import com.epam.geometry.action.Calculator;
-import com.epam.geometry.action.TetrahedronActions;
 import com.epam.geometry.entity.Tetrahedron;
 import com.epam.geometry.observer.Observer;
 import com.epam.geometry.observer.TetrahedronEvent;
 
-public class TetrahedronsRegistrator implements Observer {
+public class TetrahedronsRegistrar implements Observer {
 
     private Calculator calculator = new Calculator();
 
@@ -15,7 +14,7 @@ public class TetrahedronsRegistrator implements Observer {
     private double volume;
     private double volumeRatio;
 
-    public TetrahedronsRegistrator() {
+    public TetrahedronsRegistrar() {
     }
 
     public long getId() {

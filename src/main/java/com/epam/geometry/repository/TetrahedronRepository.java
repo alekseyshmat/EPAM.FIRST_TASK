@@ -13,10 +13,6 @@ public class TetrahedronRepository implements Repository<Tetrahedron> {
     private Map<Long, Tetrahedron> data = new HashMap<>();
     private static final Logger LOGGER = LogManager.getLogger();
 
-    public Map<Long, Tetrahedron> getTetrahedrons() {
-        return data;
-    }
-
     @Override
     public void add(Tetrahedron object) {
         data.put(object.getId(), object);

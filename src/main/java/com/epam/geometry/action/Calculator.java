@@ -70,15 +70,18 @@ public class Calculator {
         double height = calculateHeight(tetrahedron);
 
         if (pointA.getZ() == pointB.getZ()
-                && pointA.getZ() == pointC.getZ() && pointD.getZ() != NUMBER_ZERO) {
+                && pointA.getZ() == pointC.getZ()
+                && pointD.getZ() != NUMBER_ZERO) {
             smallHeight = height - Math.abs(pointA.getZ());
             LOGGER.info("Dissected by the plane Z");
         } else if (pointA.getX() == pointB.getX()
-                && pointB.getX() == pointC.getX() && pointD.getX() != NUMBER_ZERO) {
+                && pointB.getX() == pointC.getX()
+                && pointD.getX() != NUMBER_ZERO) {
             smallHeight = height - Math.abs(pointA.getX());
             LOGGER.info("Dissected by the plane X");
         } else if (pointA.getY() == pointB.getY()
-                && pointB.getY() == pointC.getY() && pointD.getY() != NUMBER_ZERO) {
+                && pointB.getY() == pointC.getY()
+                && pointD.getY() != NUMBER_ZERO) {
             smallHeight = Math.abs(height - Math.abs(pointA.getY()));
             LOGGER.info("Dissected by the plane Y");
         } else {
@@ -123,8 +126,8 @@ public class Calculator {
                 * Math.sqrt(NUMBER_THREE) / NUMBER_FOUR;
 
         double ratio = heightOfTruncatedPyramid * (squareOfTruncatedPyramid +
-                Math.sqrt(squareOfTruncatedPyramid * squareOfSmallPyramid) + squareOfSmallPyramid) /
-                (heightOfSmallPyramid * squareOfSmallPyramid);
+                Math.sqrt(squareOfTruncatedPyramid * squareOfSmallPyramid) + squareOfSmallPyramid)
+                / (heightOfSmallPyramid * squareOfSmallPyramid);
 
         LOGGER.info("The ratio of the truncated pyramid to the small " + ratio);
         return ratio;

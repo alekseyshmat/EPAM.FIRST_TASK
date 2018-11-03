@@ -1,4 +1,4 @@
-package com.epam.geometry.registrator;
+package com.epam.geometry.registrar;
 
 import com.epam.geometry.action.Calculator;
 import com.epam.geometry.entity.Point;
@@ -7,9 +7,9 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class TetrahedronRegistratorTest {
+public class TetrahedronRegistrarTest {
 
-    private TetrahedronsRegistrator tetrahedronsRegistrator;
+    private TetrahedronsRegistrar tetrahedronsRegistrar;
     private Calculator calculator;
     private static final Tetrahedron FIRST_TETRAHEDRON = new Tetrahedron(
             new Point(-1, 2, 3),
@@ -20,15 +20,15 @@ public class TetrahedronRegistratorTest {
 
     @BeforeClass
     public void setUp() {
-        tetrahedronsRegistrator = new TetrahedronsRegistrator();
-        FIRST_TETRAHEDRON.addObserver(tetrahedronsRegistrator);
+        tetrahedronsRegistrar = new TetrahedronsRegistrar();
+        FIRST_TETRAHEDRON.addObserver(tetrahedronsRegistrar);
         calculator = new Calculator();
     }
 
     @Test
     public void handleEventIdPositiveTest() {
         long actualId = FIRST_TETRAHEDRON.getId();
-        long expectedId = tetrahedronsRegistrator.getId();
+        long expectedId = tetrahedronsRegistrar.getId();
 
         Assert.assertEquals(actualId, expectedId);
     }
@@ -36,7 +36,7 @@ public class TetrahedronRegistratorTest {
     @Test
     public void handleEventAreaPositiveTest() {
         double actualArea = calculator.calculateArea(FIRST_TETRAHEDRON);
-        double expectedArea = tetrahedronsRegistrator.getArea();
+        double expectedArea = tetrahedronsRegistrar.getArea();
 
         Assert.assertEquals(actualArea, expectedArea);
     }
@@ -44,7 +44,7 @@ public class TetrahedronRegistratorTest {
     @Test
     public void handleEventVolumePositiveTest() {
         double actualVolume = calculator.calculateVolume(FIRST_TETRAHEDRON);
-        double expectedVolume = tetrahedronsRegistrator.getVolume();
+        double expectedVolume = tetrahedronsRegistrar.getVolume();
 
         Assert.assertEquals(actualVolume, expectedVolume);
     }
@@ -52,7 +52,7 @@ public class TetrahedronRegistratorTest {
     @Test
     public void handleEventVolumeRatioPositiveTest() {
         double actualVolume = calculator.calculateVolumeRatio(FIRST_TETRAHEDRON);
-        double expectedVolume = tetrahedronsRegistrator.getVolumeRatio();
+        double expectedVolume = tetrahedronsRegistrar.getVolumeRatio();
 
         Assert.assertEquals(actualVolume, expectedVolume);
     }

@@ -6912,3 +6912,210 @@
 2018-10-31 14:22:39,240 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
 2018-10-31 14:22:39,240 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 12.909944487358057 
 2018-10-31 14:22:39,240 DEBUG c.e.g.s.s.SortByVolume [main] Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron 
+2018-11-04 00:09:07,508 INFO c.e.g.g.Generator [main] Generate ID  1 
+2018-11-04 00:09:07,584 INFO c.e.g.g.Generator [main] Generate ID  2 
+2018-11-04 00:09:07,585 INFO c.e.g.g.Generator [main] Generate ID  3 
+2018-11-04 00:09:07,586 INFO c.e.g.g.Generator [main] Generate ID  4 
+2018-11-04 00:09:07,586 INFO c.e.g.g.Generator [main] Generate ID  5 
+2018-11-04 00:09:07,587 INFO c.e.g.g.Generator [main] Generate ID  6 
+2018-11-04 00:09:07,786 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-11-04 00:09:07,786 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 13.856406460551021 
+2018-11-04 00:09:07,858 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:09:07,859 INFO c.e.g.a.Calculator [main] Tetrahedron's square is 22.5166604983954 
+2018-11-04 00:09:07,869 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:09:07,871 INFO c.e.g.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-11-04 00:09:07,873 INFO c.e.g.a.Calculator [main] Dissected by the plane Z 
+2018-11-04 00:09:07,874 INFO c.e.g.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-11-04 00:09:07,876 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-11-04 00:09:07,878 INFO c.e.g.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-11-04 00:09:07,878 INFO c.e.g.a.Calculator [main] Dissected by the plane X 
+2018-11-04 00:09:07,879 INFO c.e.g.a.Calculator [main] Height of dissected tetrahedron is 0.6514837167011076 
+2018-11-04 00:09:07,887 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:09:07,887 INFO c.e.g.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-11-04 00:09:07,887 INFO c.e.g.a.Calculator [main] Dissected by the plane Y 
+2018-11-04 00:09:07,887 INFO c.e.g.a.Calculator [main] Height of dissected tetrahedron is 0.9439202887759488 
+2018-11-04 00:09:07,893 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:09:07,894 INFO c.e.g.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-11-04 00:09:07,894 INFO c.e.g.a.Calculator [main] Dissected by the plane Y 
+2018-11-04 00:09:07,894 INFO c.e.g.a.Calculator [main] Height of dissected tetrahedron is 0.0560797112240512 
+2018-11-04 00:09:07,903 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-11-04 00:09:07,904 INFO c.e.g.a.Calculator [main] Tetrahedron's height is 4.83045891539648 
+2018-11-04 00:09:07,907 INFO c.e.g.a.Calculator [main] This tetrahedron is not dissected, therefore height of dissected tetrahedron is 0  
+2018-11-04 00:09:07,912 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-11-04 00:09:07,912 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 3.2659863237109046 
+2018-11-04 00:09:07,915 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:09:07,915 INFO c.e.g.a.Calculator [main] Tetrahedron's volume is 6.7654144982649305 
+2018-11-04 00:09:07,919 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:09:07,919 INFO c.e.g.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-11-04 00:09:07,920 INFO c.e.g.a.Calculator [main] Dissected by the plane Z 
+2018-11-04 00:09:07,920 INFO c.e.g.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-11-04 00:09:07,920 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:09:07,924 INFO c.e.g.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-11-04 00:09:07,924 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:09:07,924 INFO c.e.g.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-11-04 00:09:07,924 INFO c.e.g.a.Calculator [main] Dissected by the plane Z 
+2018-11-04 00:09:07,928 INFO c.e.g.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-11-04 00:09:07,931 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:09:07,931 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:09:07,940 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:09:07,941 INFO c.e.g.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-11-04 00:09:07,941 INFO c.e.g.a.Calculator [main] Dissected by the plane Z 
+2018-11-04 00:09:07,941 INFO c.e.g.a.Calculator [main] Height of dissected tetrahedron is 1.9439202887759488 
+2018-11-04 00:09:07,942 INFO c.e.g.a.Calculator [main] Small side is 1.9186861949163272 
+2018-11-04 00:09:07,942 INFO c.e.g.a.Calculator [main] The ratio of the truncated pyramid to the small 3.297709272128455 
+2018-11-04 00:09:07,948 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-11-04 00:09:07,948 INFO c.e.g.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-11-04 00:09:07,949 INFO c.e.g.a.Calculator [main] Dissected by the plane X 
+2018-11-04 00:09:07,949 INFO c.e.g.a.Calculator [main] Height of dissected tetrahedron is 0.6514837167011076 
+2018-11-04 00:09:07,951 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-11-04 00:09:07,954 INFO c.e.g.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-11-04 00:09:07,955 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-11-04 00:09:07,957 INFO c.e.g.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-11-04 00:09:07,957 INFO c.e.g.a.Calculator [main] Dissected by the plane X 
+2018-11-04 00:09:07,957 INFO c.e.g.a.Calculator [main] Height of dissected tetrahedron is 0.6514837167011076 
+2018-11-04 00:09:07,957 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-11-04 00:09:07,958 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-11-04 00:09:07,961 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-11-04 00:09:07,961 INFO c.e.g.a.Calculator [main] Tetrahedron's height is 3.6514837167011076 
+2018-11-04 00:09:07,962 INFO c.e.g.a.Calculator [main] Dissected by the plane X 
+2018-11-04 00:09:07,962 INFO c.e.g.a.Calculator [main] Height of dissected tetrahedron is 0.6514837167011076 
+2018-11-04 00:09:07,962 INFO c.e.g.a.Calculator [main] Small side is 4.411709196523138 
+2018-11-04 00:09:07,962 INFO c.e.g.a.Calculator [main] The ratio of the truncated pyramid to the small 14.004701452978242 
+2018-11-04 00:09:07,964 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:09:07,964 INFO c.e.g.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-11-04 00:09:07,964 INFO c.e.g.a.Calculator [main] Dissected by the plane Y 
+2018-11-04 00:09:07,964 INFO c.e.g.a.Calculator [main] Height of dissected tetrahedron is 0.9439202887759488 
+2018-11-04 00:09:07,965 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:09:07,965 INFO c.e.g.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-11-04 00:09:07,965 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:09:07,965 INFO c.e.g.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-11-04 00:09:07,966 INFO c.e.g.a.Calculator [main] Dissected by the plane Y 
+2018-11-04 00:09:07,966 INFO c.e.g.a.Calculator [main] Height of dissected tetrahedron is 0.9439202887759488 
+2018-11-04 00:09:07,966 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:09:07,966 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:09:07,966 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:09:07,966 INFO c.e.g.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-11-04 00:09:07,971 INFO c.e.g.a.Calculator [main] Dissected by the plane Y 
+2018-11-04 00:09:07,971 INFO c.e.g.a.Calculator [main] Height of dissected tetrahedron is 0.9439202887759488 
+2018-11-04 00:09:07,973 INFO c.e.g.a.Calculator [main] Small side is 3.0733867332955787 
+2018-11-04 00:09:07,976 INFO c.e.g.a.Calculator [main] The ratio of the truncated pyramid to the small 7.52063340831528 
+2018-11-04 00:09:07,981 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:09:07,981 INFO c.e.g.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-11-04 00:09:07,981 INFO c.e.g.a.Calculator [main] Dissected by the plane Y 
+2018-11-04 00:09:07,981 INFO c.e.g.a.Calculator [main] Height of dissected tetrahedron is 0.0560797112240512 
+2018-11-04 00:09:07,981 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:09:07,981 INFO c.e.g.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-11-04 00:09:07,981 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:09:07,983 INFO c.e.g.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-11-04 00:09:07,983 INFO c.e.g.a.Calculator [main] Dissected by the plane Y 
+2018-11-04 00:09:07,984 INFO c.e.g.a.Calculator [main] Height of dissected tetrahedron is 0.0560797112240512 
+2018-11-04 00:09:07,988 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:09:07,988 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:09:07,988 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:09:07,990 INFO c.e.g.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-11-04 00:09:07,990 INFO c.e.g.a.Calculator [main] Dissected by the plane Y 
+2018-11-04 00:09:07,990 INFO c.e.g.a.Calculator [main] Height of dissected tetrahedron is 0.0560797112240512 
+2018-11-04 00:09:07,994 INFO c.e.g.a.Calculator [main] Small side is 4.098576726189701 
+2018-11-04 00:09:07,998 INFO c.e.g.a.Calculator [main] The ratio of the truncated pyramid to the small 136.6476001934528 
+2018-11-04 00:09:08,031 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-11-04 00:09:08,031 INFO c.e.g.a.Calculator [main] Tetrahedron's height is 4.83045891539648 
+2018-11-04 00:09:08,031 INFO c.e.g.a.Calculator [main] This tetrahedron is not dissected, therefore height of dissected tetrahedron is 0  
+2018-11-04 00:09:08,032 INFO c.e.g.a.Calculator [main] Height of small pyramid is 0, therefore volume ratio also is 0 
+2018-11-04 00:09:08,035 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 2.8284271247461903 
+2018-11-04 00:09:08,035 INFO c.e.g.a.Calculator [main] Tetrahedron's height is 2.3094010767585034 
+2018-11-04 00:09:08,051 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:09:08,052 INFO c.e.g.a.Calculator [main] Tetrahedron's height is 2.943920288775949 
+2018-11-04 00:16:37,882 INFO c.e.g.g.Generator [main] Generate ID  1 
+2018-11-04 00:16:37,890 INFO c.e.g.g.Generator [main] Generate ID  2 
+2018-11-04 00:16:37,892 INFO c.e.g.g.Generator [main] Generate ID  3 
+2018-11-04 00:16:37,892 INFO c.e.g.g.Generator [main] Generate ID  4 
+2018-11-04 00:16:38,023 INFO c.e.g.a.TetrahedronActions [main] Base ABC does not belong to the plane XOY 
+2018-11-04 00:16:38,033 INFO c.e.g.a.TetrahedronActions [main] Base ABC does not belong to the plane XOY 
+2018-11-04 00:16:38,060 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:16:38,060 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.6073397400300404 
+2018-11-04 00:16:38,060 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.6045665481441733 
+2018-11-04 00:16:38,060 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.6037341744362887 
+2018-11-04 00:16:38,061 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.6037341744362887 
+2018-11-04 00:16:38,061 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.5998611084318237 
+2018-11-04 00:16:38,061 INFO c.e.g.a.TetrahedronActions [main] This is a tetrahedron 
+2018-11-04 00:16:38,063 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-11-04 00:16:38,063 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.468165171521751 
+2018-11-04 00:16:38,064 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.468165171521751 
+2018-11-04 00:16:38,064 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.472639041997465 
+2018-11-04 00:16:38,064 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.472639041997465 
+2018-11-04 00:16:38,065 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.464862819841166 
+2018-11-04 00:16:38,065 INFO c.e.g.a.TetrahedronActions [main] This is a tetrahedron 
+2018-11-04 00:16:38,066 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:16:38,067 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.604566548144173 
+2018-11-04 00:16:38,067 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.60733974003004 
+2018-11-04 00:16:38,067 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.6037341744362887 
+2018-11-04 00:16:38,067 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.6037341744362887 
+2018-11-04 00:16:38,068 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.5998611084318237 
+2018-11-04 00:16:38,070 INFO c.e.g.a.TetrahedronActions [main] This is a tetrahedron 
+2018-11-04 00:16:38,071 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-11-04 00:16:38,072 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.468165171521751 
+2018-11-04 00:16:38,073 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.468165171521751 
+2018-11-04 00:16:38,073 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.472639041997465 
+2018-11-04 00:16:38,073 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.472639041997465 
+2018-11-04 00:16:38,073 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.464862819841166 
+2018-11-04 00:16:38,074 INFO c.e.g.a.TetrahedronActions [main] This is a tetrahedron 
+2018-11-04 00:16:38,075 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-11-04 00:16:38,077 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.918521774902919 
+2018-11-04 00:16:38,077 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.920211144883264 
+2018-11-04 00:16:38,077 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.913932701679991 
+2018-11-04 00:16:38,077 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.910549889815668 
+2018-11-04 00:16:38,079 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.917845891876537 
+2018-11-04 00:16:38,079 INFO c.e.g.a.TetrahedronActions [main] This is a tetrahedron 
+2018-11-04 00:19:05,960 INFO c.e.g.g.Generator [main] Generate ID  1 
+2018-11-04 00:19:05,970 INFO c.e.g.g.Generator [main] Generate ID  2 
+2018-11-04 00:19:05,971 INFO c.e.g.g.Generator [main] Generate ID  3 
+2018-11-04 00:19:05,972 INFO c.e.g.g.Generator [main] Generate ID  4 
+2018-11-04 00:19:06,180 INFO c.e.g.a.TetrahedronActions [main] Base ABC does not belong to the plane XOY 
+2018-11-04 00:20:32,111 INFO c.e.g.g.Generator [main] Generate ID  1 
+2018-11-04 00:20:32,118 INFO c.e.g.g.Generator [main] Generate ID  2 
+2018-11-04 00:20:32,118 INFO c.e.g.g.Generator [main] Generate ID  3 
+2018-11-04 00:20:32,119 INFO c.e.g.g.Generator [main] Generate ID  4 
+2018-11-04 00:20:32,120 INFO c.e.g.g.Generator [main] Generate ID  5 
+2018-11-04 00:20:32,343 INFO c.e.g.a.TetrahedronActions [main] Base ABC belongs to the plane XOY 
+2018-11-04 00:20:41,403 INFO c.e.g.g.Generator [main] Generate ID  1 
+2018-11-04 00:20:41,419 INFO c.e.g.g.Generator [main] Generate ID  2 
+2018-11-04 00:20:41,420 INFO c.e.g.g.Generator [main] Generate ID  3 
+2018-11-04 00:20:41,421 INFO c.e.g.g.Generator [main] Generate ID  4 
+2018-11-04 00:20:41,421 INFO c.e.g.g.Generator [main] Generate ID  5 
+2018-11-04 00:20:41,545 INFO c.e.g.a.TetrahedronActions [main] Base ABC does not belong to the plane XOY 
+2018-11-04 00:20:41,549 INFO c.e.g.a.TetrahedronActions [main] Base ABC belongs to the plane XOY 
+2018-11-04 00:20:41,552 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:20:41,553 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.6073397400300404 
+2018-11-04 00:20:41,553 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.6045665481441733 
+2018-11-04 00:20:41,553 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.6037341744362887 
+2018-11-04 00:20:41,554 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.6037341744362887 
+2018-11-04 00:20:41,554 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.5998611084318237 
+2018-11-04 00:20:41,554 INFO c.e.g.a.TetrahedronActions [main] This is a tetrahedron 
+2018-11-04 00:20:41,556 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-11-04 00:20:41,556 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.468165171521751 
+2018-11-04 00:20:41,556 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.468165171521751 
+2018-11-04 00:20:41,557 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.472639041997465 
+2018-11-04 00:20:41,558 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.472639041997465 
+2018-11-04 00:20:41,558 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.464862819841166 
+2018-11-04 00:20:41,558 INFO c.e.g.a.TetrahedronActions [main] This is a tetrahedron 
+2018-11-04 00:20:41,561 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.605551275463989 
+2018-11-04 00:20:41,563 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.604566548144173 
+2018-11-04 00:20:41,563 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.60733974003004 
+2018-11-04 00:20:41,563 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.6037341744362887 
+2018-11-04 00:20:41,566 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.6037341744362887 
+2018-11-04 00:20:41,569 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 3.5998611084318237 
+2018-11-04 00:20:41,569 INFO c.e.g.a.TetrahedronActions [main] This is a tetrahedron 
+2018-11-04 00:20:41,570 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.47213595499958 
+2018-11-04 00:20:41,571 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.468165171521751 
+2018-11-04 00:20:41,572 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.468165171521751 
+2018-11-04 00:20:41,572 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.472639041997465 
+2018-11-04 00:20:41,572 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.472639041997465 
+2018-11-04 00:20:41,573 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 4.464862819841166 
+2018-11-04 00:20:41,573 INFO c.e.g.a.TetrahedronActions [main] This is a tetrahedron 
+2018-11-04 00:20:41,575 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.916079783099616 
+2018-11-04 00:20:41,575 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.918521774902919 
+2018-11-04 00:20:41,577 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.920211144883264 
+2018-11-04 00:20:41,577 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.913932701679991 
+2018-11-04 00:20:41,579 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.910549889815668 
+2018-11-04 00:20:41,580 INFO c.e.g.a.Calculator [main] Tetrahedron's side is 5.917845891876537 
+2018-11-04 00:20:41,581 INFO c.e.g.a.TetrahedronActions [main] This is a tetrahedron 

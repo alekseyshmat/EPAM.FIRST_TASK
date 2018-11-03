@@ -8,6 +8,42 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class TetrahedronActionsTest {
+
+    private static final Tetrahedron FIRST_TETRAHEDRON = new Tetrahedron(
+            new Point(3, -1, 0),
+            new Point(3, 1, 4),
+            new Point(3, 3.46, 0.27),
+            new Point(6.65, 1.16, 1.42)
+    );
+
+    private static final Tetrahedron SECOND_TETRAHEDRON = new Tetrahedron(
+            new Point(-1, 2, 3),
+            new Point(2, 2, 1),
+            new Point(2.23, 2, 4.6),
+            new Point(1.08, -0.94, 2.87)
+    );
+
+    private static final Tetrahedron THIRD_TETRAHEDRON = new Tetrahedron(
+            new Point(-2, 0, -1),
+            new Point(0, -3, -1),
+            new Point(1.6, 0.23, -1),
+            new Point(-0.13, -0.92, 1.94)
+    );
+
+    private static final Tetrahedron FORTH_TETRAHEDRON = new Tetrahedron(
+            new Point(-2, 0, 1),
+            new Point(3, 1, 4),
+            new Point(-2.2, 1, 6.83),
+            new Point(-0.85, 5.4, 3.11)
+    );
+
+    private static final Tetrahedron FIFTH_TETRAHEDRON = new Tetrahedron(
+            new Point(1, 2, 3),
+            new Point(3, 2, 1),
+            new Point(0.27, 2, 0.27),
+            new Point(1.42, 4.31, 1.42)
+    );
+
     private TetrahedronActions tetrahedronActions;
 
     @BeforeClass
@@ -19,42 +55,19 @@ public class TetrahedronActionsTest {
     public Object[][] dataForIsTetrahedronPositiveTest() {
         return new Object[][]{
                 {
-                        new Tetrahedron(        //input object
-                                new Point(-2, 0, -1),
-                                new Point(0, -3, -1),
-                                new Point(1.6, 0.23, -1),
-                                new Point(-0.13, -0.92, 1.94)
-                        )
+                        THIRD_TETRAHEDRON
                 },
                 {
-                        new Tetrahedron(new Point(3, -1, 0),
-                                new Point(3, 1, 4),
-                                new Point(3, 3.46, 0.27),
-                                new Point(6.65, 1.16, 1.42)
-                        )
+                        FIRST_TETRAHEDRON
                 },
                 {
-                        new Tetrahedron(new Point(-1, 2, 3),
-                                new Point(2, 2, 1),
-                                new Point(2.23, 2, 4.6),
-                                new Point(1.08, -0.94, 2.87)
-                        )
+                        SECOND_TETRAHEDRON
                 },
                 {
-                        new Tetrahedron(
-                                new Point(1, 2, 3),
-                                new Point(3, 2, 1),
-                                new Point(0.27, 2, 0.27),
-                                new Point(1.42, 4.31, 1.42)
-                        )
+                        FIRST_TETRAHEDRON
                 },
                 {
-                        new Tetrahedron(
-                                new Point(-2, 0, 1),
-                                new Point(3, 1, 4),
-                                new Point(-2.2, 1, 6.83),
-                                new Point(-0.85, 5.4, 3.11)
-                        )
+                        FORTH_TETRAHEDRON
                 }
         };
     }
@@ -63,12 +76,7 @@ public class TetrahedronActionsTest {
     public Object[][] dataForIsBaseBelongsToTheXOYPositiveTest() {
         return new Object[][]{
                 {
-                        new Tetrahedron(    //input object
-                                new Point(1, 2, 3),
-                                new Point(3, 2, 1),
-                                new Point(0.27, 2, 0.27),
-                                new Point(1.42, 4.31, 1.42)
-                        )
+                        FIFTH_TETRAHEDRON
                 }
         };
     }
@@ -77,12 +85,7 @@ public class TetrahedronActionsTest {
     public Object[][] dataForIsBaseBelongsToTheXOYNegativeTest() {
         return new Object[][]{
                 {
-                        new Tetrahedron(        //input object
-                                new Point(-2, 0, -1),
-                                new Point(0, -3, -1),
-                                new Point(1.6, 0.23, -1),
-                                new Point(-0.13, -0.92, 1.94)
-                        )
+                        THIRD_TETRAHEDRON
                 }
         };
     }
