@@ -17,8 +17,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class TetrahedronRepositoryTest {
-    private Repository<Tetrahedron> repository;
-
     private static final Tetrahedron FIRST_TETRAHEDRON = new Tetrahedron(
             new Point(-1, 2, 3),
             new Point(2, 2, 1),
@@ -53,6 +51,8 @@ public class TetrahedronRepositoryTest {
             new Point(-2.2, 1, 6.83),
             new Point(-0.85, 5.4, 3.11)
     );
+
+    private Repository<Tetrahedron> repository;
 
     @BeforeClass
     public void setUp() {
