@@ -8,11 +8,10 @@ import java.util.Comparator;
 
 public class SortById implements Comparator<Tetrahedron> {
 
+    private static final Logger LOGGER = LogManager.getLogger();
     private static final int LARGER = 1;
     private static final int LESS = -1;
     private static final int EQUALS = 0;
-
-    private static final Logger LOGGER = LogManager.getLogger();
 
     @Override
     public int compare(Tetrahedron o1, Tetrahedron o2) {
