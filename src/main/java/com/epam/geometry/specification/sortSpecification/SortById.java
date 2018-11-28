@@ -8,9 +8,9 @@ import java.util.Comparator;
 
 public class SortById implements Comparator<Tetrahedron> {
 
-    private static final int ONE = 1;
-    private static final int MINUS_ONE = -1;
-    private static final int ZERO = 0;
+    private static final int LARGER = 1;
+    private static final int LESS = -1;
+    private static final int EQUALS = 0;
 
     private static final Logger LOGGER = LogManager.getLogger();
 
@@ -21,13 +21,13 @@ public class SortById implements Comparator<Tetrahedron> {
 
         if (first_id < second_id) {
             LOGGER.debug("Sort by id is done: first id < second id");
-            return MINUS_ONE;
+            return LESS;
         } else if (first_id == second_id) {
             LOGGER.debug("Sort by id is done: first id = second id");
-            return ZERO;
+            return EQUALS;
         } else {
             LOGGER.debug("Sort by id is done: first id > second id");
-            return ONE;
+            return LARGER;
         }
     }
 }

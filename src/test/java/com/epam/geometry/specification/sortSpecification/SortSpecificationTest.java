@@ -7,12 +7,8 @@ import org.testng.annotations.Test;
 
 public class SortSpecificationTest {
 
-    private static final int ONE = 1;
-    private static final int MINUS_ONE = -1;
-
-    private SortByLengthOfSide sortByLengthOfSide;
-    private SortById sortById;
-    private SortByVolume sortByVolume;
+    private static final int LARGER = 1;
+    private static final int LESS = -1;
 
     private static final Tetrahedron FIRST_TETRAHEDRON = new Tetrahedron(           //input object
             new Point(3, -1, 0),
@@ -30,28 +26,28 @@ public class SortSpecificationTest {
 
     @Test
     public void sortByIdTestPositive() {
-        sortById = new SortById();
+        SortById sortById = new SortById();
 
         int result = sortById.compare(FIRST_TETRAHEDRON, SECOND_TETRAHEDRON);
 
-        Assert.assertEquals(result, MINUS_ONE);
+        Assert.assertEquals(result, LESS);
     }
 
     @Test
     public void sortByLengthOfSideTestPositive() {
-        sortByLengthOfSide = new SortByLengthOfSide();
+        SortByLengthOfSide sortByLengthOfSide = new SortByLengthOfSide();
 
         int result = sortByLengthOfSide.compare(FIRST_TETRAHEDRON, SECOND_TETRAHEDRON);
 
-        Assert.assertEquals(result, ONE);
+        Assert.assertEquals(result, LARGER);
     }
 
     @Test
     public void sortByVolumeTestPositive() {
-        sortByVolume = new SortByVolume();
+        SortByVolume sortByVolume = new SortByVolume();
 
         int result = sortByVolume.compare(FIRST_TETRAHEDRON, SECOND_TETRAHEDRON);
 
-        Assert.assertEquals(result, ONE);
+        Assert.assertEquals(result, LARGER);
     }
 }

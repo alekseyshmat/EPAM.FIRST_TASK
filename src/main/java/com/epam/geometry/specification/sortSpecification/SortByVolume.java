@@ -10,9 +10,9 @@ import java.util.Comparator;
 public class SortByVolume implements Comparator<Tetrahedron> {
 
     private static final Logger LOGGER = LogManager.getLogger();
-    private static final int ONE = 1;
-    private static final int MINUS_ONE = -1;
-    private static final int ZERO = 0;
+    private static final int LARGER = 1;
+    private static final int LESS = -1;
+    private static final int EQUALS = 0;
     private Calculator calculator = new Calculator();
 
     @Override
@@ -22,13 +22,13 @@ public class SortByVolume implements Comparator<Tetrahedron> {
 
         if (volumeOfFirstTetrahedron < volumeOfSecondTetrahedron) {
             LOGGER.debug("Sort by volume is done: volume of first tetrahedron < then volume of second tetrahedron");
-            return MINUS_ONE;
+            return LESS;
         } else if (volumeOfFirstTetrahedron == volumeOfSecondTetrahedron) {
             LOGGER.debug("Sort by volume is done: volume of first tetrahedron = volume of second tetrahedron");
-            return ZERO;
+            return EQUALS;
         } else {
             LOGGER.debug("Sort by volume is done: volume of first tetrahedron > then volume of second tetrahedron");
-            return ONE;
+            return LARGER;
         }
     }
 }
