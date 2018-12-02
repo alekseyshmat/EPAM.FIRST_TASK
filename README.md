@@ -1,4 +1,4 @@
-# EPAM.FIRST_TASK.GEOMETRY
+# First task.Geometry
 * Create entity-classes Tetrahedron and Point
 * Create logic-classes, which calculate area, square, volume of tetrahedron, ratio volume of dissected figures.
 * Using Observer and Repository patterns.
